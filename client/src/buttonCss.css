@@ -1,0 +1,79 @@
+#uploadButton {
+  background-color: #f9ac2f;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roboto;
+  letter-spacing: -0.008333333em;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+  50% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 40px #F6AA2E;
+  }
+  100% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+}
+
+@-moz-keyframes glowing {
+  0% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+  50% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 40px #F6AA2E;
+  }
+  100% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+}
+
+@-o-keyframes glowing {
+  0% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+  50% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 40px #F6AA2E;
+  }
+  100% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+  50% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 40px #F6AA2E;
+  }
+  100% {
+    background-color: #F6AA2E;
+    box-shadow: 0 0 3px #F6AA2E;
+  }
+}
