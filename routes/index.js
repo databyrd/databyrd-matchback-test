@@ -3,8 +3,9 @@ const router = express.Router();
 const fs = require("fs");
 var XLSX = require("xlsx");
 const multer = require("multer");
-// const { compareFiles } = require("../services/compareService");
-var cp = require('child_process');
+const { match } = require("../queues");
+
+
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
     callBack(null, "files");
@@ -14,7 +15,8 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-/* GET home page. */
+
+
 router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
 });
@@ -91,19 +93,26 @@ router.post("/node-api/compare-small-files", async function (req, res, next) {
   res.json({ originalData, comparedData });
 });
 
-// router.post("/node-api/compare-large-files", async function (req, res, next) {
-//   const originalPath = req.body.originalId;
-//   const comparedPath = req.body.compareId;
-//   const childProcess = cp.fork("../services/compareService.js");
-//   childProcess.send({ fPath1: originalPath, fPath2: comparedPath });
-//   childProcess.on("message", (response) => res.send(response));
+router.post("/node-api/compare-large-files", async function (req, res, next) {
+  const originalPath = req.body.originalId;
+  const comparedPath = req.body.compareId;
 
-//   // try {
-//   //   const matchedData = await compareFiles(originalPath, comparedPath, req);
-//   //   res.send(matchedData);
-//   // } catch (error) {
-//   //   console.log(error);
-//   // }
-// });
+  const jobData = await match.add({ originalPath, comparedPath });
+  console.log("COMPLETE", jobData.id);
+  res.send(jobData.id);
+});
+
+router.get("/node-api/job-status/:jobId", async function (req, res, next) {
+  const jobId = req.params.jobId;
+  try {
+    const results = await match.getJob(jobId);
+
+    if (results.id) {
+      res.json(results);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});
 
 module.exports = router;

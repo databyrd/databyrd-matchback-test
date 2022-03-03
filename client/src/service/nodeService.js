@@ -106,6 +106,22 @@ const deleteBothFiles = (originalId, compareId) => {
     .catch(helpers.onGlobalError);
 };
 
+const checkQueue = (id) => {
+  const config = {
+    method: "GET",
+    url: `/node-api/job-status/${id}`,
+    crossdomain: true,
+headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+    },
+  };
+
+  return axios(config)
+    .then(helpers.onGlobalSuccess)
+    .catch(helpers.onGlobalError);
+};
+
 export {
   originalData,
   compareData,
@@ -113,5 +129,6 @@ export {
   deleteComparedFile,
   compareSmallFiles,
   deleteBothFiles,
-  compareLargeFiles
+  compareLargeFiles,
+  checkQueue
 };

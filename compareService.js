@@ -65,3 +65,5 @@ async function compareFiles(fPath1, fPath2) {
   console.log(`RESULTS FROM PROMISE COMPLETE ~~~~~~~ ${results.length}`);
   return results;
 }
+
+module.exports = {compareFiles}

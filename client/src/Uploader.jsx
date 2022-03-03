@@ -2,7 +2,8 @@ import React from "react";
 import { Card, CardBody, Button, Modal, ModalBody } from "reactstrap";
 import * as node from "./service/nodeService";
 import Swal from "sweetalert2";
-import { CSVDownload } from "./custom_modules/react-csv";
+import { CSVDownload } from "react-csv";
+// import { CSVDownload } from "./custom_modules/react-csv";
 import PropTypes from "prop-types";
 import { styled } from "@mui/material/styles";
 import Stack from "@mui/material/Stack";
@@ -17,7 +18,6 @@ import uploadFilled from "./images/databyrd_Upload_Rollover-01.png";
 import uploadLayover from "./images/databyrd_Upload-01.png";
 import lastStepImage1 from "./images/databyrd_RunReport-01.png";
 import lastStepImage2 from "./images/databyrd_RunReport_Rollover-01.png";
-
 import "./buttonCss.css";
 
 const QontoStepIconRoot = styled("div")(({ theme, ownerState }) => ({
@@ -197,10 +197,17 @@ class Uploader extends React.Component {
       soldListFile: null,
       postalListFile: null,
       largeFileDetected: false,
+      matchQueue: false,
     };
     this.uploadListRef = React.createRef(null);
     this.uploadCompareRef = React.createRef(null);
     this.handleFileListUpload = this.handleFileListUpload.bind(this);
+  }
+
+  componentDidMount() {
+    if (window.localStorage.getItem("matchQueId") !== null) {
+      this.setState({ matchQueue: true });
+    }
   }
 
   errorHandler = (err) => {
@@ -292,21 +299,15 @@ class Uploader extends React.Component {
               this.state.comparedFilePath
             )
             .then((res) => {
-              let finalResult = [];
-              for (let i = 0; i < res.result.length; i++) {
-                for (let j = 0; j < res.result[i].length; j++) {
-                  finalResult.push(res.result[i][j]);
-                }
-              }
-              console.log("FINAL RESULT", finalResult);
+              window.localStorage.setItem("matchQueId", res);
               Swal.fire({
                 icon: "success",
-                title: "Match-Back Template complete",
+                title:
+                  "Your files have been added to the queue, please check back in a few seconds to download your file",
               });
 
               this.setState({
-                matchData: finalResult,
-                matchComplete: true,
+                matchQueue: true,
                 uploadingFile: false,
               });
             })
@@ -419,6 +420,8 @@ class Uploader extends React.Component {
           comparedFilePath: "",
           matchData: [],
           matchComplete: false,
+          largeFileDetected: false,
+          matchQueue:false
         });
       });
   };
@@ -434,247 +437,296 @@ class Uploader extends React.Component {
     node.deleteComparedFile(this.state.comparedDataId);
     this.setState({ comparedFilePath: "", compareDetails: "" });
   };
+
+  checkQueue = () => {
+    node
+      .checkQueue(window.localStorage.getItem("matchQueId"))
+      .then((res) => {
+        if (res.returnvalue) {
+          let finalResult = [];
+          for (let i = 0; i < res.returnvalue.length; i++) {
+            for (let j = 0; j < res.returnvalue[i].length; j++) {
+              finalResult.push(res.returnvalue[i][j]);
+            }
+          }
+          console.log(finalResult);
+          this.setState({ matchData: finalResult, matchComplete: true });
+          this.removeFilesFromDB();
+          window.localStorage.clear()
+        } else {
+          Swal.fire({
+            icon: "info",
+            title: "File not ready yet please try again",
+          });
+        }
+      })
+      .catch((err) => {
+        Swal.fire({
+          icon: "error",
+          title: "File not found, please start over",
+        });
+      });
+  };
   render() {
     return (
-      <div className='px-0 py-0'>
-        <div className='text-center'></div>
+      <React.Fragment>
+        <div className='px-0 py-0'>
+          <div className='text-center'></div>
 
-        <Modal size='sm' centered isOpen={this.state.uploadingFile}>
-          <ModalBody centered className='text-center'>
-            <div className='text-center'>
-              {this.state.largeFileDetected === false &&
-              (this.state.activeStep === 0 || this.state.activeStep === 1) ? (
-                <h2>Uploading File</h2>
-              ) : null}
-              {this.state.largeFileDetected === false &&
-              this.state.activeStep === 2 ? (
-                <h2>Finding Matches</h2>
-              ) : null}
-              {this.state.largeFileDetected === true &&
-              this.state.activeStep === 2 ? (
-                <h2>Searching for results...</h2>
-              ) : null}
-              <img
-                alt='searching'
-                src={
-                  "https://databyrd-landing.s3.amazonaws.com/databyrd_searching.gif"
-                }
-              />
-              {/* <Oval color='#00BFFF' height={200} width={350} /> */}
-            </div>
-          </ModalBody>
-        </Modal>
-
-        <Card>
-          <div className='text-center pt-5'>
-            {" "}
-            <h6
-              style={{
-                fontFamily: "Roboto, sans-serif",
-                letterSpacing: "-0.008333333em",
-                fontWeight: 300,
-              }}
-            >
-              ** Please disable popup blockers in order to download the new file
-              **
-            </h6>
-          </div>
-
-          <CardBody>
-            <Stack sx={{ width: "100%" }} spacing={4}>
-              <Stepper
-                alternativeLabel
-                activeStep={this.state.activeStep}
-                connector={<ColorlibConnector />}
-              >
-                {steps.map((label) => (
-                  <Step key={label}>
-                    <StepLabel StepIconComponent={ColorlibStepIcon}>
-                      {label}
-                    </StepLabel>
-                  </Step>
-                ))}
-              </Stepper>
-            </Stack>
-
-            <div className='col-12  text-center'>
-              <div>
-                {this.state.uploadDetails ? (
-                  <div
-                    style={{
-                      border: "1px solid black",
-                      height: "100px",
-                      padding: "10px",
-                      justifyItems: "center",
-                    }}
-                  >
-                    <h3
-                      style={{
-                        paddingTop: "20px",
-                        fontFamily: "Roboto, sans-serif",
-                      }}
-                    >
-                      {this.state.uploadDetails}
-                      {""}{" "}
-                      <Button
-                        onClick={() => this.handleOriginalFileRemove()}
-                        className='btn-warning'
-                      >
-                        Delete
-                      </Button>
-                    </h3>
-                  </div>
+          <Modal size='sm' centered isOpen={this.state.uploadingFile}>
+            <ModalBody centered className='text-center'>
+              <div className='text-center'>
+                {this.state.largeFileDetected === false &&
+                (this.state.activeStep === 0 || this.state.activeStep === 1) ? (
+                  <h2>Uploading File</h2>
                 ) : null}
+                {this.state.largeFileDetected === false &&
+                this.state.activeStep === 2 ? (
+                  <h2>Finding Matches</h2>
+                ) : null}
+                {this.state.largeFileDetected === true &&
+                this.state.activeStep === 2 ? (
+                  <h2>Searching for results...</h2>
+                ) : null}
+                <img
+                  alt='searching'
+                  src={
+                    "https://databyrd-landing.s3.amazonaws.com/databyrd_searching.gif"
+                  }
+                />
+                {/* <Oval color='#00BFFF' height={200} width={350} /> */}
+              </div>
+            </ModalBody>
+          </Modal>
 
-                <br />
-                {this.state.compareDetails ? (
-                  <div
-                    style={{
-                      border: "1px solid black",
-                      height: "100px",
-                      padding: "10px",
-                      justifyItems: "center",
-                    }}
-                  >
-                    <h3
+          <Card>
+            <div className='text-center pt-5'>
+              {" "}
+              <h6
+                style={{
+                  fontFamily: "Roboto, sans-serif",
+                  letterSpacing: "-0.008333333em",
+                  fontWeight: 300,
+                }}
+              >
+                ** Please disable popup blockers in order to download the new
+                file **
+              </h6>
+            </div>
+
+            <CardBody>
+              <Stack sx={{ width: "100%" }} spacing={4}>
+                <Stepper
+                  alternativeLabel
+                  activeStep={this.state.activeStep}
+                  connector={<ColorlibConnector />}
+                >
+                  {steps.map((label) => (
+                    <Step key={label}>
+                      <StepLabel StepIconComponent={ColorlibStepIcon}>
+                        {label}
+                      </StepLabel>
+                    </Step>
+                  ))}
+                </Stepper>
+              </Stack>
+
+              <div className='col-12  text-center'>
+                <div>
+                  {this.state.uploadDetails ? (
+                    <div
                       style={{
-                        paddingTop: "20px",
-                        fontFamily: "Roboto, sans-serif",
+                        border: "1px solid black",
+                        height: "100px",
+                        padding: "10px",
+                        justifyItems: "center",
                       }}
                     >
-                      {this.state.compareDetails} {""}{" "}
-                      {this.state.compareDetails ? (
+                      <h3
+                        style={{
+                          paddingTop: "20px",
+                          fontFamily: "Roboto, sans-serif",
+                        }}
+                      >
+                        {this.state.uploadDetails}
+                        {""}{" "}
                         <Button
-                          onClick={() => this.handleCompareFileRemove()}
+                          onClick={() => this.handleOriginalFileRemove()}
                           className='btn-warning'
                         >
                           Delete
                         </Button>
-                      ) : null}
-                    </h3>
-                  </div>
-                ) : null}
-              </div>
-              <br />
-              {this.state.activeStep === 0 ? (
-                <div>
-                  <Button
-                    onClick={this.handleListRefClick}
-                    className='col-2 mt-5'
-                    id='uploadButton'
-                    // style={{
-                    //   backgroundColor: "#f9ac2f",
-                    //   fontFamily: "Roboto, sans-serif",
-                    //   fontWeight: 300,
-                    //   letterSpacing: "-0.008333333em",
-                    // }}
-                  >
-                    Upload List
-                  </Button>
-                </div>
-              ) : null}
+                      </h3>
+                    </div>
+                  ) : null}
 
-              {this.state.activeStep === 1 ? (
-                <div>
-                  {/* <h6 style={{ color: "red" }}>
-                    ** Upload your postal list or list to compare to. **
-                  </h6> */}
-                  <Button
-                    onClick={this.handleCompareRefClick}
-                    className='col-2 mt-5'
-                    id='uploadButton'
-                    // style={{
-                    //   fontFamily: "Roboto, sans-serif",
-                    //   letterSpacing: "-0.008333333em",
-                    //   fontWeight: 300,
-                    //   backgroundColor: "#f9ac2f",
-                    // }}
-                  >
-                    Upload Targeted List
-                  </Button>
-                </div>
-              ) : null}
-
-              {this.state.activeStep === 2 ? (
-                <div>
-                  <Button
-                    onClick={() => this.createMatchbackList()}
-                    className='col-2 mt-5'
-                    id='uploadButton'
-                    // style={{
-                    //   fontFamily: "Roboto, sans-serif",
-                    //   letterSpacing: "-0.008333333em",
-                    //   fontWeight: 300,
-                    //   backgroundColor: "#f9ac2f",
-                    // }}
-                  >
-                    Create Matchback List
-                  </Button>
-                  {this.state.matchComplete ? (
-                    <CSVDownload
-                      filename={"MatchBack-Results.csv"}
-                      data={this.state.matchData}
-                    />
+                  <br />
+                  {this.state.compareDetails ? (
+                    <div
+                      style={{
+                        border: "1px solid black",
+                        height: "100px",
+                        padding: "10px",
+                        justifyItems: "center",
+                      }}
+                    >
+                      <h3
+                        style={{
+                          paddingTop: "20px",
+                          fontFamily: "Roboto, sans-serif",
+                        }}
+                      >
+                        {this.state.compareDetails} {""}{" "}
+                        {this.state.compareDetails ? (
+                          <Button
+                            onClick={() => this.handleCompareFileRemove()}
+                            className='btn-warning'
+                          >
+                            Delete
+                          </Button>
+                        ) : null}
+                      </h3>
+                    </div>
                   ) : null}
                 </div>
-              ) : null}
-            </div>
-          </CardBody>
-          {this.state.activeStep === 0 ? (
-            <input
-              style={{ display: "none" }}
-              // accept=".zip,.rar"
-              ref={this.uploadListRef}
-              onChange={this.handleFileListUpload}
-              type='file'
-              id='originalFile'
-            />
-          ) : null}
-          {this.state.activeStep === 1 ? (
-            <input
-              style={{ display: "none" }}
-              // accept=".zip,.rar"
-              ref={this.uploadCompareRef}
-              onChange={this.handleCompareFile}
-              type='file'
-              id='compareFile'
-            />
-          ) : null}
+                <br />
+                {this.state.activeStep === 0 ? (
+                  <div>
+                    <Button
+                      onClick={this.handleListRefClick}
+                      className='col-2 mt-5'
+                      id='uploadButton'
+                      // style={{
+                      //   backgroundColor: "#f9ac2f",
+                      //   fontFamily: "Roboto, sans-serif",
+                      //   fontWeight: 300,
+                      //   letterSpacing: "-0.008333333em",
+                      // }}
+                    >
+                      Upload List
+                    </Button>
+                  </div>
+                ) : null}
 
-          <div style={{ paddingTop: 95 }} className='col-12 row text-center'>
-            <div className='col-6'>
-              <Button
-                disabled={this.state.activeStep === 0}
-                onClick={this.handlePreviousStep}
-                style={{
-                  fontFamily: "Roboto, sans-serif",
-                  fontWeight: 300,
-                  letterSpacing: "-0.008333333em",
-                  backgroundColor: "#5F4B89",
-                }}
-              >
-                Back
-              </Button>
+                {this.state.activeStep === 1 ? (
+                  <div>
+                    {/* <h6 style={{ color: "red" }}>
+                    ** Upload your postal list or list to compare to. **
+                  </h6> */}
+                    <Button
+                      onClick={this.handleCompareRefClick}
+                      className='col-2 mt-5'
+                      id='uploadButton'
+                      // style={{
+                      //   fontFamily: "Roboto, sans-serif",
+                      //   letterSpacing: "-0.008333333em",
+                      //   fontWeight: 300,
+                      //   backgroundColor: "#f9ac2f",
+                      // }}
+                    >
+                      Upload Targeted List
+                    </Button>
+                  </div>
+                ) : null}
+
+                {this.state.activeStep === 2 ? (
+                  <div>
+                    <Button
+                      onClick={() => this.createMatchbackList()}
+                      className='col-2 mt-5'
+                      id='uploadButton'
+                      // style={{
+                      //   fontFamily: "Roboto, sans-serif",
+                      //   letterSpacing: "-0.008333333em",
+                      //   fontWeight: 300,
+                      //   backgroundColor: "#f9ac2f",
+                      // }}
+                    >
+                      Create Matchback List
+                    </Button>
+                    {this.state.matchComplete ? (
+                      <CSVDownload
+                        filename={"MatchBack-Results.csv"}
+                        data={this.state.matchData}
+                      />
+                    ) : null}
+                  </div>
+                ) : null}
+                {this.state.matchQueue === true ? (
+                  <Button
+                    onClick={this.checkQueue}
+                    className='col-2 mt-5'
+                    id='uploadButton'
+                    // style={{
+                    //   backgroundColor: "#f9ac2f",
+                    //   fontFamily: "Roboto, sans-serif",
+                    //   fontWeight: 300,
+                    //   letterSpacing: "-0.008333333em",
+                    // }}
+                  >
+                    Check Queue
+                  </Button>
+                ) : (
+                  false
+                )}
+              </div>
+            </CardBody>
+            {this.state.activeStep === 0 ? (
+              <input
+                style={{ display: "none" }}
+                // accept=".zip,.rar"
+                ref={this.uploadListRef}
+                onChange={this.handleFileListUpload}
+                type='file'
+                id='originalFile'
+              />
+            ) : null}
+            {this.state.activeStep === 1 ? (
+              <input
+                style={{ display: "none" }}
+                // accept=".zip,.rar"
+                ref={this.uploadCompareRef}
+                onChange={this.handleCompareFile}
+                type='file'
+                id='compareFile'
+              />
+            ) : null}
+
+            <div style={{ paddingTop: 95 }} className='col-12 row text-center'>
+              <div className='col-6'>
+                <Button
+                  disabled={this.state.activeStep === 0}
+                  onClick={this.handlePreviousStep}
+                  style={{
+                    fontFamily: "Roboto, sans-serif",
+                    fontWeight: 300,
+                    letterSpacing: "-0.008333333em",
+                    backgroundColor: "#5F4B89",
+                  }}
+                >
+                  Back
+                </Button>
+              </div>
+              <div className='col-6'>
+                {" "}
+                <Button
+                  disabled={this.state.activeStep === 2}
+                  onClick={this.handleNextStep}
+                  style={{
+                    fontFamily: "Roboto, sans-serif",
+                    fontWeight: 300,
+                    letterSpacing: "-0.008333333em",
+                    backgroundColor: "#5F4B89",
+                  }}
+                >
+                  Next
+                </Button>{" "}
+              </div>
             </div>
-            <div className='col-6'>
-              {" "}
-              <Button
-                disabled={this.state.activeStep === 2}
-                onClick={this.handleNextStep}
-                style={{
-                  fontFamily: "Roboto, sans-serif",
-                  fontWeight: 300,
-                  letterSpacing: "-0.008333333em",
-                  backgroundColor: "#5F4B89",
-                }}
-              >
-                Next
-              </Button>{" "}
-            </div>
-          </div>
-          <div className='col-12'></div>
-        </Card>
-      </div>
+            <div className='col-12'></div>
+          </Card>
+        </div>
+      </React.Fragment>
     );
   }
 }
