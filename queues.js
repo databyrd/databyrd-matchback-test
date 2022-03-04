@@ -13,6 +13,7 @@ if (process.env.REDISTOGO_URL) {
   const match = new Queue("match", {
     redis,
   });
+  redis.connect()
 
   match.process((job, done) => {
     matchWorker(job, done);
