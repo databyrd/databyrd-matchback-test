@@ -25,7 +25,7 @@ if (process.env.REDISTOGO_URL) {
   //   console.log("Client disconnected from Redis");
   // });
 
-  redisClient.connect()
+ 
 
   const match = new Queue("match", {
     redisClient,
