@@ -7,13 +7,12 @@ const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const bodyParser = require("body-parser");
 const timeout = require("connect-timeout");
-const Queue = require("bull");
 const Arena = require("bull-arena");
 const Bull = require("bull");
-const { match, queues } = require("./queues");
+const { queues } = require("./queues");
 require("dotenv").config();
 
-const cp = require("child_process");
+
 const app = express();
 
 app.use(timeout("60s"));
@@ -76,6 +75,7 @@ const arenaConfig = Arena(
 //   // });
 //   // childProcess.kill(0);
 // });
+console.log(`ARENA CONFIG ~~~~ ${arenaConfig}`)
 app.use("/", indexRouter);
 app.use("/", arenaConfig);
 app.use("/users", usersRouter);

@@ -2,10 +2,10 @@ const Queue = require("bull");
 const { match: matchWorker } = require("./workers");
 
 if (process.env.REDISTOGO_URL) {
+  console.log(`REDIS TO GO URL ~~~ ${process.env.REDISTOGO_URL}`);
   const rtg = require("url").parse(process.env.REDISTOGO_URL);
   var redis = require("redis").createClient(rtg.port, rtg.hostname);
 
-  console.log(redis);
   redis.auth(rtg.auth.split(":")[1]);
   const match = new Queue("match", {
     redis,
@@ -30,6 +30,7 @@ if (process.env.REDISTOGO_URL) {
   module.exports = { match, queues };
 } else {
   redis = require("redis").createClient();
+  console.log(`REDIS NOT FOUND ~~~ ${redis}`);
   const match = new Queue("match", {
     redis,
   });
