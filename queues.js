@@ -2,12 +2,18 @@ const Queue = require("bull");
 const { match: matchWorker } = require("./workers");
 
 if (process.env.REDISTOGO_URL) {
-  const rtg = require("url").parse(process.env.REDISTOGO_URL);
-  var redis = require("redis").createClient(rtg.port, rtg.hostname);
-  redis.auth(rtg.auth.split(":")[1]);
-
+  // const rtg = require("url").parse(process.env.REDISTOGO_URL);
+  // var redis = require("redis").createClient(rtg.port, rtg.hostname);
+  // redis.auth(rtg.auth.split(":")[1]);
+  const client = redis.createClient({
+    url: process.env.REDIS_URL,
+    socket: {
+      tls: true,
+      rejectUnauthorized: false,
+    },
+  });
   const match = new Queue("match", {
-    redis,
+    client,
   });
 
   console.log(`NEW QUE COMPLETE`);
@@ -22,7 +28,7 @@ if (process.env.REDISTOGO_URL) {
     {
       name: "match",
       hostId: "Match Que Managers",
-      redis,
+      client,
     },
   ];
   console.log(`QUEUES ~~~ ${queues}`);

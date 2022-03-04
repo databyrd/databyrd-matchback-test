@@ -1,15 +1,8 @@
 const fs = require("fs");
 const os = require("os");
 var XLSX = require("xlsx");
-const {
-  Worker,
-  isMainThread,
-  parentPort,
-  workerData,
-} = require("worker_threads");
+const { Worker } = require("worker_threads");
 const path = require("path");
-
-const workerPath = path.resolve("childWorker.js");
 
 const userCPUCount = os.cpus().length;
 
@@ -66,4 +59,4 @@ async function compareFiles(fPath1, fPath2) {
   return results;
 }
 
-module.exports = {compareFiles}
+module.exports = { compareFiles };
