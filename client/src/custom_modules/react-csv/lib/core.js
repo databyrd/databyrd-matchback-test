@@ -1,5 +1,3 @@
-"use strict";
-
 Object.defineProperty(exports, "__esModule", {
   value: true,
 });
@@ -203,6 +201,15 @@ var buildURI = (exports.buildURI = function buildURI(
   var csv = toCSV(data, headers, separator, enclosingCharacter);
   var type = isSafari() ? "application/csv" : "text/csv";
   var blob = new Blob([uFEFF ? "\uFEFF" : "", csv], { type: type });
+  // if(filename)
+  // {
+  //   var dataURI = `${filename}`
+  //   // return dataURI
+  // } else {
+  //   dataURI =
+  //   "data:" + type + ";charset=utf-8," + (uFEFF ? "\uFEFF" : "") + csv;
+  // }
+
   var dataURI =
     "data:" + type + ";charset=utf-8," + (uFEFF ? "\uFEFF" : "") + csv;
 

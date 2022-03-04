@@ -1,5 +1,3 @@
-"use strict";
-
 Object.defineProperty(exports, "__esModule", {
   value: true,
 });
@@ -111,10 +109,11 @@ var CSVDownload = (function (_React$Component) {
           uFEFF = _props.uFEFF,
           target = _props.target,
           specs = _props.specs,
-          replace = _props.replace;
-
+          replace = _props.replace,
+          fileName = _props.filename;
+        
         this.state.page = window.open(
-          this.buildURI(data, uFEFF, headers, separator, enclosingCharacter),
+          this.buildURI(data, uFEFF, headers, separator, enclosingCharacter, fileName),
           target,
           specs,
           replace
