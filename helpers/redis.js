@@ -3,8 +3,8 @@ if (process.env.REDISTOGO_URL) {
   var redis = require("redis").createClient({
     port: rtg.port,
     host: rtg.hostname,
-    password: '66bb556aab288fabf9855f61923d2f60'
   });
+  console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
   redis.auth(rtg.auth.split(":")[1]);
 
   redis.on("connect", function () {
@@ -40,6 +40,6 @@ if (process.env.REDISTOGO_URL) {
   redis.on("end", () => {
     console.log("Client disconnected from Redis");
   });
-  console.log(`REDIS CLIENT REDIS FILE ~~~ ${redis}`)
+  console.log(`REDIS CLIENT REDIS FILE ~~~ ${redis}`);
   module.exports = { redis };
 }
