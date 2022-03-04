@@ -41,7 +41,7 @@ if (process.env.REDISTOGO_URL) {
     {
       name: "match",
       hostId: "Match Que Managers",
-      redis,
+      redisClient,
     },
   ];
   console.log(`REDIS QUEUES`, queues);
