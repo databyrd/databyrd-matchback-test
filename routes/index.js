@@ -5,7 +5,6 @@ var XLSX = require("xlsx");
 const multer = require("multer");
 const { match } = require("../queues");
 
-
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
     callBack(null, "files");
@@ -15,7 +14,6 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-
 
 router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
@@ -96,8 +94,9 @@ router.post("/node-api/compare-small-files", async function (req, res, next) {
 router.post("/node-api/compare-large-files", async function (req, res, next) {
   const originalPath = req.body.originalId;
   const comparedPath = req.body.compareId;
-
+  console.log(`COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath}`);
   const jobData = await match.add({ originalPath, comparedPath });
+  console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
   console.log("COMPLETE", jobData.id);
   res.send(jobData.id);
 });
