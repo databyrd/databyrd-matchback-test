@@ -4,7 +4,8 @@ const { match: matchWorker } = require("./workers");
 if (process.env.REDISTOGO_URL) {
   console.log(`REDIS TO GO URL ~~~ ${process.env.REDISTOGO_URL}`);
   const rtg = require("url").parse(process.env.REDISTOGO_URL);
-  console.log(`REDIS TO GO PORT ~~~ ${rtg.portL}`);
+  console.log(`REDIS TO GO RTG ~~~ ${rtg}`);
+  console.log(`REDIS TO GO PORT ~~~ ${rtg.port}`);
   console.log(`REDIS TO GO HOST NAME ~~~ ${rtg.hostname}`);
   var redis = require("redis").createClient(rtg.port, rtg.hostname);
 
