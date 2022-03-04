@@ -42,7 +42,7 @@ if (process.env.REDISTOGO_URL) {
       redisClient,
     },
   ];
-
+  console.log(`REDIS QUEUES`, queues);
   module.exports = { match, queues };
 } else {
   redis = require("redis").createClient();

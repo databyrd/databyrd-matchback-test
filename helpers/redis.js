@@ -6,14 +6,17 @@ if (process.env.REDISTOGO_URL) {
   });
   console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
   redis.auth(rtg.auth.split(":")[1]);
-
+  console.log(`REDIS AUTH`);
+  redis.connect();
+  console.log(`REDIS CONNECT`);
   redis.on("connect", function () {
     console.log("Redis client connected");
   });
+  console.log(`REDIS READY`);
   redis.on("ready", () => {
     console.log("Redis ready to be used");
   });
-
+  console.log(`REDIS ERROR`);
   redis.on("error", (err) => {
     console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
   });
