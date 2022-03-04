@@ -33,7 +33,7 @@ if (process.env.REDISTOGO_URL) {
     matchWorker(job, done);
   });
 
-  console.log(`MATCH PROCESS COMPLETE`);
+  console.log(`MATCH PROCESS COMPLETE`, redisClient);
 
   const queues = [
     {

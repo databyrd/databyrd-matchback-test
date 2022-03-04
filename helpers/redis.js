@@ -39,5 +39,6 @@ if (process.env.REDISTOGO_URL) {
   redis.on("end", () => {
     console.log("Client disconnected from Redis");
   });
+  console.log(`REDIS CLIENT REDIS FILE ~~~ ${redis}`)
   module.exports = { redis };
 }
