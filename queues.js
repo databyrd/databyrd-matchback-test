@@ -1,27 +1,33 @@
 const Queue = require("bull");
 const { match: matchWorker } = require("./workers");
-
+const redisClient = require("./helpers/redis");
 if (process.env.REDISTOGO_URL) {
-  const rtg = require("url").parse(process.env.REDISTOGO_URL);
-  var redis = require("redis").createClient(rtg.port, rtg.hostname);
-  redis.auth(rtg.auth.split(":")[1]);
+  // const rtg = require("url").parse(process.env.REDISTOGO_URL);
+  // var redis = require("redis").createClient({
+  //   port: rtg.port,
+  //   host: rtg.hostname,
+  // });
+  // redis.auth(rtg.auth.split(":")[1]);
 
-  redis.on('connect', function() {
-    console.log('Redis client connected');
-    console.log(`${client.connected}`);
-});
+  // redis.on("connect", function () {
+  //   console.log("Redis client connected");
+  //   console.log(`${client.connected}`);
+  // });
+  // redis.on("ready", () => {
+  //   console.log("Redis ready to be used");
+  // });
 
-  redis.on("error", (err) => {
-    console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
-  });
+  // redis.on("error", (err) => {
+  //   console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
+  // });
 
- 
+  // redis.on("end", () => {
+  //   console.log("Client disconnected from Redis");
+  // });
 
   const match = new Queue("match", {
-    redis,
+    redisClient,
   });
-
-  console.log(`NEW QUE COMPLETE`, redis.stat);
 
   match.process((job, done) => {
     matchWorker(job, done);
@@ -33,15 +39,14 @@ if (process.env.REDISTOGO_URL) {
     {
       name: "match",
       hostId: "Match Que Managers",
-      redis,
+      redisClient,
     },
   ];
-  console.log(`QUEUES ~~~ ${queues}`);
 
   module.exports = { match, queues };
 } else {
   redis = require("redis").createClient();
-  console.log(`REDIS NOT FOUND ~~~ ${redis}`);
+  // console.log(`REDIS NOT FOUND ~~~ ${redis}`);
   const match = new Queue("match", {
     redis,
   });

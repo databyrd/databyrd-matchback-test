@@ -11,7 +11,7 @@ const Arena = require("bull-arena");
 const Bull = require("bull");
 const { queues } = require("./queues");
 require("dotenv").config();
-
+require("./helpers/redis");
 
 const app = express();
 
@@ -75,7 +75,7 @@ const arenaConfig = Arena(
 //   // });
 //   // childProcess.kill(0);
 // });
-console.log(`ARENA CONFIG ~~~~ ${arenaConfig}`)
+
 app.use("/", indexRouter);
 app.use("/", arenaConfig);
 app.use("/users", usersRouter);
