@@ -8,7 +8,7 @@ if (process.env.REDISTOGO_URL) {
   //   host: rtg.hostname,
   // });
   // redis.auth(rtg.auth.split(":")[1]);
-
+  // redis.connect();
   // redis.on("connect", function () {
   //   console.log("Redis client connected");
   //   console.log(`${client.connected}`);
@@ -25,6 +25,8 @@ if (process.env.REDISTOGO_URL) {
   //   console.log("Client disconnected from Redis");
   // });
 
+  redisClient.connect()
+
   const match = new Queue("match", {
     redisClient,
   });
@@ -39,14 +41,14 @@ if (process.env.REDISTOGO_URL) {
     {
       name: "match",
       hostId: "Match Que Managers",
-      redisClient,
+      redis,
     },
   ];
   console.log(`REDIS QUEUES`, queues);
   module.exports = { match, queues };
 } else {
   redis = require("redis").createClient();
-  // console.log(`REDIS NOT FOUND ~~~ ${redis}`);
+
   const match = new Queue("match", {
     redis,
   });

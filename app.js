@@ -11,7 +11,7 @@ const Arena = require("bull-arena");
 const Bull = require("bull");
 const { queues } = require("./queues");
 require("dotenv").config();
-require("./helpers/redis");
+// require("./helpers/redis");
 
 const app = express();
 

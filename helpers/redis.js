@@ -28,7 +28,7 @@ if (process.env.REDISTOGO_URL) {
   module.exports = { redis };
 } else {
   redis = require("redis").createClient();
-  console.log(`REDIS NOT FOUND ~~~ ${redis} from redis file`);
+
   redis.on("connect", function () {
     console.log("Redis client connected");
   });
