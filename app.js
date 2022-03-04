@@ -52,29 +52,9 @@ const arenaConfig = Arena(
   }
 );
 
-// app.post("/node-api/compare-large-files", async function (req, res, next) {
-//   const originalPath = req.body.originalId;
-//   const comparedPath = req.body.compareId;
-//   match.add(originalPath);
+console.log(`ARENAS ~~~ ${arenaConfig}`)
+console.log(`QUEUES ON STARTUP ~~~ ${queues}`)
 
-//   // taskQueue.process(async (job) => {
-//   //   console.log("QUEUE PROCESS STARTED");
-//   //   const childProcess = cp.fork("compareService.js");
-//   //   childProcess.send({ fPath1: originalPath, fPath2: comparedPath });
-//   //   childProcess.on("message", (result) => {
-//   //     console.log(`MATCH REPONSE COMPLETE ~~~~~ ${result}`),
-//   //       res.json({ result });
-//   //   });
-//   //   childProcess.kill(0);
-//   // });
-
-//   // const childProcess = cp.fork("compareService.js");
-//   // childProcess.send({ fPath1: originalPath, fPath2: comparedPath });
-//   // childProcess.on("message", (result) => {
-//   //   console.log(`MATCH REPONSE COMPLETE ~~~~~ ${result}`), res.json({ result });
-//   // });
-//   // childProcess.kill(0);
-// });
 
 app.use("/", indexRouter);
 app.use("/", arenaConfig);
