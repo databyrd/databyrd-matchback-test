@@ -9,7 +9,7 @@ if (process.env.REDISTOGO_URL) {
     console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
     redis.auth(rtg.auth.split(":")[1]);
     console.log(`REDIS AUTH`);
-    await redis.connect();
+    redis.connect();
     console.log(`REDIS CONNECT`);
     redis.on("connect", function () {
       console.log("Redis client connected");
