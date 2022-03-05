@@ -10,7 +10,7 @@ const timeout = require("connect-timeout");
 const Arena = require("bull-arena");
 const Bull = require("bull");
 const { queues } = require("./queues");
-const {redis} = require("./helpers/redis");
+// const {redis} = require("./helpers/redis");
 require("dotenv").config();
 // require("./helpers/redis");
 
@@ -41,29 +41,74 @@ app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
 
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
+if (process.env.REDISTOGO_URL) {
+  console.log(`REDIS TO GO URL FOUND ~~~~ ${process.env.REDISTOGO_URL}`);
+  async () => {
+    const rtg = require("url").parse(process.env.REDISTOGO_URL);
+    var redis = require("redis").createClient({
+      port: rtg.port,
+      host: rtg.hostname,
+    });
+    console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
+    redis.auth(rtg.auth.split(":")[1]);
+    console.log(`REDIS AUTH`);
+    redis.connect();
+    console.log(`REDIS CONNECT`);
+    redis.on("connect", function () {
+      console.log("Redis client connected");
+    });
+    console.log(`REDIS READY`);
+    redis.on("ready", () => {
+      console.log("Redis ready to be used");
+    });
+    console.log(`REDIS ERROR`);
+    redis.on("error", (err) => {
+      console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
+    });
 
-const arenaConfig = Arena(
-  {
-    Bull,
-    queues: [
+    redis.on("end", () => {
+      console.log("Client disconnected from Redis");
+    });
+    const arenaConfig = Arena(
       {
-        name: "match",
-        hostId: "Match Que Managers",
-        redis,
+        Bull,
+        queues: [
+          {
+            name: "match",
+            hostId: "Match Que Managers",
+            redis,
+          },
+        ],
       },
-    ],
-  },
-  {
-    basePath: "/arena",
-    disableListen: true,
-  }
-);
-
-console.log(`ARENAS ~~~ ${arenaConfig}`);
-console.log(`QUEUES ON STARTUP ~~~ ${queues}`);
+      {
+        basePath: "/arena",
+        disableListen: true,
+      }
+    );
+    console.log(`ARENAS ~~~ ${arenaConfig}`);
+    app.use("/", arenaConfig);
+    console.log(`EXITING REDIS TO GO `);
+  };
+}
+// const arenaConfig = Arena(
+//   {
+//     Bull,
+//     queues: [
+//       {
+//         name: "match",
+//         hostId: "Match Que Managers",
+//         redis,
+//       },
+//     ],
+//   },
+//   {
+//     basePath: "/arena",
+//     disableListen: true,
+//   }
+// );
 
 app.use("/", indexRouter);
-app.use("/", arenaConfig);
+
 app.use("/users", usersRouter);
 // --------END LARGE FILE UPLOAD SECTION ----------- //
 
