@@ -9,10 +9,7 @@ const bodyParser = require("body-parser");
 const timeout = require("connect-timeout");
 const Arena = require("bull-arena");
 const Bull = require("bull");
-const { queues } = require("./queues");
-// const {redis} = require("./helpers/redis");
 require("dotenv").config();
-// require("./helpers/redis");
 
 const app = express();
 
@@ -20,6 +17,7 @@ app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
 const cors = require("cors");
+const { redis } = require("./helpers/redis");
 app.use(cors());
 
 // --------------------------------
@@ -43,32 +41,23 @@ app.use(express.static(path.join(__dirname, "client/build")));
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 if (process.env.REDISTOGO_URL) {
   console.log(`REDIS TO GO URL FOUND ~~~~ ${process.env.REDISTOGO_URL}`);
-  async () => {
-    const rtg = require("url").parse(process.env.REDISTOGO_URL);
-    var redis = require("redis").createClient({
-      port: rtg.port,
-      host: rtg.hostname,
-    });
-    console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
-    redis.auth(rtg.auth.split(":")[1]);
-    console.log(`REDIS AUTH`);
-    await redis.connect();
-    console.log(`REDIS CONNECT`);
+  try {
+    redis.connect();
     redis.on("connect", function () {
       console.log("Redis client connected");
-    });
-    console.log(`REDIS READY`);
-    redis.on("ready", () => {
-      console.log("Redis ready to be used");
-    });
-    console.log(`REDIS ERROR`);
-    redis.on("error", (err) => {
-      console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
-    });
+    }),
+      redis.on("ready", () => {
+        console.log("Redis ready to be used");
+      }),
+      redis.on("error", (err) => {
+        console.log(`REDIS CONNECTION ERROR ~~~ ${err}`);
+      }),
+      redis.on("end", () => {
+        console.log("Client disconnected from Redis");
+      });
 
-    redis.on("end", () => {
-      console.log("Client disconnected from Redis");
-    });
+    console.log(`REDIS ~~~ ${redis}`);
+
     const arenaConfig = Arena(
       {
         Bull,
@@ -88,9 +77,11 @@ if (process.env.REDISTOGO_URL) {
     console.log(`ARENAS ~~~ ${arenaConfig}`);
     app.use("/", arenaConfig);
     console.log(`EXITING REDIS TO GO `);
-  };
+  } catch (error) {
+    console.log(error);
+  }
+  
 }
-
 
 app.use("/", indexRouter);
 
