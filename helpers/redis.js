@@ -1,6 +1,6 @@
 if (process.env.REDISTOGO_URL) {
   console.log(`REDIS TO GO URL FOUND ~~~~ ${process.env.REDISTOGO_URL}`);
-  async () => {
+  
     const rtg = require("url").parse(process.env.REDISTOGO_URL);
     var redis = require("redis").createClient({
       port: rtg.port,
@@ -27,7 +27,7 @@ if (process.env.REDISTOGO_URL) {
       console.log("Client disconnected from Redis");
     });
     module.exports = { redis };
-  };
+  
   console.log(`EXITING REDIS TO GO `);
 } else {
   redis = require("redis").createClient();
