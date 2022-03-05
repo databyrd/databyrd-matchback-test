@@ -52,7 +52,7 @@ if (process.env.REDISTOGO_URL) {
     console.log(`REDIS AUTH PASSWORD ~~~ ${rtg.auth.split(":")[1]}`);
     redis.auth(rtg.auth.split(":")[1]);
     console.log(`REDIS AUTH`);
-    redis.connect();
+    await redis.connect();
     console.log(`REDIS CONNECT`);
     redis.on("connect", function () {
       console.log("Redis client connected");
@@ -90,22 +90,7 @@ if (process.env.REDISTOGO_URL) {
     console.log(`EXITING REDIS TO GO `);
   };
 }
-// const arenaConfig = Arena(
-//   {
-//     Bull,
-//     queues: [
-//       {
-//         name: "match",
-//         hostId: "Match Que Managers",
-//         redis,
-//       },
-//     ],
-//   },
-//   {
-//     basePath: "/arena",
-//     disableListen: true,
-//   }
-// );
+
 
 app.use("/", indexRouter);
 
