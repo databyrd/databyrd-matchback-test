@@ -86,4 +86,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
+process.on('SIGINT', function() {
+  redis.quit();
+  console.log('redis client quit');
+});
+
 module.exports = app;
