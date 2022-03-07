@@ -10,11 +10,11 @@ const timeout = require("connect-timeout");
 require("dotenv").config();
 const app = express();
 
-const Queue = require("bull");
+
 const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
-const { match: matchWorker } = require("./workers/index");
+
 app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
@@ -39,13 +39,6 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
-const match = new Queue("match", {
-  redisClient,
-});
-
-match.process((job, done) => {
-  matchWorker(job, done);
-});
 
 const queues = [
   {
@@ -96,11 +89,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-
-
 process.on("SIGINT", function () {
   redis.quit();
   console.log("redis client quit");
 });
 
-module.exports = app;
+module.exports =  app ;

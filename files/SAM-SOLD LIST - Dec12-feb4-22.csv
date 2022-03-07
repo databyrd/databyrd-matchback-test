@@ -1,0 +1,1405 @@
+firstname,lastname,Address,city,state,postalcode,email,VehicleYear,VehicleMake,VehicleModel,VehicleVIN,VehicleStockNumber,SoldDateUTC,dealerid
+Carlos,Silva Rivas,2557 S Rowell Ave,Fresno,CA,93725,noemail@gmail.com,2022,Honda,Pilot,5FNYF6H21NB027775,H114839,1/1/22 0:23,Honda
+Federico,Gonzalez Jr,211 W Lilac Ave,REEDLEY,CA,93654,federicog_82@msn.com,2022,Honda,Accord,1HGCV1F42NA020364,H114956,1/26/22 2:35,Honda
+Melissa,Trejo,1211 Hoag Ave,Sanger,CA,93657,matrejo09@icloud.com,2022,Honda,Pilot,5FNYF5H29NB012211,H114908,1/23/22 2:56,Honda
+Rhonda,Cesana,1847 St Michaels Way,BRENTWOOD,CA,94513,RHONDACESANA@GMAIL.COM,2022,Honda,Civic Sedan,2HGFE2F55NH563947,H114940,1/30/22 0:47,Honda
+Gabriel,Avila,550 N Kensington Pl,Porterville,CA,93257,gabriel6845@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F9XNA008387,H114929,2/1/22 2:39,Honda
+Zhong,Yang,2301 N Grantland Ave,Fresno,CA,93723,zhongyang3@gmail.com,2020,Honda,Ridgeline,,,,Honda
+Michael,Alafa,2100 S Laspina St # 220,Tulare,CA,93274,jetstreams1@yahoo.com,2019,Honda,Civic,2HGFC2F61KH527652,H11184L,1/23/22 2:52,Honda
+Maria,Escobar,883 S 3rd St,KERMAN,CA,93630,escobar1700@gmail.com,2019,Honda,CR-V,5J6RW5H32KL001910,,1/31/22 21:20,Honda
+Victoria,Pheang,921 N Peach Ave Apt 235,Fresno,CA,93727,pheang.victoria@gmail.com,2020,Honda,Passport,5FNYF7H58LB005785,H10893,1/12/22 0:35,Honda
+Sandra,Martinez,4262 W FIGARDEN Dr Apt 214,FRESNO,CA,93722,monkeyb8989@yahoo.com,2022,Honda,Civic Sedan,2HGFE2F59NH565166,H114965,2/2/22 22:13,Honda
+Filiberto,Hernandez Montantes,207 Ivy Ave,Coalinga,CA,93210,filihm09@gmail.com,2019,Jeep,Renegade,ZACNJABB4KPK42856,H114318A,12/17/21 21:53,Honda
+Nadia,Tayeh,8839 N Cedar Ave # 317,Fresno,CA,93720,nadia.tayeh@yahoo.com,2022,Honda,Ridgeline,5FPYK3F72NB002903,H114724,12/13/21 3:15,Honda
+Daniel,Hicks,827 N MCCALL,SANGER,CA,93657,d_shot77@yahoo.com,2018,Honda,Accord,1HGCV1F93JA187435,H109252,6/22/19 7:00,Honda
+HANAN,ALZABIDI,115 E Visalia Rd,Farmersville,CA,932231630,habibisalah12@gmail.com,,,,,,,Honda
+Imelda,Leal,892 N Nancy Way,Dinuba,CA,93618,icandeereyna@gmail.com,2017,Chevrolet,Malibu,1G1ZE5ST1HF188929,H114722A,1/30/22 1:04,Honda
+Dennis,Miller,914 Asti St,Delano,CA,93215,reddenn55@yahoo.com,2022,Honda,Civic,2HGFE1F97NH311033,H114889,1/6/22 3:33,Honda
+Anthony,Trujillo,21524 Ave 256,Lindsay,CA,93662,yestrujillo04@gmail.com,2021,Honda,Accord,1HGCV1F16MA007198,H11148,12/18/21 23:47,Honda
+Desiree,Gillioun,2505 S Spruce St,Visalia,CA,93292,dezv_4@yahoo.com,2022,Honda,Accord Hybrid,1HGCV3F95NA006756,H114910,1/16/22 23:36,Honda
+Claudia,Vega,1004 j St,SANGER,CA,93657,vegacesar091@gmail.com,2022,Honda,Civic,2HGFE2F52NH554039,H114817,12/20/21 8:00,Honda
+Matthew,Sanchez,4125 S Rova St,Visalia,CA,932770605,mattsan10@gmail.com,2022,Honda,CR-V,7FARW1H52NE002860,H114823,12/23/21 1:47,Honda
+Carmen,Pattee,2591 Peach,Selma,CA,93662,carmenpm@msn.com,2022,Honda,Ridgeline,5FPYK3F75NB010171,H114907,1/22/22 4:30,Honda
+Nora,Gallardo,140 Orit Ave,Parlier,CA,93648,janetmorales90@icloud.com,2022,Honda,Accord,1HGCV1F38NA015130,H114852,12/30/21 4:27,Honda
+Victor,Santamaria Juarez,2904 N 8th St,Fresno,CA,93703,victor1389azul@hotmial.com,2012,Honda,Civic,2HGFB2F88CH592603,H114740A,1/3/22 23:38,Honda
+Virginia,Hernandez,1951 Bauder St,SELMA,CA,936623323,jcarrillo6806@gmail.com,2014,HONDA,,,H8957,,Honda
+Juan,Guizar,2590 S Ezie Ave,FRESNO,CA,937276581,juan.guizar@att.net,2022,Honda,Accord,1HGCV1F37NA019654,H114933,1/25/22 3:18,Honda
+Carol,Camacho,1051 E Lingo Ave,REEDLEY,CA,93654,krystalc2410@gamil.com,2012,HONDA,CIVIC,,H101110,,Honda
+Macario,Gecha JR,1031 N Bates Ave # 9,DINUBA,CA,93618,macario_gecha@yahoo.com,2022,Honda,Accord,1HGCV1F13NA018483,H114931,1/28/22 3:17,Honda
+Jose,Escobar-Acosta,883 S 3rd St,Kerman,CA,93630,,,,,,,,Honda
+Larry,Macklin,1221 N Peach Ave # 168,Fresno,CA,93727,maclin911@gmail.com,2022,Honda,HR-V,3CZRU5H56NM727828,H114949,2/3/22 21:23,Honda
+Gregorio,Medina Millan,207 Ivy St,Coalinga,CA,93210,,2022,Honda,Accord Sedan,1HGCV1F36NA008516,H114799,12/24/21 21:08,Honda
+Desiree,Ceja,1127 K St,Reedley,CA,93654,,2019,Honda,CR-V,7FARW1H55KE029949,H11097,1/30/22 0:58,Honda
+Lynne,Huebert,7258 S Kings River Rd,Parlier,CA,93648,lkhuebert@gmail.com,,,,,,,Honda
+Yesenia,Trevino,1722 W La Vida Ave,Visalia,CA,93277,yesenia.trevino1962@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F5XNA007737,H114937,2/3/22 2:48,Honda
+Elena,Baxter,490 E Calimyrna Ave Apt 103,Fresno,CA,93710,elenabaxter8816@gmail.com,2021,Honda,Odyssey,5FNRL6H54MB032409,H11048,1/25/22 1:40,Honda
+BENJAMIN,BROWN-BAXTER,490 E CALIMYRNA AVE APT 103,FRESNO,CA,93710,elenabaxter8816@gmail.com,2016,Honda,Pilot,5FNYF5H35GB039062,H110241A,7/23/19 3:53,Honda
+April,Garcia,8181 rd 32,Madera,CA,93637,garciaa.april@gmail.com,2022,Honda,Accord,1HGCV1F45NA016101,H114899,1/11/22 0:32,Honda
+Janet,Flores,5774 E Truman Ave,Fresno,CA,93727,janetflores37@yahoo.com,2018,Toyota,4Runner,JTEZU5JR5J5177004,H11117,12/19/21 1:28,Honda
+Jairo,Cavazos Garcia,3502 S Chandler Ct,Selma,CA,93662,cavazosgarcia3@gmail.com,2022,Honda,Civic Sedan,2HGFE2F51NH550953,H114794,12/22/21 4:16,Honda
+Hugo,Baez JR,1680 Wall Ln,Porterville,CA,93257,hugeob@gmail.com,2022,Honda,Civic,19XFL1H82NE002560,H114901,1/12/22 1:44,Honda
+Armando,Guerra Amaya,5770 N Gentry Ave Apt 112,Fresno,CA,93711,guerraaarmando95@yahoo.com,2021,Honda,Civic Hatchback,SHHFK7H31MU203111,H11073,,Honda
+Destinie,Gonzales,1436 oak St,selma,CA,93662,,,,,,,,Honda
+Alonzo,Gonzalez,1436 Oak St,Selma,CA,93662,destiniegonzales93@gmail.com,2019,Honda,Civic,SHHFK7H32KU424147,H11169L,12/30/21 23:00,Honda
+Cesar,Vega,,,,93657,vegacesar091@gmail.com,2022,Honda,Civic Sedan,1HGCV1F31NA015342,H114829,12/21/21 5:06,Honda
+Monica,Solorio,1070 Fisher Ave Avenue Apt 101,Reedley,CA,93654,monica.solorio@sanmarprop.com,2016,Honda,Civic,2HGFC2F73GH500369,H114895A,1/22/22 8:00,Honda
+Larry,Huebert,7258 S Kings River Rd,Parlier,CA,93648,lkhuebert@gmail.com,2022,Honda,Odyssey,,,1/14/22 20:22,Honda
+KARY,PATTEE,2591 PEACH ST,SELMA,CA,93662,,2009,,,2HGFG12699H506918,,,Honda
+Cynthia,Rankin,2225 11th St,Reedley,CA,93654,c.mendonza2550@icloud.com,2020,Honda,Civic,2HGFC2F60LH515347,H11114,12/14/21 21:39,Honda
+Elaine,Xiong,2301 N Grantland Ave,Fresno,CA,93723,elainexiong90@gmail.com,2022,Honda,Ridgeline,,,1/29/22 3:21,Honda
+Norma,Duarte,453 W Palm Ave,Reedley,CA,93654,duarten93@gmail.com,2022,Honda,CR-V,,,1/8/22 3:32,Honda
+Melissa,Ferrel Zamora,3650 N Navelencia,Reedley,CA,93654,miazamora1010@gmail.com,2022,Honda,Civic,2HGFE2F58NH563070,H114943,1/26/22 8:00,Honda
+Samantha,Franco,8547 Deep St Apt B,San Joaquin ,CA,93660,samanthafranco456@gmail.com,2022,Honda,Accord,1HGCV1F53NA006434,H114741,12/17/21 21:53,Honda
+Rebecca,Falcon,323 N B St,Tulare,CA,93274,beccafalcon29@gmail.com,2013,Honda,Civic,2HGFB2F59DH576563,H112409A,,Honda
+Sandra,Cisneros Espinoza,24116 Road 208,Lindsay,CA,93247,sandracisneros58@gmail.co,2020,Honda,Accord,,,,Honda
+Shida,Monazzami,1713 Locust Ave,Clovis,CA,93611,shary_b@yahoo.com,2022,Honda,Pilot,5FNYF6H71NB025536,H114786,12/17/21 3:01,Honda
+Daisy,Gonzales,1120 S Simon St,Visalia,CA,93292,dayz2010@yahoo.com,2022,Honda,Accord Hybrid,1HGCV3F92NA003071,H114824,12/24/21 1:35,Honda
+Saul,Soria,6306 E Braly Ave,Fresno,CA,93727,saulsoria404@gmail.com,2022,Honda,Accord,1HGCV1F30NA016448,H114916,1/19/22 19:40,Honda
+Jonathan,Gomez,1317 Wrenwood Way,Madera,CA,93638,jongomez5591@yahoo.com,2022,Honda,Civic,2HGFE2F52NH562805,H114948,1/25/22 21:18,Honda
+Courtney,Ashford,3535 W Elowin Ave,Visalia,CA,93291,courtney_ashford@yahoo.com,2022,Honda,Accord,1HGCV1F12NA013131,H114828,12/23/21 22:04,Honda
+Harpreet,Singh,3389 S Cherry Ave,Fresno,CA,93725,,2020,Honda,Accord,1HGCV1F31LA139561,H112682,10/4/20 22:47,Honda
+Agustin,Zamora Arandas,8591 Gardenia Ave.,Parlier,CA,93648,marzamora98@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F96NA006264,H114869,1/16/22 20:46,Honda
+Codie,Runyon,21983 ROAD 232,LINDSAY,CA,93247,codiespurs21@gmail.com,2022,Honda,Civic,19XFL2H86NE006116,H114811,12/23/21 0:59,Honda
+Linda,Galvan Martinez,379 Quality Ave,Sanger,CA,93657,joelyn1613@gmail.com,2016,Jeep,Wrangler Unlimited,1C4BJWDGXGL343665,H11091A,1/8/22 3:32,Honda
+Lexie,Bravo,2617 N Wren Dr,Visalia,CA,93291,marie2bravo@icloud.com,2022,Honda,Civic,19XFL2H82NE004153,H114838,12/22/21 8:00,Honda
+Sarah,Taunton,895 Himalaya Dr,Lemoore,CA,93245,sarahtaunton120@yahoo.com,2021,Jeep,Gladiator,1C6HJTAG6ML511379,H114663A,12/18/21 2:50,Honda
+Noe Alexis ,Gonzalez,1106 Sherman Ave,Corcoran,CA,93212,noegonzalez1936@gmail.com,2019,Honda,Civic Type R,SHHFK8G78KU201735,H11168,1/12/22 2:28,Honda
+Christy,Joaquin,1319 Barbara St,Selma,CA,93662,cmaej77@gmail.com,2018,Honda,Civic,2HGFC2F54JH524797,H11183L,1/19/22 3:09,Honda
+Fatima,Razon,15537 S West Ave,Caruthers,CA,93609,frazon07@gmail.com,2022,Honda,Civic,2HGFE2F25NH549861,H114779,12/20/21 0:07,Honda
+Jennifer,Yang,5678 N Flora Ave,Fresno,CA,93710,jenniferyang951@hotmail.com,2021,Honda,Accord,,,,Honda
+Jeffrey,Anderson,7151 N Pleasant Ave,Fresno,CA,93711,jbanderson27@gmail.com,2022,Honda,Pilot,,TBAPILOT,1/16/22 0:03,Honda
+Brandon,Espino,267 E Hollow Way,Dinuba,CA,93618,brandonespino371@gmail.com,2021,Honda,Civic Hatchback,SHHFK7H48MU421541,H114187,,Honda
+Samantha,Borum,2358 Kelty Mdw,Tulare,CA,93274,hairstylingsam@gmail.com,2022,Honda,Accord,1HGCV1F34NA016274,4103775,,Honda
+James,Hanada,6375 E Murphy St,Laton,CA,93242,jameshanada@hotmail.com,2022,Honda,Ridgeline,5FPYK3F71NB002519,H114647,12/18/21 0:22,Honda
+FRANCISCO,PUGA JR,1089 W AMBASSADOR DR,HANFORD,CA,93230,francidcp99@gmail.com,,,,,,,Honda
+Kawiya,Davis,1169 S Clovis Ave # 104,Fresno,CA,93727,mykidsrockz261723@gmail.com,2022,Honda,Accord,1HGCV1F11NA014724,H114846,12/30/21 4:27,Honda
+Sean,Touchstone,1351 N Willow Ave,Fresno,CA,93727,touchstones0@comcast.net,2016,Honda,Civic,2HGFC1F92GH644152,H11149,1/23/22 3:00,Honda
+Leonardo Marceleleno,Alba,926 K St Apt B,Sanger,CA,93657,dlalva729@gmail.com,2022,Honda,Civic,19XFL2H8XNE002196,H114812,12/24/21 21:09,Honda
+Norma,Canel,1050 Minnewawa Apt 157,Clovis,CA,93612,,2022,Honda,Accord,,,12/12/21 1:31,Honda
+Yvette,Bouphavong,3203 E Hammond Ave,FRESNO,CA,93703,sambrano.yvette@yahoo.com,2022,Honda,Civic,,TBA,12/4/21 2:43,Honda
+Gregory,Smith,10504 Dorsey Ct,Bakersfield,CA,93312,gsmithfamily@att.net,2022,Honda,Civic,2HGFE2F53NH552493,H114788,12/17/21 8:00,Honda
+Erika,Delk,203 Hampton Ct,Exeter,CA,93221,e.delk@hotmail.com,,,,,,,Honda
+Joseph,Canel,1050 Minnewawa Apt 157,Clovis,CA,93612,,2022,Honda,Accord,1HGCV1F14NA011414,H114810,12/23/21 5:34,Honda
+Maria,Hernandez,2002 S West Ave,Fresno,CA,93706,maria.gh1@icloud.com,2022,Honda,CR-V,2HKRW1H52NH400664,H114715,12/12/21 22:34,Honda
+Silvia,Mejia,3484 E Santa Ana Ave,Fresno,CA,93726,mejiasilvia30@gmail.com,2022,Honda,Accord Sedan,1HGCV1F48NA003911,H114718,12/12/21 22:35,Honda
+Juan,Meraz Ramos,16433 Lancaster St,Delhi,CA,95315,imelvilla@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F29NA003698,H114736,12/12/21 22:34,Honda
+Miriam,Lopez Felix,1101 Griffith Ave,Wasco,CA,93280,ramirezmiriam1129@gmail.com,2018,GMC,Sierra 1500,3GTP1NEJ1JG400673,H11119,12/12/21 22:46,Honda
+Mariela,Mejia,3853 N Orchard St,Fresno,CA,93726,mejiamariela@hotmail.com,2022,Honda,Accord,1HGCV1F48NA003911,H114718,12/12/21 22:36,Honda
+Bradley,Bahr,850 N Dewitt Abe,Clovis,CA,93611,bradleybahr@gmail.com,2022,Hyundai,Tucson,5NMJACAE6NH068145,Y16356,12/19/21 0:22,Honda
+Jose Rafael,Valdez Solis,725 S Madera Ave Apt 126,Madera,CA,93637,ovaldez1282@gmail.com,2022,Honda,Pilot,5FNYF5H57NB008250,H114772,12/13/21 3:14,Honda
+Elizabeth,Villagomez,1270 B St.,Orange Cove,CA,93646,bethvillagomez@yahoo.com,2022,Honda,Civic,2HGFE2F56NH550673,H114791,12/15/21 18:56,Honda
+Viveny,Aceves,4203 E Oak Ave,Visalia,CA,93292,viveny.aceves@gmail.com,2019,Honda,Odyssey,5FNRL6H98KB047785,H10959,12/14/21 2:24,Honda
+Sergio,Munguia,21957 Elmwood Rd,Madera,CA,93638,smtrucking2@gmail.com,2022,Honda,Ridgeline,5FPYK3F17NB001001,H114589,12/23/21 0:59,Honda
+Timothy,Huber,12260 Loren Way,Madera,CA,93636,tandj4ever1680@gmail.com,2019,Kia,Soul,KNDJP3A55K7655485,K3549R,12/14/21 20:06,Honda
+Kimberly,Machado,1985 E Cross Ave,Tulare,CA,93274,kimberlymachado94@gmail.com,2022,Honda,Pilot,5FNYF6H51NB018830,H114747,,Honda
+Samantha,Moore,3673 N McCall Ave,Sanger,CA,93657,manthamooo@gmail.com,2022,Honda,Accord,1HGCV1F50NA007167,H114740,12/15/21 21:10,Honda
+Vanessa,Lopez,2234 W San Lucia Ct Court,Porterville,CA,93257,mrlopezlhs@gmail.com,2022,Honda,Civic,2HGFC2F7XJH598355,HTBA1715,12/16/21 18:59,Honda
+Wanda,Barnes,,,,93602,wbarnes246@gmail.com,2021,Honda,Accord,1HGCV1F48MA108009,4102472,12/20/21 2:12,Honda
+Kulwinder,Padda,2459 Northington Dr,Tracy,CA,95377,singhkulwinder1919@yahoo.com,2022,Honda,Accord,1HGCV1F4XNA006597,H114753,12/16/21 3:11,Honda
+Steven,Osborn,895 Himalaya Dr.,Lemoore,CA,93245,crazyozcrazyoz@yahoo.com,2021,Jeep,Gladiator,1C6HJTAG6ML511379,H114663A,,Honda
+Kylie,Smith,10504 Dorsey Ct,Bakersfield,CA,93312,none@yahoo.com,,,,,,,Honda
+Lydia,Ford,1972 Jefferson Ave,Madera,CA,93637,ford3179@att.net,2022,Honda,CR-V,2HKRW1H83NH400361,H114708,12/20/21 2:15,Honda
+Yashica,House,827 N McCall Ave,Sanger,CA,93657,shicahouse5@gmail.com,2022,Honda,Civic,2HGFE2F5XNH554550,H114842,12/29/21 0:19,Honda
+Jose Alberto,De Leon Leon,2140 N Laureen Ave,Fresno,CA,93703,alberto_dl29@hotmail.com,2022,Honda,Civic,2HGFE2F53NH552185,H114787,12/19/21 3:35,Honda
+Gregory,Smith,,,,,,2022,Honda,Civic Sedan,2HGFE2F53NH552493,H114788,12/18/21 4:51,Honda
+Fermin,Salas,3502 E Lowe Ave,Fresno,CA,93702,fsalasjr804@gmail.com,2022,Honda,Civic,2HGFE2F25NH551772,H114790,12/23/21 0:58,Honda
+Lisette,Rubio-Vasquez,2651 Whitson St Apt 513,Selma,CA,93662,lisxrubio@gmail.com,2017,Mazda,CX-5,JM3KFBDL3H0165471,H114732A,12/17/21 21:53,Honda
+Chandara,Mong,2605 Dewitt Ave,Clovis,CA,93612,chan_mong@icloud.com,2022,Honda,Odyssey,5FNRL6H56NB046510,H114754,12/18/21 21:46,Honda
+Zuleka,Navarro Felix,1629 W HENLEY CREEK RD,REEDLEY,CA,93654,zulynava@live.com,2022,Honda,CR-V Hybrid,5J6RT6H86NL005747,H114705,12/18/21 8:00,Honda
+Isaac Paul,Castanon,5817 E Garrett Ave,Fresno,CA,93727,,2019,Honda,Civic Hatchback,SHHFK7H63KU406928,H11152,12/21/21 5:04,Honda
+Angela,Bohlander,3262 N Morning Dove Ln,Hanford,CA,93230,,,,,,,,Honda
+Israel,Bohlander,3262 N Morning Dove Ln,Hanford,CA,93230,angiejanell86@gmail.com,2022,Honda,Civic,2HGFE2F51NH550032,H114782,12/19/21 1:27,Honda
+Isabella,Miramontes,1017 Goble Ct,Tulare,CA,93274,isabella.mira@yahoo.com,2017,Chevrolet,Malibu,1G1ZE5ST5HF209796,H114743A,12/19/21 19:42,Honda
+Francisco,Puga Rios,1089 W Ambassador Dr,Hanford,CA,93230,,2022,Honda,CR-V,2HKRW1H5XNH401304,H114778,12/19/21 3:34,Honda
+Alondra,Piceno,15537 S West Ave,Caruthers,CA,93609,apicenorazon@gmail.com,,,,,,,Honda
+Alex Michael,Gutierrez,1985 E Cross Ave,Tulare ,CA,93724,kimberlymachado94@gmail.com,2019,Honda,Pilot,5FNYF6H90KB053485,H11083,12/20/21 20:54,Honda
+Manuel,Vasquez,823 S Redwood St.,Visalia,CA,93277,mellooking097@gmail.com,,,,,,,Honda
+Melissa,Vasquez,823 S Redwood St.,Visalia,CA,93277,kamm7767@gmail.com,2021,Honda,Ridgeline,5FPYK3F13MB024144,H114573,12/20/21 21:50,Honda
+Sukhdeep,Singh,3615 W Barstow Ave # D215,Fresno,CA,93711,sukhd7579@gmail.com,2022,Honda,Accord,1HGCV1F31NA005376,H114774,12/21/21 5:04,Honda
+Xiang,Yao,605 E Muir Ave,Reedley,CA,93654,xiangyao1998@gmail.com,2022,Honda,Accord Sedan,1HGCV1F4XNA012769,H114826,12/28/21 0:19,Honda
+Raul,Villalobos Iii,7087 N Thorne Ave Apt 204,Fresno,CA,93650,rv3the1@gmail.com,2017,Honda,Civic,19XFC1F3XHE211881,H114778A,1/1/22 0:24,Honda
+JACKELINE,GARCIA,2871 STILT LN,LOS BANOS,CA,93635,jaackelinegarcia@yahoo.com,,,,,,,Honda
+Bertha,Silvas,210 Cornell Ave,Coalinga,CA,93210,chellocutie123@gmail.com,2018,Honda,Civic,JHMFC1F77JX008504,H11125,12/22/21 3:44,Honda
+Luis,Gonzalez,3648 N elm Ct,Visalia,CA,93291,latinofarmlaborservice@yahoo.com,2019,Honda,Accord,1HGCV1F11KA155708,H111175,1/5/22 23:52,Honda
+BALDEMAR,GARCIA,2871 STILT LN,LOS BANOS,CA,93635,jaackelinegarcia@yahoo.com,2022,Honda,Accord,1HGCV2F32NA000743,H114801,12/22/21 1:13,Honda
+George,Story,2047 Stagecoach Pl,Tulare,CA,93274,storycraft47@yahoo.com,2021,Honda,Accord,,,,Honda
+Matthew,Sandoval,3505 W Babcock Ave Apt 3505,Visalia,CA,93291,matthewsandoval36@gmail.com,,,,,,,Honda
+Emily,Booker,5656 FLORENCE AVE,FRESNO,CA,93727,emilybooker122@gmail.com,2022,Honda,Civic,19XFL2H88NE002858,H114837,12/23/21 0:57,Honda
+Jesus,Rodriguez Carranza,510 s winery APT 203,fresno,CA,93727,gzuz366@gmail.com,2022,Honda,Civic,2HGFE2F59NH554202,H114820,12/23/21 5:32,Honda
+Johnny ,Gonzales Jr,1120 S Simon St,Visalia,CA,93292,gonzales0561468@outlook.com,2022,Honda,Accord Sedan,1HGCV2F35NA001045,H114815,,Honda
+Judith,Amaya,6671 N JEANNE AVE,FRESNO,CA,93722,guerraarmando95@yahoo.com,2021,Honda,Civic,SHHFK7H31MU203111,H11073,12/24/21 1:33,Honda
+Miguel Angel,Medina,207 Ivy Ave # 207,Coalinga,CA,93210,miguelmedina55914@gmail.com,,,,,,,Honda
+Janet,Morales,140 Orit Ave,Parlier,CA,93648,,,,,,,,Honda
+Yesenia,Vasquez,2940 Loyola Ave,Clovis,CA,93619,yeseniac96@hotmail.com,2022,Honda,Civic,19XFL1H77NE008605,H114872,1/17/22 8:00,Honda
+Manuel,Hernandez Jr,113 Palomino St.,Coalinga,CA,93210,mrlockdown@att.net,2022,Honda,Accord,1HGCV1F41NA012868,H114825,12/28/21 0:22,Honda
+Jose Antonio,Vasquez Jr,900 E CINNAMON DR,LEMOORE,CA,93245,lupevazquez78@yahoo.com,2022,Honda,Civic,2HGFE2F57NH551167,H114821,12/26/21 22:53,Honda
+Antonio Jimenez,Vazquez,16728 3RD ST,HURON,CA,93234,,,,,,,,Honda
+Monica ,Contreras,1210 N Court St,Visalia,CA,93291,,2022,Honda,Civic Sedan,2HGFE2F57NH556501,H114832,12/28/21 3:32,Honda
+Carolina,Segura De Gomez,12170 Albert Ave,Orosi,CA,93647,kimberlygomez461@yahoo.com,2022,Honda,Accord,1HGCV1F3XNA012696,H114877,1/9/22 1:55,Honda
+Damion,Vega,161 N Filbert Ave,Fresno,CA,93727,vegadamion28@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F26NA005554,H114829,12/27/21 18:55,Honda
+Isaiah,ORONA,1151 N Villa Ave Apt 22,Dinuba,CA,93618,,2022,Honda,Civic Sedan,2HGFE2F56NH556117,H114831,11/28/21 22:09,Honda
+Gerald,Nagata,39221 Rd 36,Kingsburg,CA,93631,gdn5852@aol.com,2022,Honda,Pilot,5FNYF5H51NB010642,H114873,12/28/21 0:21,Honda
+ALEXIS,EURICH,1151 N VILLA AVE APT 22,DINUBA,CA,93618,,,,,,,,Honda
+Deborah,Fenton,1490 E Magill,Fresno ,CA,93710,fentondebra@yahoo.com,2022,Honda,Odyssey,5FNRL6H52NB048044,H114807,12/28/21 0:19,Honda
+Sibley,Contreras Zamarripa,865 N Laurel,Lindsay,CA,93247,sibleycz@icloud.com,2021,Ford,Bronco Sport,3FMCR9B61MRA97123,H11121,12/28/21 0:34,Honda
+Axel,Ceballos Contreras,865 N Laurel,Lindsay,CA,93247,axelceballos10@gmail.com,,,,,,,Honda
+Neyda,Navarro-Diaz,657 N Mckinley Ave,Dinuba,CA,93618,neydanavarro921@gmail.com,2022,Honda,Accord,1HGCV1F3XNA014836,H114848,12/28/21 3:30,Honda
+Pedro,Gonzalez Jurado,424 Calle De La Vina,Delano,CA,93215,chuygonzalezc@icloud.com,2022,Honda,CR-V,2HKRW1H82NH401940,H114834,12/28/21 3:55,Honda
+Akshay,Kumari,7365 E Redlands Ave,Fresno,CA,93737,happybhambi@yahoo.com,2022,Honda,Pilot,5FNYF5H2XNB008913,H114861,12/29/21 22:35,Honda
+Yesenia,Vasquez,2940 Loyola Ave,Clovis,CA,93619,urboycv@gmail.com,2022,Honda,Civic Hatchback,19XFL1H77NE008605,H114872,1/18/22 2:06,Honda
+BENJAMIN,RUST,861 CLAREMONT AVE,SANGER,CA,93657,irolneb@outlook.com,,,,,,,Honda
+Ashley,Padilla,144 Timberline Way S,Madera,CA,93636,robbiepadilla8806@gmail.com,2020,Honda,Pilot,5FNYF5H52LB009464,H114786A,12/29/21 4:22,Honda
+Robbie,Padilla,144 timberline Way S,madera,CA,93636,robbiepadilla8806@gmail.com,,,,,,,Honda
+Clarissa,Oseguera,633 Crestwood Ct,Woodlake,CA,93286,clarissaoseguera@yahoo.com,2022,Honda,Civic,2HGFE1F91NH309097,H114793,12/29/21 22:13,Honda
+Jennifer,Lehr,42407 Juniper Rd,Auberry,CA,93612,jennydlehr53@gmail.com,2022,Honda,HR-V,,,,Honda
+Tawfik,Mohamed,2549 E Seeger Ave,Visalia,CA,93292,tony200400@yahoo.com,2022,Honda,Pilot,5FNYF5H24NB009006,H114819,12/29/21 4:21,Honda
+Paz,Barraza,1376 Lassen Dr,Hanford,CA,93230,pasion.1106@gmail.com,,,,,,,Honda
+Elias,Garcilazo Alcaraz,,Huron,CA,93234,elsagarcilazo@hotmail.com,2017,Honda,Civic Sedan,19XFC2F59HE222247,H114797A,12/31/21 17:44,Honda
+Antonio,Cotta,11670 10 1/2 Ave,Hanford,CA,93230,tcotta62560@yahoo.com,2022,Honda,Pilot,5FNYF5H53NB008603,H114809,12/29/21 22:14,Honda
+William,Lehr,42407 Juniper Rd,Auberry,CA,93612,jennydlehr53@gmail.com,2022,Honda,Ridgeline,5FPYK3F74NB007777,H114859,12/29/21 22:35,Honda
+Alexia,Lopez,2566 S Goldenstate Blvd # 7,Fowler,CA,93625,alexia.15lopez@gmail.com,2022,Honda,Civic Sedan,2HGFE2F51NH555537,H114841,12/30/21 3:32,Honda
+Jose,Trujillo-Vargas,721 E Kamm Ave,Dinuba,CA,93618,josetrujillo24@icloud.com,2022,Honda,Civic,2HGFE1F93NH311899,H114843,1/1/22 0:21,Honda
+Sydney,Earl,967 N. Roosevelt ,Fresno,CA,93728,sydneyearl15@gmail.com,2015,Kia,Sportage,KNDPB3ACXF7685028,H11121A,12/31/21 2:38,Honda
+Carlin,Davis,1169 S Clovis Ave # 104,Fresno,CA,93727,,,,,,,,Honda
+Diana,Stevens,206 portola Ave,exeter,CA,93221,,,,,,,,Honda
+Ashlyn,Stevens,206 Portola Ave,Exeter,CA,93221,ashlyn.stevens2121@gmail.com,2022,Honda,Civic,19XFL1H72NE006292,H114853,12/31/21 1:58,Honda
+Nicole,Rivera,1795 E Pkwy,Dinuba,CA,93618,nicoleashleyyyy@yahoo.com,2018,Honda,Civic Sedan,2HGFC2F53JH546967,H11163,12/29/21 0:21,Honda
+Isaiah Matthew,Deboard,811 S Burl Ave,Fresno,CA,93727,isaiahdeboard@gmail.com,2019,Honda,Civic,2HGFC2F8XKH602186,H11155,1/4/22 21:37,Honda
+Javier,Barajas Chagolla,528 E August Ave # 18,Reedley,CA,93654,bjdodger@yahoo.com,2020,Honda,Civic,19XFC2F8XLE202933,H11103,1/15/22 18:31,Honda
+Cindy,Slaughter,4860 E Lane Ave # 127,Fresno,CA,93727,cmoua0719@icloud.com,2022,Honda,Civic,2HGFE1F72NH311715,H114849,12/30/21 0:06,Honda
+Shaylee,Anwar,1311 E San Bruno Ave Apt D,Fresno,CA,93710,cheaptowingsd@gmail.com,,,,,,,Honda
+Christopher,Farmer,1264 Mt Langley Ct,Tulare,CA,93274,jaasminecastro01@gmail.com,2022,Honda,Accord,1HGCV1F4XNA008916,H114875,1/2/22 1:30,Honda
+Ramona,Diaz Rodriguez,721 E Kamm Ave,Dinuba,CA,93618,,,,,,,,Honda
+Lori,Rust,861 Claremont Ave,Sanger,CA,93657,IROLNEB@OUTLOOK.COM,2019,Jeep,Renegade,ZACNJABB4KPK42856,H114318A,1/1/22 0:22,Honda
+Mario,Cabrera,2930 S Fruit Ave,Fresno,CA,93706,,,,,,,,Honda
+Chantal,Osio,149 Linda Vista Dr,Lindsay,CA,93247,chantalosio@yahoo.com,2022,Honda,Accord,1HGCV1F30NA015302,H114868,1/1/22 0:24,Honda
+Yarra,Torres,2930 S Fruit Ave,Fresno,CA,93706,torres.yarra@yahoo.com,2013,Nissan,Altima,1N4AL3AP1DC131330,H114704A,1/1/22 0:25,Honda
+Teresa,Loera De Quintero,,Earlimart,CA,93219,danielquintero454@yahoo.com,2022,Honda,Accord,1HGCV1F38NA010378,H114865,1/1/22 2:54,Honda
+Abhay,Doshi,2611 HERITAGE AVE,CLOVIS,CA,93619,,2022,Honda,Pilot,5FNYF6H21NB027775,H114839,12/31/21 17:55,Honda
+Pamela,Espino,279 Village Dr,Dinuba,CA,93618,brandonespino371@gmail.com,2022,Honda,Civic,19XFL2H82NE006274,H114822,1/1/22 21:29,Honda
+Josefina,Sandoval Perez,507 Orchard St,Bakersfield,CA,93304,josefina.sandoval196944@gmail.com,2019,Toyota,RAV4,2T3K1RFV9KW012112,H114721A,1/1/22 22:30,Honda
+Viviana,Deniz,1894 W Tudor Ln,Hanford,CA,93230,vgurl1998@yahoo.com,2022,Honda,Accord,1HGCV1F41NA012109,H114864,1/2/22 0:47,Honda
+Ruben,Camarillo Gomez,3091 N Monroe,Fresno,CA,93723,runencamarillo71@icloud.com,2022,Honda,Accord,1HGCV1F4XNA012769,H114826,1/2/22 0:47,Honda
+Caren,Lugo,3091 N Monroe,Fresno,CA,93723,,,,,,,,Honda
+Sergio,Lemus Yepez,13284 Cherry St,Parlier,CA,93648,marialemus559@icloud.com,2022,Honda,Accord Hybrid,1HGCV3F27NA002971,H114814,1/5/22 2:42,Honda
+Servando,Gurrola,92 N Newmark Ave,Sanger,CA,93657,rgurrola2004@yahoo.com,2022,Honda,Accord,1HGCV1F4XNA016191,H114900,1/16/22 20:50,Honda
+Jessie,Sanchez,1240 Ben Franklin Ave,Tulare,CA,93274,,2022,Honda,Accord,,TBA1,1/3/22 0:48,Honda
+THERESA,Sanchez,1240 BEN FRANKLIN AVE,TULARE,CA,93274,,,,,,,,Honda
+Brianna,Walden,1376 Westminster Ave,Tulare,CA,93274,mrswalden1017@icloud.com,2021,Honda,Civic,2HGFC2F62MH524312,H11132,1/3/22 2:32,Honda
+Ihtisham,Anwar,1311 E San Bruno Ave Apt D,Fresno,CA,93710,cheaptowingsd@gmail.com,2022,Honda,Accord,1HGCV1F40NA012120,H114863,1/3/22 0:46,Honda
+Gabriela,Ceballos-Cisneros,19857 Nissa Ct,Strathmore,CA,93267,gabbyceb@gmail.com,,,,,,,Honda
+Isabel,Cisneros Herrera,,Strathmore,CA,93267,gabbyceb@gmail.com,2022,Honda,Accord,1HGCV1F34NA012368,H114827,1/3/22 2:27,Honda
+Deanna,Potts,2275 Kensington Way,Hanford,CA,93230,HAN559@SBCGLOBAL.NET,2009,Ford,Flex,2FMDK52C39BA13512,H114648A,1/3/22 2:31,Honda
+Monica,Rodriguez,530 L St,Sanger,CA,93657,monica_543211@yahoo.com,2019,Honda,Civic Sedan,JHMFC1F76KX002890,H11158,1/3/22 2:30,Honda
+Katrina,Montez,30669 Kit Fox St,Visalia,CA,93291,trina.montez7@gmail.com,2019,Honda,Accord Sedan,1HGCV1F3XKA052627,H114744A,1/5/22 2:40,Honda
+Jessica,Norman,1108 W Laurel Ave,Visalia,CA,93277,jess1418@yahoo.com,2022,Honda,Civic,19XFL1H81NE007099,H114874,1/4/22 2:00,Honda
+Vanessa,Barela,715 E Robinwood Ln,Fresno,CA,93710,vanessabarela1@gmail.com,2018,Honda,Accord,1HGCV1F50JA062437,H114891A,1/22/22 4:31,Honda
+Evangelina,Cano,550 Almond St,Parlier,CA,93648,boysmeda@gmail.com,2022,Honda,Accord Sedan,1HGCV1F32NA015320,H114866,1/4/22 18:37,Honda
+Marilyn,Hughes,804 N B St,Exeter,CA,93221,rushermarilyn@yahoo.com,2022,Honda,Accord Hybrid,1HGCV3F96NA006264,H114869,1/4/22 21:38,Honda
+Marqus Deven,Medrano,552 S Kenneth Ave,Kerman,CA,93630,devenmedrano22@gmail.com,2022,Honda,Civic,2HGFE2F50NH556825,H114850,1/5/22 2:40,Honda
+Josue,Gonzalez,847 S U St,Tulare,CA,93274,jgonzal11@yahoo.com,2017,Honda,Civic,SHHFK8G77HU202139,H11146,1/5/22 2:41,Honda
+Jesse,Sanchez,3436 N Forestiere Ave,Fresno,CA,93662,jrsanchez1224@gmail.com,2013,Honda,Civic,2HGFB2F55DH575510,H114810A,1/11/22 8:00,Honda
+Mandeep,Singh,176 Trevino Ave # 273,Manteca,CA,95337,saroyapamm711@gmail.com,2022,Honda,Accord,1HGCV1F31NA015342,H114867,1/5/22 8:00,Honda
+STELLA,MILLER,914 ASTI ST,DELANO,CA,93215,,,,,,,,Honda
+ANGELINA,Gonzalez,3648 N Elm Ct,Visalia,CA,93291,,,,,,,,Honda
+Manpreet,Kaur,6777 W OPAL DR,FRESNO,CA,93722,mpreet7@yahoo.com,2022,Honda,Accord Hybrid,1HGCV3F91NA002364,H114785,1/6/22 3:31,Honda
+Roberto,Molina,1020 N Turner St,Visalia,CA,93291,molina729@outlook.com,,,,,,,Honda
+Steven,Paz,35779 Highway 190 PO Box 886,Springville,CA,93265,pazsteven151@gmail.com,2016,Honda,Civic Sedan,19XFC2F59GE248488,H114875A,1/8/22 22:56,Honda
+Stephen,Hahn,3036 Pine St.,Hanford,CA,93230,stephen.isaac.hahn@gmail.com,2017,Hyundai,Ioniq Hybrid,,,,Honda
+Preston,Moreno,1751 5 3/4 Ave,Kingsburg,CA,93631,morenopres10@gmail.com,2018,Honda,Accord,1HGCV1F36JA087258,H114773A,1/8/22 20:03,Honda
+Javier,Moreno,1751 5 3/4 Ave,Kingsburg,CA,93631,,,,,,,,Honda
+Maria,Abarca,1020 N Turner St,Visalia,CA,93291,molina729@outlook.com,2018,Honda,Civic,2HGFC2F53JH546967,H11163,1/7/22 4:10,Honda
+Sok,Yen,1624 W Saginaw Way,FRESNO,CA,93705,sokyen1977@icloud.com,,,,,,,Honda
+Robert,Trice,3115 W Campus Ave,Visalia,CA,93277,rtrice77@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F28NA004325,H114851,1/8/22 1:26,Honda
+Frank,Uribe Jr,1624 W Saginaw Way,Fresno,CA,93705,guribe2003@yahoo.com,2022,Honda,Pilot,5FNYF5H3XNB007558,H114800,1/8/22 2:06,Honda
+Phuoc,Lang,3314 Bellaire Ave,Clovis,CA,93619,phuoclang33@gmail.com,2022,Honda,Civic,2HGFE2F51NH557627,H114854,1/8/22 3:51,Honda
+Thi Thuy Hang,Cao,3314 Bellaire Ave,Clovis,CA,93619,,,,,,,,Honda
+Ana Karen Hernandez,Saldana,1851 E Cherry Ln,Reedley,CA,93654,,2022,Honda,Accord Hybrid,1HGCV3F90NA004705,H114836,1/11/22 3:13,Honda
+Anabel,Terrazas,1625 E Park Way,Dinuba,CA,936182217,michelanabel2@gmail.com,2021,Ford,Bronco Sport,3FMCR9B60MRB01744,C11973,1/10/22 19:56,Honda
+Joanna,Bautista Garcia,1545 S Blythe Ave,Fresno,CA,93706,joannabautista472@yahoo.com,2022,Honda,Accord,1HGCV1F36NA015983,H114893,1/8/22 22:57,Honda
+Henry,Figueroa,1328 Hicks,Selma,CA,93662,isaiahmendez105@gmail.com,2022,Honda,Civic Sedan,2HGFE2F55NH559428,H114896,1/8/22 23:17,Honda
+ISAIAH,MENDEZ,3107 THOMPSON,SELMA,CA,93662,,,,,,,,Honda
+Maria Luisa,Valencia,1472 S Marion,Tulare,CA,93274,mariavalencia1979@yahoo.com,2021,Honda,Civic,19XFC1F34ME202460,H114798A,1/9/22 1:57,Honda
+Luz,Ibarra Raygoza,1513 Norween Way,Madera,CA,93638,mariatopete02@gmail.com,2019,Honda,Civic,19XFC2F84KE214400,H114817A,1/9/22 2:17,Honda
+Adam,Anaya,4545 W Cherry Ave,Visalia,CA,93277,,2020,Kia,Forte,3KPF24AD4LE151335,H114659A,1/9/22 5:17,Honda
+Oscar,Anaya,4545 W Cherry Ave,Visalia,CA,93277,,,,,,,,Honda
+Bryan,Hahn,3036 Pine St.,Hanford,CA,93230,,2017,Hyundai,Ioniq Hybrid,KMHC65LC1HU030865,H114807A,1/9/22 3:50,Honda
+Victoria,Diaz,1951 Bauder St,Selma,CA,93662,vhernandez8957@gmail.com,2018,Honda,Accord Sedan,1HGCV1F33JA248942,H114731A,1/10/22 0:15,Honda
+Gabriel,Islas,888 Bethel Ave Apt 226,Sanger,CA,93657,gabriel_islas@rocketmail.com,2022,Honda,Civic,19XFL2H86NE008559,H114939,1/10/22 0:16,Honda
+Kelsey,Orozco,2061 Carmele Ct,Coalinga,CA,93210,luisorozcocontreras@yahoo.com,2022,Honda,Civic,19XFL1H89NE008579,H114882,1/10/22 2:56,Honda
+Jesse,Sanchez,3436 N forestiere Ave,fresno,CA,93722,JRSANCHEZ1224@GMAIL.COM,2013,Honda,Civic Sdn,2HGFB2F55DH575510,H114810A,1/11/22 0:33,Honda
+Andrew,Paz,2804 Myrtle Ave,Sanger,CA,93657,drew.paz@hotmail.com,2017,Kia,Forte,3KPFL4A7XHE091527,H114720A,1/9/22 17:12,Honda
+Judy,Paz,2804 Myrtle Ae,Sanger,CA,93657,drew.paz@hotmail.com,,,,,,,Honda
+Margarita,Gutierrez,2255 S Plumas St Apt 244,Fresno,CA,93706,villamaggie7@gmail.com,2022,Honda,Civic,2HGFE2F51NH560995,H114918,1/22/22 0:38,Honda
+Adrian Jr.,Granados Jauregui,323 N B St.,Tulare,CA,93274,granadosadrian868@gmail.com,2013,Toyota,Tundra,5TFSY5F11DX136794,H11117A,1/18/22 4:25,Honda
+Benjamin Scott,White,1341 N Linda Vista Ct,Visalia,CA,93291,ben94080@yahoo.com,2015,Toyota,Tundra,5TFDY5F18FX478982,H114439B,1/15/22 22:02,Honda
+Donald,Borum,2358 Kelty Mdw,Tulare,CA,93274,hairstylingsam@gmail.com,2022,Honda,Accord,1HGCV1F34NA016274,H114902,1/14/22 0:12,Honda
+VIRGINIA,ACEVEDO,549 S DEL NORTE,Kerman,CA,93630,vacevedo46@yahoo.com,2022,Honda,HR-V,3CZRU5H55NM719932,H114769,1/26/22 2:36,Honda
+Olivia,Rivera Ayon,643 E Joanne Ave,Pixley,CA,93256,rivera12122987@icloud.com,2021,Honda,Accord,1HGCV1F3XMA113994,H11133,1/8/22 21:35,Honda
+Connie,Goulart,120 N B St Apt A,Exeter,CA,93221,conniegoulart7707@gmail.com,2022,Honda,Accord,1HGCV1F32NA010411,H114885,1/14/22 1:44,Honda
+Evelin,Lopez,3608 W Babcock Ct,Visalia,CA,93291,evelinlopez818@gmail.com,2021,Honda,Civic,2HGFC1F75MH701857,H11175,1/16/22 3:16,Honda
+Joel,Camacho,2130 Tammy Ln,Selma,CA,93662,joelcamacho995@gmail.com,,,,,,,Honda
+Aramis,Munoz Valverde,5485 E GRANT AVE,FRESNO,CA,93737,,,,,,,,Honda
+Christian,Donovan,6179 E Peruna Way,Fresno,CA,93727,donovanchristian37@gmail.com,2022,Honda,Accord,1HGCV1F47NA016164,H114898,1/17/22 0:45,Honda
+Alyssa Villarreal,Vedugo,1132 W Delta Ave,Tulare,CA,93274,noemail@gmail.com,2022,Honda,Ridgeline,5FPYK3F74NB009349,H114876,1/14/22 22:19,Honda
+Estefani,Alatorre,1072 W Encore,Hanford,CA,93230,estefani.alatorre727@gmail.com,2022,Honda,Accord Sedan,1HGCV1F35NA017675,H114926,1/15/22 2:33,Honda
+Daniel,Atlizqueno,5485 E Grant Ave,Fresno,CA,93737,acct.1.admvalverde@gmail.com,2022,Hyundai,Palisade,KM8R7DHE5NU341268,H114803A,1/14/22 0:19,Honda
+Noelle,Rodriguez,2446 N divisadero St,Visalia,CA,93291,,,,,,,,Honda
+Steven,Leoni,1407 W Myrtle Ave,Visalia,CA,93277,steveleoni@sbcgobal.net,2022,Honda,Accord,1HGCV1F30NA016000,H114895,1/15/22 19:48,Honda
+Angelo,Rodriguez,2446 N Divisadero St,Visalia,CA,93291,,2022,Honda,Civic Hatchback,19XFL1H72NE008687,H114886,1/15/22 22:03,Honda
+Donna Darlene,Loomis,938 Centennial Ct,Tulare,CA,93274,donnaloomis@hotmail.com,2018,Honda,CR-V,2HKRW5H31JH424843,H11074,1/15/22 2:32,Honda
+RICHARD DEAN,LOOMIS,938 CENTENNIAL CT,TULARE,CA,93274,,,,,,,,Honda
+Rodrigo,Flores Rodriguez,523 E Tower Ave,Fresno,CA,93706,rf314586@gmail.com,2019,Honda,Civic,2HGFC2F82KH531775,H11140,1/15/22 22:03,Honda
+Erica,Ortega,2744 Evergreen St,Selma,CA,93662,eriquiux75@gmail.com,2020,Honda,CR-V,2HKRW1H55LH427922,H11109,1/16/22 0:02,Honda
+Aaliyah,Navarro Gomez,2428 S Holly Ave,Fresno,CA,93706,aaliyahnavarro301@icloud.com,,,,,,,Honda
+Bethany,Anderson,7151 N Pleasant Ave,Fresno,CA,93711,,,,,,,,Honda
+Daisy,Camacho,2130 Tammy Ln,Selma,CA,93662,joelcamacho995@gmail.com,2020,Honda,Accord,1HGCV1F3XLA081434,H114724A,1/16/22 0:28,Honda
+Erick,Navarro,2359 S Lilly Ave,Fresno,CA,93706,none@gmail.com,2018,Honda,Civic,2HGFC2F56JH505975,H114710A,1/16/22 2:13,Honda
+Sandy,Prak,2617 Riverbend Dr,Modesto,CA,95351,lehongshong@yahoo.com,,,,,,,Honda
+Valerie,Wells,617 W SAN JOSE AVE,CLOVIS,CA,93612,vwells@fresnocoountyca.gov,2019,Honda,Civic,SHHFK7G44KU202946,H11021A,1/15/22 8:00,Honda
+Eduardo,Anguiano,880 Salisbury St,Porterville,CA,93257,eduardoanguiano51@gmail.com,2017,Chevrolet,Cruze,1G1BE5SM5H7210970,H114734A,1/16/22 20:48,Honda
+Martha,Zamora Godinez,8591 Gardenia Ave,Parlier,CA,93648,,,,,,,,Honda
+Sangley,Prak,2617 Riverbend Dr,Modesto,CA,95351,sandyprak@yahoo.com,2022,Honda,Civic,19XFL2H8XNE007107,H114883,1/16/22 22:53,Honda
+Eduardo,Herrera Vazquez,1225 Philip St,Madera,CA,93638,,2018,Honda,Civic Sedan,JHMFC1F94JX036391,H11118,1/30/22 1:00,Honda
+Jose,Barraza,1405 Barcelona Way,Madera,CA,93638,barrazajose74@yahoo.com,2019,Honda,Accord,1HGCV1F37KA007161,H11029,1/17/22 2:38,Honda
+Rebecca Lazalde,Ramirez,7359 N Teilman Ave,Fresno,CA,93711,iamfavored777@aol.com,2022,Honda,Civic,2HGFE1F76NH312365,H114892,1/18/22 2:07,Honda
+Scott Richard,Mettler,583 Timberline Way,Madera,CA,93636,scottmettler@att.net,2022,Honda,Accord Sedan,1HGCV1F44NA009267,H114804,1/17/22 22:13,Honda
+Maria del refugio,Cisneros ramos,1311 oak St,selma,CA,93662,,2022,Honda,Accord,2HGFE1F72NH313352,H114921,1/17/22 22:15,Honda
+Desmond,Curtis,127 Truman St,Coalinga,CA,93210,desmondcurtis258@gmail.com,2019,Honda,Civic,2HGFC2F63KH588713,H114853A,1/18/22 2:06,Honda
+Jazmin,Yanez,2037 Applewood St,Tulare,CA,93274,jazmin.yanez@yahoo.com,2022,Honda,Civic Sedan,2HGFE2F55NH560093,H114904,1/18/22 4:24,Honda
+Alejandro,Rivas Carlos,9060 S Colusa Ave /PO BOX 106,San Joaquin,CA,93660,alejandrorivas329@yahoo.com,2022,Honda,Accord,1HGCV1F4XNA016515,H114914,1/18/22 23:39,Honda
+James,Esquivel,5715 W Oswego Ave,Fresno,CA,93722,,2022,Honda,Civic Sedan,JHMFE1F71NX008532,H114903,1/19/22 3:09,Honda
+Gena,Hernandez,,,,,,2018,Honda,Accord Sedan,1HGCV1F93JA035624,H113888A,1/23/22 2:54,Honda
+Tonia,Morelli-Soria,6306 E Braly Ave,Fresno,CA,93727,,,,,,,,Honda
+Kee,Lee,1443 S Whitney Ave,Fresno,CA,93702,rvsa.2014@gmail.com,2022,Honda,Civic,2HGFE2F56NH560541,H114917,1/19/22 19:41,Honda
+Phyllis,Cardoza,3323 Manchester St,Tulare,CA,93274,lisa27koontz@gmail.com,2019,Honda,Pilot,5FNYF5H48KB012505,H11076,1/8/22 22:57,Honda
+Monica,Solorio,,,,,,2016,Honda,Civic Sedan,2HGFC2F73GH500369,H114895A,1/22/22 21:12,Honda
+Misael,Villarreal Jr,2382 Beth Page Ave,Tulare,CA,93274,daisymendoza@mail.fresnostate.edu,2022,Honda,Accord,1HGCV1F32NA016418,H114915,1/23/22 2:59,Honda
+Chantal ,Yin Cervantes,3275 Chester Ln Apt A,Bakersfield,CA,93309,chantalyin_2116@hotmail.com,2019,Honda,Accord,1HGCV1F11KA137905,H114899A,1/23/22 3:01,Honda
+Cianna,Valladares,1041 W Valley Dr,Visalia,CA,93277,cval6253@gmail.com,2022,Honda,Accord,1HGCV1F32NA017665,H114927,1/22/22 0:34,Honda
+Michael,Garza,3853 E Seeger Ave,Visalia,CA,93292,michael.garza-25@yahoo.com,2022,Honda,Civic,2HGFE2F57NH556501,H114832,1/22/22 4:29,Honda
+Gwendolyn,Salber,5804 W Elowin Dr,Visalia,CA,93291,bethsalber@gmail.com,2022,Honda,Accord,1HGCV1F1XNA012955,H114845,1/22/22 20:21,Honda
+Hector Dominik,Ramirez,679 N West St,Tulare,CA,93274,mannyramirezz21@gmail.com,2022,Honda,Civic,2HGFE2F5XNH561255,H114912,1/22/22 4:31,Honda
+Iqbal,Sandhu,5690 W Richert Ave,Fresno,CA,93722,TANEESHASANDHU@YAHOO.COM,2022,Honda,Accord Hybrid,1HGCV3F94NA005985,H114880,1/23/22 2:59,Honda
+Jose,Garcia Castillo,1636 Sequoia Ave,Corcoran,CA,93212,ashleypulido444@icloud.com,2022,Honda,Accord Hybrid,1HGCV3F91NA002364,H114785,1/23/22 2:55,Honda
+ASHLEY,CHAVEZ PULIDO,1636 Sequoia Ave,Corcoran,CA,93212,,,,,,,,Honda
+Rex,Lackey Jr,10130 N Heather Dr,Fresno,CA,93720,snlackey@icloud.com,2022,Honda,Civic,2HGFE2F59NH563515,H114935,1/25/22 1:40,Honda
+Adrian,Avila,277 Presidio Ave,Porterville,CA,93257,adrianavila100267@gmail.com,2022,Honda,Accord,1HGCV1F35NA020009,4106003,,Honda
+Carlos,Sanchez Martinez,2164 Jasper St,Selma,CA,93662,scarlos_1994@yahoo.com,2018,Honda,Pilot,5FNYF6H58JB041080,H11123,1/22/22 22:51,Honda
+Nicholas,Cesena Jauron,655 W Vassar Ave,Fresno,CA,93705,cesenan1@gmail.com,2022,Honda,Civic Sedan,2HGFE2F55NH563947,H114940,1/30/22 0:49,Honda
+Lucio Benito,Guerrero,717 W Dove Ct,Visalia,CA,93291,,2022,Honda,Accord Sedan,1HGCV1F35NA015795,H114894,1/23/22 3:01,Honda
+DAISY,MENDOZA,2382 BETH PAGE AVE,TULARE,CA,93274,,,,,,,,Honda
+Taneesha,Sandhu,5690 W Richert Ave,Fresno,CA,93722,taneeshasandhu@yahoo.com,,,,,,,Honda
+Keilani,Picquette,2120 Acacia Ave,Sanger,CA,93657,keilanipicquette9@gmail.com,2016,Honda,Civic Sedan,2HGFC2F73GH500369,H114895A,1/23/22 2:58,Honda
+Shalay,Lackey,175 N Burgan Ave,Clovis,CA,93611,,,,,,,,Honda
+Kent Robert,Wylie,788 W Willow Oak Ave,Porterville,CA,93257,,2022,Honda,Accord Sedan,1HGCV1F46NA016706,H114913,1/23/22 2:51,Honda
+Gena,Gonzalez De Hernandez,1934 Rialto Ct,Clovis,CA,93611,genahg@hotmail.com,2018,Honda,Accord,1HGCV1F93JA035624,H113888A,1/23/22 2:54,Honda
+KIMARI,Wylie,788 W Willow Oak Ave,Porterville,CA,93257,,,,,,,,Honda
+CINDY,LILIBETH,1934 RIALTO CT,CLOVIS,CA,93611,,,,,,,,Honda
+Salvador,Avila Gomez,277 Presidio Ave,Porterville,CA,93257,adrianavila100267@gmail.com,2021,Honda,Accord,1HGCV1F49MA069589,H114754A,1/23/22 2:55,Honda
+Kou Cha Melinda,Vang,5704 E Meck Ave Apt 15,Fresno,CA,93727,koucha1608@gmail.com,2022,Honda,Civic Hatchback,19XFL1H72NE008687,H114886,1/23/22 23:05,Honda
+Bertha,Ortega,37947 Kate Rd,Dinuba,CA,93618,danielaortega1510@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F21NA004599,H114856,1/24/22 0:50,Honda
+Crystal,Mendoza Mentle,3139 N Yuba Ave,Kerman,CA,93630,mendozacrystal27@gmail.com,2022,Honda,Accord,1HGCV1F11NA014304,H114919,1/23/22 23:09,Honda
+Roxanne,Garcia,1318 Evergreen St,Selma,CA,93662,roxannegarcia1987@yahoo.com,2019,Honda,Accord Sedan,1HGCV1F30KA035464,H11106,1/24/22 0:50,Honda
+Janet,Renteria,3670 Mccall Ave Apt 522,Selma,CA,93662,janetrenteria798@yahoo.com,2020,Honda,Pilot,5FNYF5H18LB025326,H11188L,1/26/22 8:00,Honda
+CASSANDRA DELENE,REBOLLERO,705 S EAST AVE,REEDLEY,CA,93654,crebollero@yahoo.com,,,,,,,Honda
+Javier,Gomez,3744 N brix Ave,Fresno,CA,93722,,2021,Honda,Passport,,,1/24/22 1:16,Honda
+Rolinda,Gomez,3744 N Brix Ave,Fresno,CA,93722,,,,,,,,Honda
+Julianna,Bejar,455 N THESTA APT 101,FRESNO,CA,93701,juliannabejar1445@icloud.com,2022,Honda,Accord,1HGCV1F11NA017560,H114911,1/24/22 8:00,Honda
+Sylvia,Zamora,42220 Rd 68,Dinuba,CA,93618,crebollero@yahoo.com,2022,Honda,HR-V,3CZRU6H51NM740511,H114905,1/24/22 1:58,Honda
+Ramiro,Robles Raygoza,4661 E Truman,Fresno,CA,93725,roscoe1027@yahoo.com,2022,Honda,HR-V,3CZRU5H53NM722618,H114816,1/24/22 3:03,Honda
+Juan,Guizar,2590 S ezie Ave,fresno,CA,93727,juanlguizar@icloud.com,,,,,,,Honda
+Jose,De La Cruz Reyes,617 N Brundage Ave,Farmersville,CA,93223,,,,,,,,Honda
+Valeria,Reyes-Chavez,2172 W Luisa Ave,Porterville,CA,93257,,2022,Honda,Civic Sedan,2HGFE1F72NH313352,H114963,2/4/22 2:59,Honda
+Elvira,Delacruz,1232 N Virginia Ave,Farmersville,CA,93223,jdelacruzreyes6@gmail.com,2019,Toyota,Camry,4T1B11HK7KU244530,H114866A,1/25/22 3:17,Honda
+Mayra,Barrientos,801 Stroud Ave Apt 37,Kingsburg,CA,93631,mayrabarrientos85@gmail.com,2022,Honda,HR-V,3CZRU5H52NM725834,H114909,1/27/22 18:09,Honda
+Stephanie,Suarez,604 Morgan Cmn,Livermore,CA,94551,stephaniesuarez9@icloud.com,2022,Honda,Accord Hybrid,1HGCV3F21NA004599,H114856,,Honda
+Sergio,Suarez-Mendoza,604 Morgan Cmn,Livermore,CA,94551,stephaniesuarez9@icloud.com,2022,Honda,Accord,1HGCV2F38NA002402,H114954,1/29/22 3:22,Honda
+Alejandra,Ferrel,3650 Navelencia Ave,Reedley,CA,93654,,,,,,,,Honda
+Daniel,Sanchez,3612 Morro Rock Pl,Madera,CA,93637,cgon512@gmail.com,2018,GMC,Sierra 2500HD,1GT12UEY6JF194519,H114809A,1/26/22 8:00,Honda
+Claudia,Gonzalez,3612 Morro Rock Pl,Madera,CA,93637,,,,,,,,Honda
+Phillip,Bilskey,35045 Manon Ave,Madera,CA,93636,philbilskey@gmail.com,2022,Honda,Accord Hybrid,1HGCV3F9XNA002377,H114802,1/30/22 3:36,Honda
+Connie,Lopez,32930 Rd 156,Ivanhoe,CA,93235,cmarie2110@gmail.com,2022,Honda,Civic,2HGFE2F55NH563916,H114952,1/29/22 2:54,Honda
+Leng,Thao,5678 N Flora Ave,Fresno,CA,93710,jenniferyang951@hotmail.com,2018,Honda,Accord,1HGCV1F39JA224676,H11150,1/29/22 1:58,Honda
+Geovanni,Estevez,440 S Clovis Ave Apt 108,Fresno,CA,93737,lennythefish82@gmail.com,2022,Honda,Civic,2HGFE2F5XNH564110,H114942,1/29/22 18:51,Honda
+Maria,Rodriguez-Lopez,440 S Clovis Ave Apt 108,Fresno,CA,93737,,,,,,,,Honda
+Regina,Olvera,6942 E Braly Ave,Fresno,CA,93727,reginaolvera76@gmail.com,2019,Honda,CR-V,5J6RW1H58KA048400,H114823A,1/30/22 0:49,Honda
+Maribel,Campos,1430 E Garland Ave,Fresno,CA,93704,malmaguer48@gmail.com,2018,Honda,Accord Sedan,1HGCV1F97JA019023,H114879A,2/2/22 21:41,Honda
+Julia,Rodriguez,669 Dodderer St,Firebaugh,CA,93622,,2019,Honda,CR-V,5J6RW1H53KA025896,HTBA5896,1/30/22 4:41,Honda
+Lesley,Ramos,620 Sixth St,Sanger,CA,93657,,,,,,,,Honda
+Gloria,Garcia,5750 E Lorena Ave,Fresno,CA,93727,monet2299@att.net,2022,Honda,CR-V,5J6RW1H85NA009309,H114938,1/30/22 0:48,Honda
+Yahir,Venegas lopez,2832 Peach St,Selma,CA,93662,yahirvenegas10@gmail.com,,,,,,,Honda
+Luis,Ramos,620 6th St,Sanger,CA,93657,insidious666@live.com,2022,Honda,Accord,1HGCV1F4XNA020385,H114957,1/30/22 0:48,Honda
+Emma,Espinoza decisneros,24116 Road 208,Lindsay,CA,93247,sandracisneros58@gmail.com,2022,Honda,Accord,1HGCV1F3XNA020653,H114958,1/30/22 0:55,Honda
+Jasmine,Perez,3975 E Dakota Ave Apt 103,Fresno,CA,93726,perezjasmine618@gmail.com,,,,,,,Honda
+Maria,Robles De Cervantes,3917 E Dakota Ave,Fresno,CA,93726,,2022,Honda,CR-V,,tbaa,1/30/22 0:53,Honda
+ABDULRAZAK,Mohamed,115 E Visalia Rd,Farmersville,CA,932231630,,2022,Honda,Accord Hybrid,1HGCV3F16NA008817,H114953,1/30/22 0:56,Honda
+Langston,Maddox,2250 COTTONWOOD CT,HANFORD,CA,93230,langstonmaddox@gmail.com,2022,Honda,Civic,2HGFE2F50NH562642,H114941,1/30/22 0:57,Honda
+Tanya,Leon,500 E Alpine St Apt 3103,Avenal ,CA,93204,tanyacastelan@ymail.com,2020,Honda,Civic Sedan,19XFC2F84LE203057,H114668A,1/31/22 2:22,Honda
+Kelsey,Casas,1070 E Northridge Dr,Dinuba,CA,93618,,2022,Honda,Civic Sedan,2HGFE2F57NH562539,H114945,1/30/22 0:59,Honda
+Isaiah,Ceja,1127 K St,Reedley,CA,93654,isaiahc497@gmail.com,,,,,,,Honda
+Amancio,Jackson Jr,2166 W nancy Ave,porterville,CA,93257,amanciojackson@att.net,2022,Honda,Accord,,,1/30/22 1:01,Honda
+Christopher,Jackson,2166 W Nancy Ave,Porterville,CA,93257,,,,,,,,Honda
+Cynthia,Herrera-Resendiz,1225 Philip St,Madera,CA,93638,,,,,,,,Honda
+Adriana,Nava,1877 E terrace Dr,Dinuba,CA,93618,,2022,Honda,Civic Sedan,2HGFE1F72NH313173,H114951,1/30/22 1:02,Honda
+Jessica Marie,Duarte Pena,4323 W Saginaw Way,Fresno,CA,93722,,2020,Honda,Civic Sedan,2HGFC2F80LH581091,H11091B,1/30/22 1:04,Honda
+Jayden,Pena,4323 W Saginaw Way,Fresno,CA,93722,,,,,,,,Honda
+Manuel,Garcia,2832 Peach St,Selma,CA,93662,yajirvenegas10@gmail.com,2018,Honda,Accord Sedan,1HGCV1F31JA264377,H114913A,1/30/22 1:03,Honda
+Juan,Santos plazola,480 Almond St,Parlier,CA,93648,santosjuan2910@gmail.com,2022,Honda,Civic,,TBA,1/30/22 22:38,Honda
+Frida,Santos,480 Almond St,Parlier,CA,93648,,,,,,,,Honda
+Jose,Martinez Silva,8564 RD 6,FIREBAUGH,CA,93622,luisjosee1974@gmail.com,2022,Honda,Accord,1HGCV1F17NA020561,H114959,2/1/22 2:41,Honda
+Fidel,Camacho,1051 E LINGO AVE,REEDLEY,CA,93654,carolcamacho3@icloud.com,2022,Honda,Accord,1HGCV1F14NA021019,H114960,1/31/22 2:19,Honda
+Joshua,Obannon,2504 20TH AVE,KINGSBURG,CA,93631,jjmcmcob@gmail.com,2014,Toyota,FJ Cruiser,JTEBU4BF0EK183686,H114874A,1/31/22 2:20,Honda
+Lily,Aldaco,14588 Walker Rd / PO BX 3634,Poplar,CA,93257,,,,,,,,Honda
+Javier Reyes,Cisneros,14588 Walker Rd / PO BX 3634,Poplar,CA,93257,cisnerosjavier9424@gmail.com,2022,Honda,Accord Sedan,1HGCV1F15NA019537,H114934,1/31/22 2:21,Honda
+SANDRA,BAEZ,17125 S COZZI AVE,DOS PALOS,CA,93620,sandie.baez@gmail.com,2022,Honda,HR-V,,TBA,1/31/22 2:23,Honda
+Priscilla,Vera,5927 W fallon Ave,fresno,CA,93722,msprisy@hotmail.com,2022,Honda,Accord Hybrid,1HGCV3F56NA009890,H114968,1/31/22 21:17,Honda
+Fabiola,Ceja Carranza,610 high St Apt B,Delano,CA,93215,brayantapia904@gmail.com,2022,Honda,Accord,1HGCV1F17NA021015,H114961,1/31/22 8:00,Honda
+Jessica,Gonzalez,2208 Poppyview Pl,Tulare,CA,93274,jess.0203@icloud.com,2022,Honda,Civic,2HGFE2F56NH562838,H114947,2/1/22 5:15,Honda
+Nancy,Holt,470 Pettit St,parlier,CA,93648,nancy051179@yahoo.com,2022,Honda,Civic Sedan,JHMFE1F71NX009261,H114969,2/3/22 1:02,Honda
+Izaiah,Cazares,470 Pettit St,Parlier ,CA,93648,izaiahcazares@yahoo.com,,,,,,,Honda
+Veronica,Martinez Velez,3556 N Duke Ave Spc 170,Fresno,CA,93727,,2022,Honda,Pilot,5FNYF5H5XNB009540,H114818,2/3/22 21:23,Honda
+Maria,Reyes,2172 W Luisa Ave,Porterville,CA,93257,mpreyes62@icloud.com,,,,,,,Honda
+Helen,Shane,3013 E Robinson Ave,FRESNO,CA,93726,h-shane@sbcglobal.net,2022,Hyundai,Santa Fe,5NMS64AJ8NH409523,Y16390,1/8/22 8:00,Hyundai
+Margarito,Gutierrez,714 N Glenn Ave,Fresno,CA,93728,alexgutierrez.ag193@gmail.com,2017,Chevrolet,Malibu,1G1ZB5ST1HF258535,Y16299A,1/12/22 3:17,Hyundai
+Andrea,Bridgman,1551 6th Avenue Dr Lot 67,Kingsburg,CA,93631,andybridgman@live.com,2022,Hyundai,Tucson,5NMJBCAE0NH075900,Y16384,1/7/22 0:30,Hyundai
+Miguel,Samaniego,12451 Luxor Ave,Orosi,CA,93647,maria_miguelsamaniego@gmail.com,2018,Hyundai,Tucson,KM8J33A44JU696639,Y16328A,1/30/22 0:16,Hyundai
+Mark,Symanski,650 S Elverta St,Visalia,CA,93292,phailsafedesigns@yahoo.com,2022,Hyundai,Sonata,KMHL34J2XNA195968,Y16373,1/22/22 3:30,Hyundai
+Patrice,Laurence,1865 Hatch Ave,Tulare,CA,93274,ladyp55@icloud.com,2021,Hyundai,Tucson,KM8J33AL5MU292518,S1124A,12/18/21 0:54,Hyundai
+Corina,Rains,7641 N Ivanhoe Ave,Fresno,CA,93722,corinarains@ymail.com,2018,Honda,Fit,3HGGK5H62JM708670,Y6487,12/19/21 22:59,Hyundai
+Julieanne,Jenkins,833 N Crenshaw St,Visalia,CA,93291,juantdom67@gmail.com,2020,Hyundai,Accent,3KPC24A62LE106950,Y16329A,1/9/22 21:23,Hyundai
+Angel,Hernandez Ramon,407 Greenwood Ave,Sanger,CA,93657,veracruz2379@icloud.com,2022,Genesis,G70,KMTG34TA7NU096311,S1131,1/10/22 20:32,Hyundai
+Tia,Zwetsloot,8916 Houston Ave,Hanford,CA,94518,zwetsloottia@yahoo.com,2022,Genesis,GV70,KMUMADTB9NU051027,S1129,1/5/22 21:34,Genesis
+Raul,Hernandez,407 GREEDWOOD AVE,SANGER,CA,93657,,2020,Genesis,G70,KMTG34LE2LU049879,Y6529,,Hyundai
+Gilberto,Delgadillo Agredano,280 Devon Dr,Lemoore,CA,93245,delgadillojilberto2@gmail.com,2015,Ram,1500,1C6RR7MT4FS520216,S1076A,12/13/21 18:51,Hyundai
+GABRIELA ,ESCOBAR  ,280 DEVON DR,Lemoore,CA,93245,,,,,,,,Hyundai
+Bernie,Valadez,722 N Clovis Ave Apt 130,Clovis,CA,93611,bernie5447@gmail.com,2018,Nissan,Sentra,3N1AB7AP5JY278292,S1107A,,Hyundai
+Cesario,Rios,39599 Road 80,Dinuba,CA,93618,valentin007001@gmail.com,2018,Hyundai,Tucson,KM8J33A2XJU799353,Y16296A,12/13/21 8:00,Hyundai
+Federico,Galindo,2592 Fig St,Selma,CA,93662,fedgalindo@hotmail.com,2022,Hyundai,Kona,KM8K6CABXNU802222,Y16307,12/18/21 8:00,Hyundai
+Virginia,Montiel,701 N Granada Dr Apt 73,Madera,CA,93637,stephanie.montiel@icloud.com,2019,Dodge,Grand Caravan,2C4RDGEG5KR709557,Y6532R,12/18/21 16:37,Hyundai
+Lituania,Duarte Zacarias,4769 E Dayton Ave,Fresno,CA,93726,ivanova4@hotmail.com,2022,Hyundai,Tucson Plug-In Hybrid,KM8JBDA20NU047479,Y16376,12/16/21 3:42,Hyundai
+Kristiana,Garcia,40 N Caesar Ave,Clovis,CA,93612,kristi1998garcia@gmail.com,2022,Hyundai,Palisade,KM8R74HE3NU400740,Y16332,12/17/21 1:45,Hyundai
+Michele,Ogle,4027 San Gabriel Ave,Clovis,CA,93619,mogle74@msn.com,,Hyundai,Elantra,,,,Hyundai
+Bradley,Bahr,850 N Dewitt Ave,Clovis,CA,93611,stacer325@gmail.com,,,,,,,Hyundai
+Stacy,Bahr,850 N Dewitt Ave,Clovis,CA,93611,stacer325@gmail.com,2022,Hyundai,Tucson,5NMJACAE6NH068145,Y16356,12/18/21 0:55,Hyundai
+Nicole,Walker,231 S Thomas Ave,Kerman,CA,93630,lmonroww@gmail.com,2022,Hyundai,Accent,3KPC24A66NE159136,Y16341,12/20/21 0:39,Hyundai
+Federio,Galindo,2592 Fig St,Selma,CA,93662,fedgalindo@hotmail.com,2022,Hyundai,Kona,KM8K6CABXNU802222,Y16307,12/19/21 4:02,Hyundai
+Jeff,Thompson,641 W Ellery Ave,Fresno,CA,93612,jefff9537@gmail.com,2018,Jeep,Grand Cherokee,1C4RJEAG6JC488920,Y6492,12/18/21 3:32,Hyundai
+Christopher,Bailey,1837 Softwind Dr,Tulare,CA,93274,chris1983bailey@gmail.com,2022,Hyundai,Sonata Hybrid,KMHL34JJXNA043941,Y16359,12/19/21 20:33,Hyundai
+Joshua,Montiel,3817 E Belmont Ave,Visalia,CA,93292,stephanie.montiel@icloud.com,,,,,,,Hyundai
+Tiffiny,Samarripa,731 E La Sierra Dr,Fresno,CA,93728,tiffinysamarripa@yahoo.com,2011,Honda,CR-V,5J6RE3H50BL045087,Y6440A,12/25/21 2:04,Hyundai
+Richard,Ogle,4027 San Gabriel Ave,Clovis,CA,93619,mogle74@msn.com,2022,Hyundai,Elantra,KMHLS4AG6NU273451,Y16358,12/18/21 22:28,Hyundai
+Anthony,Freitas,513 Nelder Grove St,Tulare,CA,93274,jenjen4824@aol.com,2022,Hyundai,Santa Fe,5NMS6DAJ5NH409785,Y16382,12/31/21 8:00,Hyundai
+ALEXIS,GALINDO,2592 Fig St,Selma,CA,93662,alexisvgalindo1@gmail.com,,,,,,,Hyundai
+Rudolpho,Tafoya,3726 Saginaw Ave,Clovis,CA,93619,rudolpho.tafoya@gmail.com,2022,Hyundai,Palisade,KM8R74HE6NU393587,Y16362,12/19/21 4:03,Hyundai
+Erin,Marcoux,1391 Hawthorn St,Hanford,CA,93230,erin.marcoux81@gmail.com,2018,Jeep,Wrangler Unlimited,1C4HJXEN3JW200785,Y6508,12/19/21 5:07,Hyundai
+Caitlin,Tafoya,3726 Saginaw,Clovis,CA,93619,caitlintafoya@gmail.com,2022,Hyundai,Palisade,,,,Hyundai
+Fernando,Serrano,450 N Quince Ave,Exeter,CA,93221,fernandoserrano2201@yahoo.com,2016,Kia,Optima,5XXGW4L25GG070555,Y6520,12/20/21 1:52,Hyundai
+Nicholas,Walker,231 S Thomas Ave,Kerman,CA,93630,cflwfo79@gmail.com,,,,,,,Hyundai
+Hany,Mansour,5737 W buena Vista Ave,Visalia,CA,93291,hany_man2001@yahoo.com,2022,Genesis,GV70,KMUMADTB5NU050957,S1128,12/22/21 3:45,Hyundai
+Fernando,Serano,450 N Quince Ave,Exeter,CA,93221,,,,,,,,Hyundai
+Antonio,Rodriguez,333 Kern St Apt 318,Kingsburg,CA,93631,selmacoldtony1954@gmail.com,2018,Hyundai,Sonata,5NPE34AF8JH633437,Y6444,12/21/21 16:04,Hyundai
+Maegen,Redman,31310 Road 400,Coarsegold,CA,93614,medebymaeco@gmail.com,2022,Hyundai,Tucson,5NMJBCAE0NH034375,Y16367,12/24/21 8:00,Hyundai
+Brian,Betschart,287 Carmel Ave,Pacifica,CA,94044,brian_betschart@yahoo.com,2022,Hyundai,Santa Fe Plug-In Hybrid,KM8S7DA23NU030083,Y16372,12/24/21 23:28,Hyundai
+JORGE,GALLEGOS OLIVARES,1601 El Paso Ave,Dinuba,CA,93618,joannruiz53@gmail.com,2021,Hyundai,Elantra,5NPLL4AG5MH015173,Y6530,12/23/21 22:18,Hyundai
+Alexander,Beinhorn,1185 Westwood Dr,Hanford,CA,93230,alexbeinhorn@yahoo.com,2018,RAM,1500,1C6RR6FT7JS299534,Y16189B,12/23/21 21:15,Hyundai
+Irene,Carlos,1767 PETERSON ST,Tulare,CA,93274,irenecarlos23@yahoo.com,2022,Hyundai,Santa Fe,5NMS1DAJXNH407299,Y16366,12/24/21 17:26,Hyundai
+Catalina,Flores,12629 Riverside Dr Apt 521,Valley Vlg,CA,91607,cat.flores@icloud.com,2022,Hyundai,Kona,KM8K33A38NU830926,Y16321,12/25/21 2:04,Hyundai
+Ma Luisa,Luna Flores,656 E Prosperity Ave Apt 1,Tulare,CA,93274,iribarren.leslie97@gmail.com,2022,Hyundai,Elantra,5NPLM4AG6NH066101,Y16342,12/27/21 19:48,Hyundai
+Rosalva,Lemus Murillo,28304 gromer Ave,Wasco,CA,93280,3rosalva90@gmail.com,2022,Hyundai,Accent,3KPC24A60NE158306,Y16340,12/27/21 3:01,Hyundai
+Simon,Yoh,41243 Balch Park Rd,Springville,CA,93265,simonyoh@gmail.com,2022,Hyundai,Ioniq Hybrid,KMHC05LC4NU271171,Y16284,12/28/21 1:38,Hyundai
+Benjamin,Hensley,1008 W Northstar Dr,Hanford,CA,93230,,2021,Hyundai,Palisade,KM8R4DHE6MU248542,Y6502,12/28/21 1:38,Hyundai
+Tony,Corona,1338 Plum St.,Selma,CA,93622,tonyjrcorona@gmail.com,2022,Hyundai,Ioniq Hybrid,KMHC75LC4NU279492,Y16369,1/5/22 5:19,Hyundai
+Travis,Compton,13188 E Ashcroft,Sanger,CA,93657,tlcompton92@gmail.com,2018,Hyundai,Tucson,KM8J3CA2XJU640235,Y6493,12/29/21 3:53,Hyundai
+John,Burns,330 S Miami Ave,Fresno,CA,93727,jburns1274@gmail.com,2022,Hyundai,Tucson Hybrid,KM8JFCA11NU039655,,12/29/21 3:52,Hyundai
+Barbara,Moore,876 N Woods St,Porterville,CA,93257,geema09@aol.com,2022,Hyundai,Accent,3KPC24A66NE159427,Y16360,12/29/21 3:52,Hyundai
+Shelly,Porter,14550A Ave 256,Visalia,CA,93292,sp93292@aol.com,,,,,,,Hyundai
+Dawn,Diestelkamp,1124 E Richmond Ave,Fresno,CA,93720,dld042354@sbcglobal.net,2022,Hyundai,Ioniq Hybrid,KMHC75LC6NU279557,Y16375,1/7/22 0:29,Hyundai
+Deanna,Hernandez,158 Elm Ave,Clovis,CA,93612,heyitsmedee@gmail.com,2022,Hyundai,Santa Fe Plug-In Hybrid,KM8S6DA2XNU030567,Y16361,12/30/21 8:00,Hyundai
+Deanna,Hernandez,158 Elm Ave,Clovis,CA,93612,heyitsmedee@gmail.com,2022,Hyundai,Santa Fe Plug-In Hyb,KM8S6DA2XNU030567,Y16361,12/31/21 1:40,Hyundai
+Lori,Ferguson,1010 S Jennie St,Visalia,CA,93277,leferguson18@gmail.com,2022,Hyundai,Sonata,KMHL34J2XNA188096,Y16370,12/31/21 1:40,Hyundai
+Olivia,Lopez Carrillo,1508 Muscat Pl,Hanford,CA,93230,olynal@sbc.global.net,2021,Hyundai,Palisade,KM8R44HE8MU264063,Y6542,12/31/21 2:28,Hyundai
+Alfred,Diaz,1508 Muscat Pl,Hanford,CA,93230,,,,,,,,Hyundai
+Luis,Gonzalez,712 Mallory Ct,Taft,CA,93268,lgonzalez@bak.rr.com,2022,Hyundai,Tucson,5NMJB3AE6NH076050,Y16383,1/3/22 1:25,Hyundai
+Andrea,Lopez,1873 N Hope Ave,Reedley,CA,93654,a17lopez@icloud.com,2019,Kia,Optima,5XXGT4L31KG277762,Y16243B,1/1/22 0:45,Hyundai
+Jorge,Gallegos,1601 El Paso Ave,Dinuba,CA,93618,joannruiz53@gmail.com,2021,Hyundai,Elantra,5NPLL4AG5MH015173,Y6530,12/23/21 8:00,Hyundai
+Jennifer,Freitas,513 Nelder Grove St.,Tulare,CA,93274,jenjen4824@aol.com,,,,,,,Hyundai
+Jesus,Maravilla,6379 S Chestnut Ave,Fresno,CA,93725,loregmaravilla@gmail.com,2022,Hyundai,Palisade,KM8R74HE0NU406379,Y16377,1/5/22 5:19,Hyundai
+Roela,Vazquez,1833 Walter Dr.,Los Banos,CA,93635,roela@gmx.com,2022,Hyundai,Elantra,KMHLM4AG0NU297450,Y16404,1/3/22 1:25,Hyundai
+Michael,Gutierrez,1055 Star Lilly Ct,Vacaville,CA,95687,nicano12@sbcglobal.net,2022,Hyundai,Elantra HEV,KMHLM4AJ1NU019281,,2/2/22 19:02,Hyundai
+Tonya,Garcia,900 W Pleasant Apt 36,Tulare,CA,93274,jadeheart777@yahoo.com,2022,Hyundai,Tucson,5NMJA3AE1NH051088,Y16353,1/3/22 2:07,Hyundai
+Shannon,Guss,14166 E Caruthers Ave,Kingsburg,CA,93631,shannongussemail@yahoo.com,2022,Hyundai,Tucson,5NMJACAE7NH076593,Y16379,1/5/22 5:21,Hyundai
+Sarah,Gonzalez,712 Mallory Ct,Taft,CA,93268,sarahgonz12@outlook.com,,,,,,,Hyundai
+Melisa,Zavala,2707 Nelson Blvd,Selma,CA,93662,nissas_kittie@yahoo.com,2022,Hyundai,Tucson,5NMJACAE4NH076812,Y16378,1/12/22 3:17,Hyundai
+Stephanie,Souza,1380 E Boyer Dr,Tulare,CA,93274,stephanie4hgp@sbcglobal.net,2021,Hyundai,Palisade,KM8R24HE0MU252673,Y6557,1/8/22 19:44,Hyundai
+Lorena,Garcia De Maravilla,6379 S CHESTNUT,Fresno,CA,93725,,,,,,,,Hyundai
+Maria,Corona,1338 Plum St.,Selma,CA,93662,tonyjrcorona@gmail.com,2022,Hyundai,Ioniq Hybrid,KMHC75LC4NU279492,Y16369,1/5/22 5:19,Hyundai
+Elizabeth,Lemus,1110 S I St Apt 31,Reedley,CA,93654,eliza.le@icloud.com,2019,Toyota,Camry,4T1B11HK4KU712102,Y6543,1/5/22 16:41,Hyundai
+Alice,Rocha,2656 N Cecelia Ave,Fresno,CA,93722,alicerocha423@yahoo.com,2016,GMC,Yukon,1GKS1CKJ0GR459908,Y6537,1/5/22 16:41,Hyundai
+Veronica,Rojas,14507 Avenue 328,Visalia,CA,93292,veronicarojas979@gmail.com,2016,Kia,Sorento,5XYPG4A37GG161427,Y16358A,1/10/22 20:31,Hyundai
+Maria,Duran Diestelkamp,1124 E Richmond Ave,Fresno,CA,93720,,,,,,,,Hyundai
+Tia,Zwetsloot,8916 Houston Ave,Hanford,CA,93230,zwetsloottia@yahoo.com,2022,Genesis,GV70,KMUMADTB9NU051027,S1129,1/7/22 0:29,Hyundai
+Sarina,Casares,863 E Spruce Ave,Fresno,CA,93720,scasares1980@gmail.com,,,,,,,Hyundai
+Ashley,Keener,6073 E Harvard Ave,Fresno,CA,93727,ashleykeener92@yahoo.com,2020,Genesis,G70,KMTG34LE2LU049879,Y6529,1/8/22 8:00,Genesis
+Ashley,Keener,6073 E Harvard Ave,Fresno,CA,93727,ashleykeener92@yahoo.com,2020,Genesis,G70,KMTG34LE2LU049879,Y6529,1/8/22 19:46,Hyundai
+Helen,Shane,3013 E Robinson Ave,Fresno,CA,93726,h-shane@sbcglobal.net,2022,Hyundai,Santa Fe,5NMS64AJ5NH409317,Y16355,1/8/22 19:44,Hyundai
+Nereida,Carbajal Torres,13405 Ave 432,Orosi,CA,93647,neretorres69@gmail.com,2022,Hyundai,Tucson,5NMJECAE0NH075953,Y16385,1/10/22 20:31,Hyundai
+Erica,Lewisfinley,7549 N Hanna Ave,Fresno,CA,93722,elew71@sbcglobal.net,2017,Hyundai,Santa Fe,KM8SM4HF3HU222612,Y16350A,1/14/22 0:46,Hyundai
+Maria,Dominguez,1717 Fireside Way,Lemoore,CA,93245,mariahyazmine@gmail.com,2022,Hyundai,Santa Cruz,5NTJBDAE0NH012130,Y16389,1/12/22 3:17,Hyundai
+Robert,Krinke,1890 Indianapolis Ave.,Clovis,CA,93611,rmkrinke@mac.com,2022,Hyundai,Tucson,5NMJE3AE5NH074829,Y16386,1/12/22 17:39,Hyundai
+Pavitter,Kaler,5334 Florence Ave,Fresno,CA,93727,hardeepbaca@gmail.com,2022,Hyundai,Santa Cruz,5NTJBDAEXNH012152,Y16388,1/13/22 2:15,Hyundai
+Chantelle,Castaneda,10787 Rd 256,Terra Bella,CA,93270,marie_93257@hotmail.com,2016,Chevrolet,Tahoe,1GNSCBKCXGR111896,S1127A,1/13/22 2:16,Hyundai
+Ramon,Castaneda,10787 Rd 256,Terra Bella ,CA,93270,,,,,,,,Hyundai
+Daisy ,Zamarripa Meza,14491 Chrisland Ave,San Jose,CA,95127,estrella.moran123@gmail.com,2018,Honda,Civic,SHHFK7H4XJU419107,Y6567I,1/14/22 0:48,Hyundai
+Estrella ,Moran Meza,14491 Chrisland Ave,San Jose,CA,95127,,,,,,,,Hyundai
+Lourdes,Hernandez,1158 W Walter Ave Unit 34,Fowler,CA,93625,lourdesh552@gmail.com,2022,Hyundai,Tucson,5NMJECAE8NH062853,Y16329,1/14/22 5:06,Hyundai
+Jonathon,Moskowitz,1832 S Teddy St,Visalia,CA,93277,squitz10@gmail.com,2022,Hyundai,Santa Cruz,5NTJCDAE3NH012748,Y16395,1/17/22 16:58,Hyundai
+Kera,Good,677 Bobwhite Ct,Merced,CA,95340,good4joshd@gmail.com,2022,Hyundai,Elantra,KMHLS4AG0NU282050,Y16393,1/16/22 19:37,Hyundai
+Yolanda,Cisneros,3427 Mulberry Ave,Selma,CA,93662,yolandajzc@gmail.com,2022,Hyundai,Tucson,5NMJBCAE5NH058378,Y16387,1/17/22 16:57,Hyundai
+Luis,Mariche,2472 S Woodrow Ave,Fresno,CA,93725,zhanellemariche@gmail.com,2019,Nissan,Sentra,3N1AB7AP6KY236246,Y6411A,1/20/22 3:03,Hyundai
+Rosa,Revilla,6487 N Bendel Ave,Fresno,CA,93711,,2019,Hyundai,Kona,KM8K22AA1KU332767,Y6527,1/18/22 19:23,Hyundai
+Robert,Sindelar,1159 King Apt a,El Cerrito,CA,94530,rwsindelar@gmail.com,2022,Hyundai,Venue,KMHRC8A31NU154718,Y16374,,Hyundai
+Silvia,Rodriguez Tafur de Sindelar,1159 King Ct # A,El Cerrito,CA,94530,silviatafur@gmail.com,2022,Hyundai,Venue,KMHRC8A3XNU154653,Y16396,1/23/22 4:29,Hyundai
+Manuel,Irigoyen,1701 Dinuba Ave Spc 216,Selma,CA,93662,,2019,Hyundai,Santa Fe,5NMS23AD4KH111191,Y6514,1/19/22 16:29,Hyundai
+EVA,IRIGOYEN,1701 Dinuba Ave Spc 216,SELMA,CA,93662,,,,,,,,Hyundai
+Natalie,Symanski,650 S Elverta St,Visalia,CA,93292,nickywb9@hotmail.com,2022,Hyundai,Sonata,KMHL34J2XNA195968,Y16373,1/21/22 8:00,Hyundai
+Bradley,Miller,3603 W Hillsdale Ave Apt 68B,Visalia,CA,93291,brdmll@aol.com,2020,Hyundai,Sonata Hybrid,KMHL24JJ3LA014006,Y6522,1/22/22 23:28,Hyundai
+John,Dossin,4003 E Meadow Ave,Visalia,CA,93292,jonboy8990@gmail.com,2019,Nissan,Murano,5N1AZ2MJ5KN128907,Y6502A,1/23/22 3:14,Hyundai
+Martin,Delgado,8653 E Ostler,Selma,CA,93662,martindmdj@hotmail.com,2022,Hyundai,Santa Fe,5NMS64AJ5NH409317,Y16355,1/22/22 2:22,Hyundai
+NATALIE,SYMASKI,650 S ELVENTRA ST,VISALIA,CA,93292,nickywb9@hotmail.com,,,,,,,Hyundai
+Phoueng,Melher,40 NORTH CORONA,WOODVILLE,CA,93257,,2020,Hyundai,Sonata Hybrid,KMHL54JJ6LA010409,Y6551,2/4/22 0:05,Hyundai
+Robin,Ruiz,1842 Madalyn Ave,Tulare,CA,93274,robinrae81@gmail.com,2022,Hyundai,Santa Fe,5NMS64AJ9NH403679,Y16365,1/23/22 4:30,Hyundai
+KYM,DOSSIN,4003 E MEADOW AVE,VISALIA,CA,93292,nzkiwi559@gmail.com,,,,,,,Hyundai
+Jesus,Galban Palma,473 N Sabre Dr,Fresno,CA,93727,jesuspalma@yahoo.com,2018,Hyundai,Santa Fe Sport,5NMZU4LA2JH107950,Y6490,1/24/22 0:58,Hyundai
+Susan,Ainley,3271 Finchwood Ave,Clovis,CA,93619,sainley@fresnochristian.com,2022,Hyundai,Santa Fe,5NMS2DAJXNH398276,Y16309,1/31/22 1:39,Hyundai
+Laura,Guerrero,305 Milham Ave,Kettleman City,CA,93239,nativega22@mail.fresnostate.edu,2020,Lexus,ES 350,58AGZ1B19LU053474,S1121A,1/27/22 0:09,Hyundai
+Sara,Garza,764 Petite Sirah Ln,Coalinga,CA,93210,sweetsara8504@yahoo.com,,,,,,,Hyundai
+Debra,Morris,14 E Dayton Ave,Fresno,CA,93704,,2020,Nissan,Rogue Sport,JN1BJ1CV1LW274797,Y16353A,1/28/22 2:48,Hyundai
+Brandon,Taylor,298 S Rainbow Ave,Sanger,CA,93657,brandon@barrelsunlimited.com,2022,Genesis,G80,KMTGB4SC6NU092207,S1111,1/28/22 8:00,Hyundai
+David,Reyes Salazar,3961 SUSSEX AVE,Clovis,CA,93619,,2022,Hyundai,Elantra,KMHLM4AG1NU283721,Y16402,,Hyundai
+Stephan ,Garza ,764 Petite Sirah Ln,Coalinga ,CA,93210,sweetsara8504@yahoo.com,2020,Hyundai,Palisade,KM8R44HE8LU050687,Y6549,1/30/22 0:16,Hyundai
+Brenda,Neufeld,3961 Sussex Ave,Clovis,CA,93619,brenda.neufeld@yahoo.com,,,,,,,Hyundai
+David,Ainley,3271 Finchwood Ave,Clovis,CA,93619,,,,,,,,Hyundai
+MARIA,SAMANIEGO,12451 LUXOR AVE,OROSI,CA,93647,,,,,,,,Hyundai
+Brandon,Taylor,298 S Rainbow Ave,Sanger,CA,93657,brandon@barrelsunlimited.com,2022,Genesis,GV80,KMUHCESC0NU085045,S1132,2/4/22 1:11,Hyundai
+Stephanie,Ortiz,184 S L St,Dinuba,CA,93618,,2022,Hyundai,Sonata,KMHL34J2XNA195968,Y16373,2/4/22 0:05,Hyundai
+Maurizio,Ghelfi,5214 W Cromwell Ave,Fresno,CA,93722,mghelfi@mlgproducetrading.com,2022,Hyundai,Santa Fe Plug-In Hyb,KM8S6DA27NU028291,Y16401,2/4/22 3:22,Hyundai
+Octavio,Herrera,12721 E Rose Ave,Selma,CA,93662,herrera8985@sbcglobal.net,2022,RAM,1500,1C6RREFT0NN172915,R55138,1/13/22 1:40,Selma CDJR
+Carlos,Rabena,504 W Harvard Ave,Fresno,CA,93705,bcrabena@pacbell.net,2021,Dodge,Challenger,2C3CDZJG3MH660511,R55158,1/15/22 17:13,Selma CDJR
+John,Wilson,1311 Mill St,SELMA,CA,936623823,DWILSON21511@GMAIL.COM,2022,RAM,1500,1C6SRFKT9NN191184,R55122,12/24/21 8:00,Selma CDJR
+Justin,Yager,41569 Bear Creek Rd,Springville,CA,93265,justinyager@ymail.com,2013,DODGE,DART,,R50572,,Selma CDJR
+Francisco,Quevedo,3647 S University,Visalia,CA,93277,aquevedo142@gmail.com,2022,Jeep,Compass,3C4NJDDB3NT134694,R55230,1/26/22 2:34,Selma CDJR
+Amanda,Quevedo,3647 S University,Visalia,CA,93277,aquevedo142@gmail.com,2022,Jeep,Compass,3C4NJDDB3NT134694,R55230,,Selma CDJR
+Ricardo,Guizar- Reyes,1504 N. Ferger,Fresno,CA,93728,ricardoguizar6@gmail.com,2022,RAM,1500,1C6SRFLT0NN189127,R55191,12/30/21 1:14,Selma CDJR
+Teresita,Rivera,2536 E Tyler Ave,Fresno,CA,93701,rteresita228@gmail.com,2020,Dodge,Charger,2C3CDXGJ7LH122125,R1906,1/11/22 8:00,Selma CDJR
+Rosario,Alcocer,701 W Redwood St,Hanford,CA,93230,alcocer.rosario@yahoo.com,2022,RAM,1500,1C6SRFHT5NN145178,R55176,12/29/21 4:22,Selma CDJR
+Christina ,Munoz,E Birch Ave Apt B,Visalia,CA,93292,christinamunoz30@gmail.com,2021,Kia,Forte,3KPF44AC8ME417944,K15524,,Selma CDJR
+Michael,Walker,799 Haliburton Way,Coalinga,CA,93210,irishblew99@yahoo.com,2022,RAM,1500,1C6RREFT5NN172196,R55188,12/31/21 1:39,Selma CDJR
+Baljit,Singh,6368 N Brex Ave,Fresno,CA,93722,baljitsingh93@icloud.com,2021,Dodge,Challenger,2C3CDZJG9MH660285,R55169,12/30/21 4:43,Selma CDJR
+Ricardo,Garcia,4027 W Oriole Ct,Visalia,CA,93291,,2021,Jeep,Gladiator,1C6HJTFG7ML601391,R55103,10/22/21 2:30,Selma CDJR
+Harpartap,Singh,2731 Hicks St,Selma,CA,93662,jagvirvirk@yahoo.com,2021,Dodge,Durango,1C4SDJCT2MC804538,R55107,10/31/21 1:13,Selma CDJR
+David,Meave,663 Bellis Ave,Dinuba,CA,93618,dmeave2222@gmail.com,2022,Ram,1500,1C6RREFT0NN172915,R55138,,Selma CDJR
+Nonamegiven,Sawan,3661 W Shields Ave Apt 188,Fresno,CA,93722,sawnsawn@gmail.com,2021,Dodge,Challenger,2C3CDZFJ5MH567641,R55103A,12/13/21 17:50,Selma CDJR
+Dulce,Meave,663 Bellis Ave,Dinuba,CA,93618,dmeave2222@gmail.com,2022,RAM,1500,1C6RREFT1NN178058,R55139,12/18/21 20:07,Selma CDJR
+Pedro,Uribe Garcia,19064 Empire St,Stratford,CA,93266,chicken.little.sanitation@gmail.com,2021,Dodge,Charger,2C3CDXHG6MH661436,R55156,12/14/21 4:44,Selma CDJR
+Ravinder,Singh,4259 W Bullard Ave Apt 235,Fresno,CA,93722,montesingh002@gmail.com,2022,RAM,1500,1C6SRFKT7NN189126,R55136,12/15/21 6:02,Selma CDJR
+Melik,Younes,2654 finchwood Ave,clovis,CA,93611,,2022,RAM,1500,1c6srflt8nn192065,,12/17/21 4:05,Selma CDJR
+Husein,Atef,2654 Finchwood Ave,Clovis ,CA,93611,,,,,,,,Selma CDJR
+Mirella,Gonzalez,863 W Cleo Ave,Porterville,CA,93257,,2020,Jeep,Wrangler Unlimited,1C4HJXDG7LW347567,R1933,12/20/21 1:49,Selma CDJR
+Elsa,Vargas,3818 Howard St,Selma,CA,93662,elgonzales@live.com,2021,Jeep,Grand Cherokee L,1C4RJKBG1M8141886,R54988,12/19/21 2:14,Selma CDJR
+Robert,Leist,1322 Van Ct,Hanford,CA,93230,,2015,RAM,1500,1C6RR7MT4FS520216,R1965I,12/18/21 18:43,Selma CDJR
+Jesus,Camarillo,3012 D St,Selma,CA,93662,cristalcamarillo59@gmail.com,2021,Jeep,Grand Cherokee L,1C4RJKBG6M8196303,R55194,12/20/21 1:49,Selma CDJR
+Tracey,Nieto,21165 Fresno St,Lost Hills,CA,93249,trherna74@gmail.com,2021,Dodge,Charger,2C3CDXHG4MH656218,R55173,12/20/21 2:06,Selma CDJR
+John,Wilson,2046 S WALDBY AVE,Fresno,CA,93272,,2022,RAM,1500,1C6SRFKT9NN191184,R55122,12/24/21 23:13,Selma CDJR
+Luis,Meza Nande,707 West Ave,Sanger,CA,93657,luismeza101@yahoo.com,2021,RAM,1500,1C6SRFRT8MN831650,R55155,12/22/21 3:08,Selma CDJR
+Amardeep,Sandhu ,3028 W Prescott Ave,Visalia,CA,93291,amar.sandhu@pantherinc.us,2021,Dodge,Charger,2C3CDXL91MH580854,R55178,12/22/21 16:34,Selma CDJR
+Marcelo,Reyes Jacuinde,1552 E Success Dr,Potterville,CA,93257,andreareyesjacobo@gmail.com,2021,Dodge,Charger,2C3CDXHG2MH556912,R55012A,12/24/21 2:32,Selma CDJR
+John,Wilson,2046 S Waldby Ave,Fresno,CA,93272,,2022,Ram,1500,1C6SRFKT9NN191184,R55122,12/24/21 23:13,Selma CDJR
+Raul,Perez,2539 W allen Ave,Visalia,CA,93291,rperez7288@outlook.com,2022,RAM,3500,3C63R3NL3NG153411,R55214,1/13/22 4:24,Selma CDJR
+Raul,Carillo Flores,815 E myrtle St,hanford,CA,93230,car.raul@yahoo.com,2020,Ford,F-150,1FTEW1C41LFA25001,R1961IR,12/27/21 1:36,Selma CDJR
+Gemma,Flores,3111 W Tyler Ave,Visalia,CA,93291,gemmaflores776@gmail.com,2022,RAM,1500,1C6SRFFM0NN134262,R55180,12/27/21 2:51,Selma CDJR
+CORNELIO,FLORES,3111 W Tyler Ave,Visalia,CA,93291,gemmaflores776@gmail.com,,,,,,,Selma CDJR
+Olga,Perez,2539 W Allen Ave,Visalia,CA,93291,rperez7288@outlook.com,,,,,,,Selma CDJR
+Rolando,Ozuna,19108 Ave 150,Porterville,CA,93257,rolando.ozuna@yahoo.com,2021,RAM,2500,3C6UR5ML4MG696380,R55109,12/29/21 4:23,Selma CDJR
+Yarra,Torres,2930 S Fruit Ave,Fresno,CA,93706,torres.yarra@yahoo.com,2018,RAM,2500,3C6UR5CL1JG333578,R55108A,1/3/22 1:37,Selma CDJR
+Amritpal,Singh,7223 San Bruno Ave,Fresno,CA,93723,amritusa253@icloud.com,2021,Dodge,Charger,2C3CDXHG0MH656216,R55165,12/30/21 0:40,Selma CDJR
+Gurmail,Singh,3825 Little Rock Dr Apt 18,Antelope,CA,95843,sahimanu019@gmail.com,2021,Dodge,Charger,2C3CDXHG2MH652619,R55203,12/30/21 4:44,Selma CDJR
+JARMANJIT,SINGH,7223 W SAN BRUNO AVE,FRESNO,CA,93723,,,,,,,,Selma CDJR
+Evelyn,Bryant,4579 E Santa Ana,Fresno,CA,93726,,2021,Jeep,Gladiator,1C6JJTBG4ML605941,R55183,1/1/22 0:49,Selma CDJR
+Edward,Lozano,544 E Keats Ave,Fresno,CA,93710,,,,,,,,Selma CDJR
+Mario,Ramirez,365 Regan Ave,Sanger,CA,93657,cbriceno2021@gmail.com,2021,Dodge,Charger,2C3CDXHG5MH655997,R55166,1/1/22 3:57,Selma CDJR
+Ivonne,Cortez,5748 E Pitt Ave,Fresno,CA,93727,ivonnecortez431@gmail.com,2021,Jeep,Wrangler Unlimited 4xe,1C4JJXP65MW782111,R55207,1/2/22 2:31,Selma CDJR
+Pablo,Cortez Cruz,5748 E Pitt Ave,Fresno,CA,93727,,,,,,,,Selma CDJR
+Mariselda,Torres,2930 S Fruit Ave,Fresno,,93706,torres.yarre@yahoo.com,,,,,,,Selma CDJR
+Baljinder,Singh,2654 N Constance Ave,Fresno,CA,93722,bindasandhu1234@yahoo.com,2021,RAM,1500,1C6SRFFMXMN738321,R55147,1/4/22 16:54,Selma CDJR
+Patricia,Montejano,544 E Keats Ave,Fresno,CA,93710,,2021,Dodge,Durango,1c4sdhct7mc845613,RTBA5613,1/6/22 2:16,Selma CDJR
+Bryan,Wilson,386 N Nichols Ave,Dinuba,CA,93618,,2018,Dodge,Challenger,2C3CDZBT9JH212930,R54993A,1/7/22 23:40,Selma CDJR
+Kimberly,Echevarria,2789 Bell Port Ave,Tulare,CA,93274,lourencokimberly@yahoo.com,2021,Jeep,Wrangler Unlimited 4xe,1C4JJXP67MW782112,R55189,1/8/22 0:19,Selma CDJR
+Janet,Reyes,1580 N St,san Miguel,CA,93451,,,,,,,,Selma CDJR
+Sadie,Beling,40905 Westwood Way,Oakhurst,CA,93644,sadiebeling@outlook.com,2021,Jeep,Wrangler Unlimited,1C4HJXDNXMW865530,R55210,1/10/22 16:47,Selma CDJR
+Denae,Yager,41569 Bear Creek Rd,Springville,CA,936020000,denaeyager@gmail.com,2022,Jeep,Compass,3C4NJDBB4NT125473,R55192,1/10/22 2:30,Selma CDJR
+David,Geniz Genizquintero,1344 Walnut St,Selma,CA,93662,111sgeniz@gmail.com,2022,Jeep,Compass,3C4NJDCB7NT116961,R55160,1/10/22 17:01,Selma CDJR
+Sandra,Geniz,1344 Walnut St,Selma,CA,93662,,,,,,,,Selma CDJR
+Charles,Clark,258 N Third St,Inyokern,CA,93527,chizuck33@yahoo.com,2019,Ford,F-250,1FT7W2BT8KEC60605,R55104A,1/15/22 23:22,Selma CDJR
+Barbara,Rabena,504 W Harvard Ave,Fresno,CA,93705,bcrabena@pacbell.net,,,,,,,Selma CDJR
+Miguel,Zaragozazepeda,983 E Ponderosa Ave Apt 101,Reedley,CA,93654,penny30.yj@gmail.com,2021,Dodge,Durango,1C4SDJCT8MC845448,R55199,1/16/22 0:04,Selma CDJR
+Kacey,Clark,258 N Third St,Inyokern,CA,93527,,,,,,,,Selma CDJR
+Jose,Amaya,14088 W B St,Kerman,CA,93630,josesegovia1968@gmail.com,2018,Jeep,Wrangler Unlimited,1C4HJXEG7JW231863,R1946,1/16/22 0:03,Selma CDJR
+Carolina,Mendoza-Avila,22554 rd 130,Tulare,CA,93274,abbey15liam19@gmail.com,,,,,,,Selma CDJR
+Leduvina,German,22554 Rd 130,Tulare,CA,93274,abbey15liam19@gmail.com,2016,Jeep,Wrangler Unlimited,1C4BJWDG1GL140373,R55119A,1/16/22 4:10,Selma CDJR
+Genaro,Chihuahua,2216 Alton St,Selma,CA,93662,genarochihuahua1@yahoo.com,2018,Dodge,Charger,2C3CDXHG8JH113546,R55142A,1/18/22 3:35,Selma CDJR
+Irene,Flores,4027 W Oriole Ct,Visalia,CA,93291,,,,,,,,Selma CDJR
+Kellen,Parker,985 Gotland Ct,Tracy,CA,95376,wkboardin2000@yahoo.com,2022,RAM,2500,3C6UR5CL1NG128235,R55233,1/22/22 2:31,Selma CDJR
+Isaac,Deleon,3441 W Kamm Ave,Dinuba,CA,93618,,2016,GMC,Sierra 2500HD,1GT12UE81GF196641,R55171A,1/22/22 3:45,Selma CDJR
+Leonel,Reyes,1580 N St,San Miguel,CA,93451,lreyes49er@yahoo.com,2021,Chrysler,300,2C3CCABT6MH672393,R55250,1/22/22 21:22,Selma CDJR
+Mackenzie,Nichols,2102 Cottonwood Ct,Hanford,CA,93230,,,,,,,,Selma CDJR
+Ethan,Nichols,2102 Cottonwood Ct,Hanford,CA,93230,,2019,RAM,1500,1C6RREMT3KN639890,R1785R,1/23/22 2:58,Selma CDJR
+Harsharan,Sandhu,2912 W Charleston Ave,Caruthers,CA,93609,harsharansandhu7@gmail.com,2022,RAM,1500,1C6SRFJT9NN221978,R55208,1/23/22 2:56,Selma CDJR
+Kamaljit,Kaur,2912 W Charleston Ave,Caruthers,CA,93609,harsharansandhu7@gmail.com,,,,,,,Selma CDJR
+Aquilina,Rodriguez De Cruz,3838 Snyder St,Selma,CA,93662,,2021,Jeep,Cherokee,1C4PJMMXXMD207018,R55154,1/23/22 2:54,Selma CDJR
+Maira,Andrade Rios,1290A 9th 1/4 Ave,Hanford,CA,93230,my.andraderios@gmail.com,2021,Dodge,Charger,2C3CDXCT8MH661300,R55184,1/24/22 1:27,Selma CDJR
+Obdulia,Diaz Monge,41876 Rd 154,Orosi,CA,93647,obyexitosa@yahoo.com,2021,Ram,1500,1C6SRFBT7MN805275,R55164,1/24/22 1:27,Selma CDJR
+Bridaymy,Hernandez,409 E Madera St,Avenal,CA,93204,,,,,,,,Selma CDJR
+Mayela,Hernandez,409 E Madera St,Avenal,CA,93204,bridaymyh@gmail.com,2021,Jeep,Cherokee,1C4PJMLB9MD237021,R55182,1/24/22 3:56,Selma CDJR
+Gulab,Singh,2911 grandview Ln,bakersfiled ,CA,93313,gulabvirk013@gmail.com,2021,Dodge,Charger,2C3CDXGJXMH663588,R55229,1/24/22 20:18,Selma CDJR
+Sunny,Sunny,5777 E Alta Ave Apt 203,Fresno,CA,93727,sgwalsunny7@gmail.com,2021,Dodge,Challenger,2C3CDZBT5MH641518,R55157,1/25/22 4:43,Selma CDJR
+Jasmer,Singh,5490 N Salinas Ave Apt 255,Fresno,CA,93722,jssarsa1990@gmail.com,,,,,,,Selma CDJR
+Jeremy,McLaughlin,1609 california Ave,dos palos,CA,93620,jeremy_mc@sbcglobal.net,2022,Ram,1500,1C6SRFJT8NN177617,R55226,1/26/22 2:31,Selma CDJR
+Manuel,Talamantez,3434 E Birch Ave,Visalia,CA,93292,anttalamantez35@icloud.com,2018,Kia,Sorento,5XYPK4A51JG380147,R1948,1/27/22 3:14,Selma CDJR
+Sherrill Louise,Dick,16044 Slough Dr,Lemoore,CA,93245,chunkynative03@icloud.com,2019,Chrysler,300,2C3CCAGGXKH539726,R55197A,1/27/22 1:17,Selma CDJR
+Jose Alfredo,Murillo,16044 Slough Dr,Lemoore,CA,93245,chunkynative03@icloud.com,,,,,,,Selma CDJR
+Henry,Petker,1044 N Pecan Ave,Reedley,CA,93654,noemail@gmail.com,2021,RAM,1500,1C6SRFFM1MN738322,R55065,1/27/22 22:18,Selma CDJR
+Elizabeth,Rodriguez,669 Dodderer St,Firebaugh,CA,93622,,,,,,,,Selma CDJR
+Luis,Torrez,5781 Pamona Rd,Firebaugh,CA,93622,,2019,Jeep,Grand Cherokee,1C4RJEAG4KC811489,R1952,1/28/22 19:47,Selma CDJR
+Rafael,Flores,2907 E HOLLAND AVE,Fresno,CA,93726,ralphiefresno@yahoo.com,2021,Dodge,Challenger,2C3CDZJG3MH672111,R55223,1/29/22 0:51,Selma CDJR
+Samuel,Monaco,8305 N victor Ave,fresno,CA,93711,,2021,RAM,1500,1C6RRFFG0MN817585,R55251,1/27/22 21:29,Selma CDJR
+Omar,Gonzalez,3835 E Stapp Ct,Visalia,CA,93292,,2021,Dodge,Charger,2C3CDXCT2MH661437,R55228,1/30/22 2:14,Selma CDJR
+Ralph,Trovar,1542 Rall Ave,clovis,CA,93611,,2021,Dodge,Challenger,2C3CDZJG8MH555494,R1926J,1/30/22 1:22,Selma CDJR
+Armando,Sanchez,18 5 1/2 Ave PO Box 314,Corcoran,CA,93212,,2018,Dodge,Journey,3C4PDCBG8JT526122,R1943,1/30/22 1:22,Selma CDJR
+Jonathan,Barry,595 E Bel Aire Dr,Dinuba,CA,93618,,2019,Honda,Civic,19XFC2F6XKE202802,R55125A,1/30/22 23:49,Selma CDJR
+Brianne,Barry,595 E Bel Aire Dr,Dinuba,CA,93618,,,,,,,,Selma CDJR
+Jolene,Willis,3283 Manchester St,Tulare,CA,93274,jojolene.willis@gmail.com,2021,Jeep,Grand Cherokee L,1C4RJKBG9M8178412,R55098,1/30/22 23:38,Selma CDJR
+Paul,Willis,3283 Manchester St,Tulare,CA,93274,wp810699@comcast.net,,,,,,,Selma CDJR
+Jose,Barreto,5411 E Sussex Ave,fresno,CA,93727,,2020,Dodge,Charger,2C3CDXGJ1LH174964,R1954,1/30/22 17:20,Selma CDJR
+Jatinder,Singh,4105 N Wind Dr,Bakersfield,CA,93313,,2021,Dodge,Charger,2C3CDXCT3MH661298,R55218,2/1/22 3:40,Selma CDJR
+Nora,Alaniz,321 Tait Ave,Sanger,CA,93657,alanor07@yahoo.com,2022,Jeep,Compass,3C4NJCBB2NT119682,R55170,2/4/22 4:15,Selma CDJR
+Ocie,Polk,1195 E Hanford armona Rd Apt 142,Hanford,CA,93245,ociepolk99@gmail.com,2021,Dodge,Charger,2C3CDXHG9MH655999,R55222,2/4/22 1:29,Selma CDJR
+Deysy,Martinez,1193 Elm Ct,Hanford,CA,93230,sweetdazie_22@yahoo.com,2015,Dodge,Charger,2C3CDXHG8FH890221,4068,7/31/15 10:00,Hanford CDJR
+Randall,Johnson,1365 W semillon St,hanford,CA,93230,elkbuster16@icloud.com,2020,GMC,Sierra 1500,1GTU9FEL5LZ152983,11194,12/24/21 2:03,Hanford CDJR
+David,Phillips,10155 Excelsior Ave,Hanford,CA,932309590,davephillips1979@yahoo.com,2022,Jeep,Gladiator,1C6JJTBM9NL106138,6806,12/30/21 2:32,Hanford CDJR
+Rebecca,Wagner,1415 california St,coalinga,CA,93210,wagherr@yahoo.com,2021,Jeep,Grand Cherokee L,1C4RJKAG4M8200396,6830,1/27/22 2:44,Hanford CDJR
+Tyler,Echevarria,2789 Bell Port Ave,Tulare,CA,932746294,tylerechevarria@yahoo.com,2022,RAM,1500,1C6SRFFM1NN154357,6739,1/10/22 1:55,Hanford CDJR
+Desiree,Martinez,23264 Avenue 188,PORTERVILLE,CA,932579544,desmartinez@ocsnet.net,,,,,,,Hanford CDJR
+David,Aviles,562 N Delwood St,Tulare,CA,93274,davidaviles1414@yahoo.com,2007,CHRYSLER,300,,,,Hanford CDJR
+Steven,Gallegos,20342 6th St,startford,CA,93266,1steve.gallegos4@gmail.com,2021,RAM,1500,1C6SRFFT7MN792568,6731,1/3/22 8:00,Hanford CDJR
+Marjorie,Silva,1025 Shady St,Lemoore,CA,932454722,m-silva@comcast.com,2021,Dodge,Durango,1C4RDHDG1MC878431,6824,1/19/22 0:11,Hanford CDJR
+Sylvester,Jimenez,20741 Veranda St,Laton,CA,93242,sylvesterj32@gmail.com,2022,Jeep,Grand Cherokee L,1C4RJKAG8N8521763,6807,12/27/21 0:57,Hanford CDJR
+Martin,Molina,13663 Lyn St,Armona,CA,93202,kk.mm.molina@gmail.com,2021,Jeep,Grand Cherokee,1C4RJFAG0MC817279,6710,,Hanford CDJR
+Kellen,Earls,525 Ash St,Lemoore,CA,93245,qbcoach1133@gmail.com,2022,RAM,1500,1C6SRFFM2NN134263,6749,12/18/21 2:32,Hanford CDJR
+Rosa,Cervantes Vidal,1191 Nicole Ave,Hanford,CA,93230,,2018,Jeep,Renegade,ZACCJADB3JPH67865,6795A,1/19/22 22:04,Hanford CDJR
+Vidal,Mauricio,,,,93245,mao0612vid@yahoo.com,2021,Jeep,Wrangler,,,11/10/21 19:12,Hanford CDJR
+Dean,Ramalho,480 Malibu Dr,Coalinga,CA,93210,dr820830@yahoo.com,,,,,,12/4/21 22:57,Hanford CDJR
+Marcela,Franco,19565 Empire St,Stratford,CA,93266,franco.marcela013@gmail.com,2019,Nissan,Sentra,3N1AB7AP8KY275842,11162,1/16/22 3:33,Hanford CDJR
+Jennifer,Andrade,625 N Enterprise Rd,Tulare,CA,93274,andradeliz99@gmail.com,2021,Dodge,Charger,2C3CDXHG0MH652618,6776,12/11/21 20:56,Hanford CDJR
+FERNANDO,ANDRADE RIVERA,625 N ENTERPRISE RD,TULARE,CA,93274,,,,,,,,Hanford CDJR
+Jamie,Cobian,16710 Saltgrass Ct,Lemoore,CA,93245,jamie53982@gmail.com,2021,Jeep,Grand Cherokee L,1C4RJKDG1M8192270,6666,12/20/21 8:00,Hanford CDJR
+Rodrigo,Armenta,16710 Saltgrass Ct,Lemoore,CA,93245,,,,,,,,Hanford CDJR
+Eduardo,Cadena,143 W D St,Lemoore,CA,93245,ehcadena74@gmail.com,2015,Jeep,Cherokee,1C4PJMBB2FW582836,6734A,12/14/21 18:24,Hanford CDJR
+Lenny,Ferguson,616 Church St,Visalia,CA,93277,taylenn1@gmail.com,2021,Dodge,Durango,1C4SDHCT7MC847149,6825,1/23/22 19:55,Hanford CDJR
+Jasmine,Perez,6014 N Augusta St Apt 102,Fresno,CA,93710,jasminemperez98@gmail.com,2021,Dodge,Challenger,2C3CDZJG1MH641763,6754,12/14/21 21:57,Hanford CDJR
+Montserrat,Solorio,11544 First Pl,Hanford,CA,93230,,2021,Jeep,Grand Cherokee L,1C4RJJBG1M8126279,6625,12/15/21 22:39,Hanford CDJR
+Saira,Witrago,414 W Hanford Armona Rd,Lemoore,CA,93230,,,,,,,,Hanford CDJR
+Luis,Contreras,414 W Hanford Armona Rd,Lemoore,CA,93245,,2019,Kia,Forte,3KPF24AD1KE106786,11170,12/17/21 2:30,Hanford CDJR
+Shane,Richardson,274 Hanson Ave,Clovis,CA,93611,scrichardson82@gmail.com,2022,Jeep,Wagoneer,1C4SJVDT2NS107179,6786,12/18/21 4:27,Hanford CDJR
+Laura,Richardson,274 Hanson Ave,Clovis,CA,93611,,,,,,,,Hanford CDJR
+Kinsey,Mauck,24399 Harley Way,chowchilla,CA,93610,houndhunter14@gmail.com,2016,RAM,1500,1C6RR7SM3GS200804,11200,12/19/21 5:13,Hanford CDJR
+Alisia,Bustos,27187 Parkwood Ave,Madera,CA,93637,aly.bustos@yahoo.com,2020,Mazda,Mazda3,3MZBPACL0LM119214,11224,12/19/21 1:24,Hanford CDJR
+Jose,Vazquez-Oviedo,42320 Rd 68,Dinuba,CA,93618,,2021,Dodge,Durango,1C4SDHCT9MC845595,6783,12/19/21 23:00,Hanford CDJR
+Janeth,Anguiano,20741 Veranda St,Laton,CA,93242,janethgarcia90@yahoo.com,2022,jeep,Grand Cherokee,,,,Hanford CDJR
+Benjamin,Salisbury,135 Rialto Ave,Clovis,CA,93612,merchantsmauer@yahoo.com,2017,Dodge,Grand Caravan,2C4RDGBG6HR548522,11083,12/22/21 3:32,Hanford CDJR
+Samantha,Sass,135 Rialto Ave,Clovis,CA,93612,samanthasass1985@gmail.com,,,,,,,Hanford CDJR
+Darin,Lake,10185 W Church,Fresno,CA,93706,darin@wbmco.com,2021,Jeep,Wrangler Unlimited,1C4JJXFGXMW841793,6823,12/23/21 19:33,Hanford CDJR
+Gregory,Davis,599 Huntington Ct,Lemoore,CA,93245,mrdavis121212@gmail.com,2021,RAM,2500,3C6UR5DL5MG585000,6692A,1/20/22 21:42,Hanford CDJR
+Jose,Vasquez Gutierrez,26646 Rd 132,Visalia,CA,93292,nativega22@gmail.com,2021,Jeep,Gladiator,1C6JJTBM2ML591818,6815,12/24/21 2:02,Hanford CDJR
+Milacris,Andres,1116 W windsor Ct,hanford,CA,93230,,2021,Jeep,Gladiator,1C6JJTEG6ML625085,6798,12/27/21 0:43,Hanford CDJR
+James,Andres,1116 W Windsord Ct,Hanford,CA,93230,jamesandres66@yahoo.com,,,,,,,Hanford CDJR
+Brittany,Zeigler,4210 E cambridge Ave,visalia,CA,93292,brittanyzeigler1@gmail.com,2015,GMC,Yukon,1GKS1BKC2FR139080,6628A,12/27/21 0:29,Hanford CDJR
+Damien,Phillips,14044 Jan Ct,Tulare,CA,93274,drdamienphillips@gmail.com,2021,Jeep,Wrangler Unlimited,1C4HJXDGXMW754767,6792,12/27/21 2:08,Hanford CDJR
+Tammie,Phillips,14044 Jan Ct,Tulare,CA,93274,tamphillipsrn@gmail.com,,,,,,,Hanford CDJR
+Manuel,Aparicio Caldera,4801 Capella Ct,Bakersfield,CA,93309,manuelapa1977@gmail.com,2018,Nissan,Sentra,3N1CB7AP3JY252458,N7909,,Hanford CDJR
+Alyssa,Alvarez,15326 Calabria Ct,Bakersfield,CA,93314,a.alyssa1991@yahoo.com,2014,Mazda,Mazda3,JM1BM1V78E1212154,6635A,12/31/21 16:22,Hanford CDJR
+Jazmyn,Lemus Martinez,1267 E Donnybrook Pl,Hanford,CA,93230,jazistar556@gmail.com,2021,Jeep,Gladiator,1C6JJTBM7ML592138,6794,12/30/21 2:31,Hanford CDJR
+Jeannette,Phillips,10155 Exclesior Ave,Hanford,CA,93230,jnetty62@yahoo.com,,,,,,,Hanford CDJR
+Angel,Parra,3803 E Braly Ave,Fresno,CA,93702,angelparra03@yahoo.com,,,,,,,Hanford CDJR
+Ma,Gomez Toro,3803 E Braly Ave,Fresno,CA,93702,angelparra03@yahoo.com,2021,Dodge,Charger,2C3CDXHG7MH655998,6816,12/31/21 1:49,Hanford CDJR
+Gabriel,Garcia,15326 Clabria Ct,Bakersfield,CA,93314,ggabe0803@gmail.com,,,,,,,Hanford CDJR
+Ma ,Molina Deflores,933 S 7th Ave,Avenal,CA,93204,,2021,Dodge,Challenger,2C3CDZBT3MH651223,6778,1/2/22 17:42,Hanford CDJR
+Adela,Sosa,102 E Lewis,Lindsay,CA,93247,,2020,Honda,Accord,1HGCV2F36LA022631,11221,1/3/22 0:13,Hanford CDJR
+Erik,Solis,1476 Babe Ruth Dr,Hanford,CA,93230,,2018,Genesis,G80,KMHGN4JB9JU223487,11240,1/3/22 2:33,Hanford CDJR
+Jazmine,Sandoval,9510 Home Ave,Hanford,CA,93230,jazminesandoval020@gmail.com,2018,Honda,Civic,SHHFK7H82JU425681,11166,1/3/22 23:19,Hanford CDJR
+Sarah,Luna,623 W Meadow Ln,Kingsburg,CA,93631,sarah_lynn_17@yahoo.com,2021,Jeep,Wrangler Unlimited,1C4HJXEN9MW832145,6812,1/6/22 3:14,Hanford CDJR
+Laurie,Gomez,2211 W School Ave,Porterville,CA,93257,gomez_laurie@yahoo.com,2020,Hyundai,Elantra,KMHD84LF1LU080211,11130S,1/6/22 0:09,Hanford CDJR
+Ulysees,Anaya,2211 W School Ave,Porterville,CA,93257,,,,,,,,Hanford CDJR
+Eleazar,Mosqueda,1193 Elm Ct,Hanford,CA,93230,mamosqueda22@yahoo.com,,,,,,,Hanford CDJR
+Michael,Pacheco,360 w cross,tulare,CA,93274,,2016,Honda,Accord,1HGCR2F85GA051222,11195,1/6/22 8:00,Hanford CDJR
+Cynthia,Camarillo,1088 Walnut Ave,Fowler,CA,93625,cindycamarillo4@gmail.com,2020,Dodge,Durango,1C4RDHAG8LC307425,6783A,1/8/22 18:38,Hanford CDJR
+Salvador,Garcia,904 E Dome St,Avenal,CA,93204,kingscom@sbcglobal.net,2021,RAM,2500,3C6UR5FL1MG570913,6749A,1/2/22 22:35,Hanford CDJR
+Hugo,Garcia,1770 W Henderson Ave,Porterville,CA,93257,hugogarcia78@yahoo.com,2021,Dodge,Charger,2C3CDXHG5MH671956,6818,1/13/22 3:36,Hanford CDJR
+Isidro,Landeros,4192 N Forestier Ave,Fresno,CA,93722,luisgonzalez45180@gmail.com,2020,RAM,1500,1C6SRFFT5LN418216,6757A,1/10/22 1:58,Hanford CDJR
+Hattie,Gosser,3115 N Thorne Ave Apt H,Fresno,CA,93704,myhhts54@icloud.com,2021,RAM,1500,1C6SRFJT7MN808436,6683,1/9/22 22:29,Hanford CDJR
+Valentine,Miguel,903 6 1/2 Ave,Corcoran,CA,93212,,2019,Nissan,Altima,1N4BL4CV0KC161406,11203R,1/13/22 3:37,Hanford CDJR
+Georgette,Lake,10185 W Church Ave,Fresno,CA,93706,,,,,,,,Hanford CDJR
+Antonio,Medrano,1198 N Lincoln St,Tulare,CA,93274,,2019,Toyota,Highlander,5TDZZRFH5KS342008,6584C,,Hanford CDJR
+Olga,Knight,1845 Bass Lake Ave,Tulare,CA,93274,o.knight05@gmail.com,2019,Toyota,Highlander,5TDZZRFH5KS342008,6584C,1/15/22 8:00,Hanford CDJR
+Natalia,Hernandez,774 La Dawna St,Tulare,CA,93274,natyhdez27@gmail.com,2022,Jeep,Grand Cherokee L,1C4RJKBG2N8507078,6831,1/19/22 22:05,Hanford CDJR
+Daniel,Delgado,1630 west prosperity,Tulare,CA,93274,,2021,Honda,Civic,,,,Hanford CDJR
+Alfredo,Martinez,223 Riviera Dr,Lemoore,CA,93245,,2021,Dodge,Charger,2C3CDXHG4MH632890,6701,1/23/22 1:45,Hanford CDJR
+Wade,Veneman,2687 Santa Ana Ave,Clovis,CA,93611,onemorebass@yahoo.com,2018,Jeep,Grand Cherokee,1C4RJEAG1JC485424,11182,1/23/22 1:43,Hanford CDJR
+Filadelfo,Rodriguez,12922 moody Creek Dr,redding ,CA,96003,,,,,,,,Hanford CDJR
+Andrea,Veneman,2687 Santa Ana,Clovis,CA,93611,,,,,,,,Hanford CDJR
+Nancy,Ortiz Rodriguez,12922 Moody Creek Dr,Redding ,CA,96003,,2022,Jeep,Grand Cherokee L,1C4RJKBG0N8507077,6832,1/23/22 1:54,Hanford CDJR
+Hailey,Vetter,1907 N Irma St,Visalia,CA,93292,hvetter94@gmail.com,2021,Jeep,Wrangler,1C4HJXAG8MW771037,6808,1/23/22 19:55,Hanford CDJR
+Jacob,Steeb,507 W cortner St,hanford,CA,93230,jasteeb1@gmail.com,2022,RAM,1500,1C6SRFFM9NN134261,6735,1/25/22 1:56,Hanford CDJR
+Anthony,Aviles,3482 E Bellaire Way,Fresno,CA,93726,anthonyaviles24@yahoo.com,2021,Dodge,Challenger,2C3CDZFJ0MH676718,6822,1/29/22 23:34,Hanford CDJR
+Rana,Aviles,3482 E Bellaire Way,Fresno,CA,93726,anthonyaviles24@yahoo.com,,,,,,,Hanford CDJR
+Mykel,Davis,513 Julia Ct,Hanford,CA,93230,mykeldavis@gmail.com,2021,Dodge,Challenger,2C3CDZFJ9MH543066,11223,1/27/22 23:01,Hanford CDJR
+John,Randolph,11721 3rd Pl,Hanford,CA,93230,nativega22@mail.fresnostate.edu,2015,Hyundai,Sonata,5NPE34AF2FH084941,6624C,1/28/22 20:34,Hanford CDJR
+Rosa,Cana,11390 shepard Dr,hanford ,CA,93230,,2019,Dodge,Challenger,2C3CDZAG0KH716711,11174,1/29/22 18:46,Hanford CDJR
+Theresa,Delgado,1630 w prosperity,tulare ,CA,93274,,2018,Toyota,Corolla,5YFBURHE2JP839561,11264,1/29/22 18:23,Hanford CDJR
+Sally,Avila,1229 S Capital Ct,Hanford,CA,932306503,navy.seals@comcast.net,2022,Jeep,Grand Cherokee L,1C4RJKBG0N8507077,6832,2/2/22 1:44,Hanford CDJR
+Maria Guadalupe,Tapia,1078 S Rupert Ave,Reedley ,CA,93654,cesartapia559@gmail.com,2022,Kia,Carnival,KNDNB4H34N6157038,V2751,12/28/21 23:45,Visalia Kia
+Melinda,Molina,3911 E Murray Ct,VISALIA,CA,93292,michellemolina117@yahoo.com,2019,Kia,Sportage,KNDPM3AC8K7510071,V7597,4/3/19 10:00,Visalia Kia
+Velinda,Garcia,172 S Newman Rd,TIPTON,CA,93272,PABLOVELI252@ICLOUD.COM,2022,Kia,K5,5XXG64J29NG132975,V2787,1/29/22 8:00,Visalia Kia
+Carmen,Marquez,171 N Balmayne St,Porterville,CA,93257,conejo_carmen@yahoo.com,2018,KIA,OPTIMA,,,,Visalia Kia
+Jesus,Garza,540 W Maple St,Exeter,CA,93221,jessesmialbox@yahoo.com,2016,Chevrolet,Silverado 1500,1GCRCPEC7GZ369471,V9171,1/20/22 21:41,Visalia Kia
+John,Molezzo,125 N Lindsay St,Visalia,CA,93291,bigmo1263@gmail.com,2022,Kia,Stinger,KNAE35LDXN6115215,V2746,1/18/22 2:41,Visalia Kia
+John,Hernandez,1524 Firestone Dr,Tulare,CA,93274,jhj_sjh@icloud.com,,,,,,,Visalia Kia
+Adrienne,Corrales,1744 Cochran Ave,Tulare,CA,932740932,corrales51@yahoo.com,2022,Kia,Sportage,KNDPM3AC1N7022603,V2775,2/4/22 16:58,Visalia Kia
+Juan,Lopez,33011 Road 156,Ivanhoe,CA,93235,juanlopez6420@gmail.com,2016,Toyota,RAV4,2T3RFREV5GW442714,V9157,1/9/22 8:00,Visalia Kia
+Jovina,Carlos,470 Descanso Bay Ct,Tulare,CA,93274,sweet 251984@yahoo.com,2019,Subaru,WRX,JF1VA1A62K9821875,V9046,1/18/22 22:08,Visalia Kia
+Virginia,Galaviz,8134 Road 132,Pixley,CA,93256,,,,,,,,Visalia Kia
+Eric,Ruelas,63 S H St,Portervile,CA,93257,eric55950@gmaiil.com,2019,Toyota,Camry,4T1B11HK0KU783636,V9134R,1/6/22 17:09,Visalia Kia
+Frank,Galaviz,8134 Road 132,Pixley,CA,93256,virgie.galaviz44@gmail.com,2019,Ford,Fiesta,3FADP4BJ9KM150608,V9126R,1/27/22 3:05,Visalia Kia
+Francisco,Villa Gutierrez,265 N Gale Hill Ave,Lindsay,CA,93247,fv112172@gmail.com,2022,Kia,Sorento,5XYRH4LF5NG092960,V2769,1/29/22 3:16,Visalia Kia
+Michael,Molina,3911 E Murry Ct,Visalia,CA,93292,molinamm00@gmail.com,2022,Kia,Sorento,5XYRK4LF5NG097657,V2789,1/26/22 8:00,Visalia Kia
+William,Castleberry,225 W Green Oaks Dr,Visalia,CA,93277,,2022,Kia,Rio,3KPA24AD2NE444549,V2741,12/28/21 8:00,Visalia Kia
+William,Carrillo,533 S Reservation Rd,Porterville,CA,93257,wcarrillo2@hotmail.com,2022,Kia,Stinger,KNAE35LD9N6115321,V2772,1/28/22 5:39,Visalia Kia
+Janette,Grado,171 N Balmayne St,Porterville,CA,93257,janettegrado@yahoo.com,2018,Chevrolet,Silverado 1500,3GCPCSEC6JG511777,V2670A,12/31/21 0:45,Visalia Kia
+Shelby,Ricketts,430 W Bravo Ave,Woodlake,CA,93286,godovermoney66@gmail.com,2018,Kia,Optima,5XXGT4L39JG224726,V2713A,12/18/21 8:00,Visalia Kia
+Frank,Palmaymesa,4350 W Robin Ave,Visalia,CA,93291,fmatsuji@icloud.com,,,,,,,Visalia Kia
+Melissa,Palmaymesa,4350 W Robin Ave,Visalia,CA,93291,momnkait@yahoo.com,2022,Kia,Sportage,KNDPM3AC7N7022539,V2764,1/19/22 1:12,Visalia Kia
+Carlos,Bermudez,313 1/2 W Tulare Ave,Visalia,CA,93277,carlosmbermudez22@gmail.com,2018,Kia,Forte,3KPFK4A75JE255095,V2725A,1/12/22 23:47,Visalia Kia
+Catherine,Redding,313 1/2 W Tulare Ave,Visalia,CA,93277,kayson5565@gmail.com,2021,Kia,Forte,3KPF34AD1ME401211,V2625,,Visalia Kia
+Hayden,Huston,6119 WREN CT,VISALIA,CA,93291,hustonhayden57@gmail.com,2022,Kia,Soul,KNDJ23AUXN7822451,V2780,1/30/22 23:59,Visalia Kia
+VALERIE,Sanchez,1323 W Seeger Ct,Visalia,CA,93277,kukakardashian@gmail.com,,,,,,,Visalia Kia
+Edward,Taylor,9314 Rd 236 Apt 10,Terra Bella,CA,93270,,2021,Kia,Forte,3KPF34AD1ME401211,V2625,12/15/21 0:14,Visalia Kia
+Tamara,Nordin,2138 E Howard Ave,Visalia,CA,93292,tamaranordin@yahoo.com,2022,Kia,Forte,3KPF24AD7NE431057,V2735,12/15/21 8:00,Visalia Kia
+Natilie,Gomez,2127 E Houston Ave # B,Visalia,CA,93292,,2018,Honda,Accord Sedan,1HGCV1F16JA177508,V9041,,Visalia Kia
+Evelia,Gonzales,218 N Manzanita,Visalia,CA,93292,egonzalez102472@yahoo.com,2022,Kia,K5,5XXG34J25NG123361,V2725,12/28/21 23:48,Visalia Kia
+Felix,Sanchez,1323 W Seeger Ct,Visalia,CA,93277,kukakardashian@gmail.com,,,,,,,Visalia Kia
+Justin,Ortega,552 N Verdugo Dr,Porterville,CA,93257,justinortega886@gmail.com,2022,Kia,K5,5XXG64J27NG118878,V2734,12/22/21 23:08,Visalia Kia
+Moises,Flores,4026 S Rova St,Visalia,CA,93277,moises.flores79@yahoo.com,2022,Kia,Rio,3KPA24AD5NE437787,V2736,12/19/21 0:29,Visalia Kia
+Jill,Swinson,2824 W Harter Ave,Visalia,CA,93277,jillswrld@comcast.net,2021,Kia,Soul,KNDJ63AU4M7762010,V2676A,12/20/21 1:12,Visalia Kia
+Robert,Mankins,537 N Stevenson,Visalia,CA,93291,bamkins68@gmail.com,2020,Kia,Soul,KNDJ23AU7L7028066,V2677B,12/20/21 1:13,Visalia Kia
+Fredrick,Sartuche,1481 E Burton Ave,Tulare,CA,93274,fsartuche@gmail.com,2018,Nissan,Versa Note,3N1CE2CP3JL354279,V9037,12/20/21 1:14,Visalia Kia
+Maro,Barragan,1865 Greyhound Ave,Tulare,CA,93274,marco.barragan559@yahho.com,2022,Kia,Telluride,5XYP54HCXNG241071,V2733,12/22/21 1:53,Visalia Kia
+Ian,Doellefeld,6219 W whitley Ave,Visalia,CA,93291,,2019,Nissan,Sentra,3N1AB7AP9KY430639,V9106R,12/23/21 8:00,Visalia Kia
+Carlos,Ramirez Torres,7077 Ave 408,Dinuba,CA,93618,,2022,Kia,Forte,3KPF54AD8NE438347,V2740,12/24/21 8:00,Visalia Kia
+Brad,Hull,37246 Misletoe Rd,Squaw Valley,CA,93675,,2017,Dodge,Journey,3C4PDDGGXHT543240,V9137,12/26/21 8:00,Visalia Kia
+Vanessa,Nunez,578 Fairhaven Ave,Porterville,CA,93257,nunez_dina90@yahoo.com,2022,Kia,Telluride,5XYP54HC0NG243931,V2738,12/27/21 17:27,Visalia Kia
+Omar,Gomezlopez,285 E Klindera Ave,Tipton,CA,93272,omargabby.gomez@gmail.com,2022,Kia,Sorento,5XYRH4LF4NG090763,V2739,12/27/21 1:12,Visalia Kia
+Gabriela,Flores,285 E Klindera Ave, Tipton,CA,93272,,,,,,,,Visalia Kia
+Eric,Pena,2103 N Highland St,Visalia,CA,93291,blackdiamondwindowtint@gmail.com,2017,Nissan,Frontier,1N6BD0CT7HN718403,V9143,12/28/21 2:37,Visalia Kia
+Brianna,Gonzalez,602 E Northview Ave,Visalia,CA,93292,,2016,Chevrolet,Sonic,1G1JC5SG5G4160728,V2676B,1/1/22 2:50,Visalia Kia
+Gerald,Sue,5645 W Sunnyview Ave,Visalia,CA,93291,adonismodel@yahoo.com,2019,Honda,Accord Sedan,1HGCV2F9XKA023834,V9144,12/28/21 2:38,Visalia Kia
+Adrian,Espitia lopez,1932 Clover Dr,Dinuba,CA,93618,Lopezadrian408@outlook.com,2022,Kia,Carnival,KNDNB4H34N6157038,V2751,,Visalia Kia
+Cynthia,Davis,936 S Vista St,Visalia,CA,93292,,2016,Toyota,Sienna,5TDYK3DC2GS705750,V2673A,12/28/21 2:39,Visalia Kia
+Pedro,Jaurrieta,2136 N Highland Ave,Visalia,CA,93291,,2016,Toyota,Tacoma,3TMAZ5CN2GM001916,V1749,12/28/21 21:50,Visalia Kia
+Cesar Armando,Tapia Velasco,1078 S Rupert Ave,Reedley,CA,93654,cesartapia559@gmail.com,,,,,,,Visalia Kia
+Jose,Lopez Figueroa,1009 S Silvervale St,Visalia,CA,93277,,2020,Chevrolet,Impala,1G1105S30LU109573,V9107R,12/30/21 0:25,Visalia Kia
+Jack,Hamblin,3711 W Mill Creek Dr,Visalia,CA,93291,njhamblin@yahoo.com,2017,Chevrolet,Equinox,2GNALBEK9H1546689,V9109,12/30/21 23:00,Visalia Kia
+Chalesa,Nutt,430 W Bravo Ave,Woodlake,CA,93286,,,,,,,,Visalia Kia
+Monica,Brown,3055 Emerald Bay Pl,Tulare,CA,93274,rmbrown516@gmail.com,2022,Kia,Forte,,,,Visalia Kia
+Nancy,Hamblin,3711 W Mill Creek Dr,Visalia,CA,93291,njhamblin@yahoo.com,,,,,,,Visalia Kia
+Kenneth,Dawson,37757 Rio Vista Dr,Springville,CA,93265,kenneth.dawson28@yahoo.com,2022,Kia,Seltos,KNDEUCA23N7285013,V2749,12/31/21 20:12,Visalia Kia
+Sandra,Dawson,37757 Rio Vista Dr,Springville,CA,93265,,,,,,,,Visalia Kia
+Gabrielle,Soto,2110 S LOCUST,Visalia,CA,93277,gabriellelsoto@gmail.com,,,,,,,Visalia Kia
+Carol,Lankard,1325 S Manzanita,Visalia,CA,93292,,2022,Kia,Seltos,KNDEPCAA5N7287389,V2748,1/1/22 2:49,Visalia Kia
+Brett,Parker,5873 COLD SPRINGS DR,FORESTHILLS,CA,95631,,2017,GMC,Yukon XL,1GKS2HKJ5HR218289,V9133,12/31/21 8:00,Visalia Kia
+Alvaro,Areola,2002 N Court St,Visalia,CA,93291,alvaromaldonado9@gmail.com,2019,Toyota,Camry,4T1B11HK0KU783636,V9134R,1/3/22 17:09,Visalia Kia
+Doris,Zavala Scott,661 Wellington St,Porterville,CA,93257,doris.zavala13@gmail.com,2022,Kia,K5,5XXG64J21NG127527,V2758,1/4/22 2:43,Visalia Kia
+Ryan,Brown,3055 Emerald Bay Pl,Tulare,CA,93274,,,,,,,,Visalia Kia
+Christine,Rau,301 Jacob Pl Spc 27,Exeter,CA,93221,cmjohnston79@gmail.com,2021,Kia,Forte,3KPF34AD1ME401211,V2625,1/5/22 1:57,Visalia Kia
+Alexander,Munoz,840 N Ash Ave,Lindsay,CA,93247,,2022,Kia,Stinger,KNAE35LD9N6113830,V2745,1/5/22 1:57,Visalia Kia
+RICARDO,DOMINGUEZ,840 N ASH AVE,TULARE,CA,93274,,,,,,,,Visalia Kia
+Tammy,Uranday,3024 W Ashland Ave,Visalia,CA,93277,mexicanbarbie65@gmail.com,2020,GMC,Sierra 1500,3GTU9BET0LG318951,V9132,1/5/22 22:25,Visalia Kia
+Jessica,Estrada,19560 Apt B Rd # 244,Strathmore,CA,93267,,2018,Kia,Optima,5XXGT4L32JG194677,V9001,,Visalia Kia
+Susana,Ruelas,,,,,,,,,,,,Visalia Kia
+Petra,Estrada,19560 Rd 244 # B,Strathmore,CA,93267,mpetra59@yahoo.com,2021,Hyundai,Sonata,5NPEG4JA1MH128613,V9118R,1/6/22 1:45,Visalia Kia
+Modesto,Estrada,315 Mark Twain Ave,Tulare,CA,93274,modesto.estrada1998@gmail.com,,,,,,,Visalia Kia
+Robert,Estrada,315 Mark Twain Ave,Tulare,CA,93274,modesto.estrada1998@gmail.com,2017,RAM,2500,3C6TR5EJ2HG639710,V9042,1/7/22 17:07,Visalia Kia
+Lonna,Smith,2924 N Willis Ct,Visalia,CA,93277,disneyland_lonna@yahoo.com,,,,,,,Visalia Kia
+Paul,Peterson,2425 SE Cottonwood Cir,Visalia,CA,93277,honkoponko20@yahoo.com,2022,Kia,Sorento Plug-In Hybrid,KNDRMDLH1N5076714,V2767,1/8/22 8:00,Visalia Kia
+Kristie,Torrez,344 E Laura Ct,Visalia,CA,93277,kristietorrez@yahoo.com,2022,Kia,Forte,3KPF54AD3NE439518,V2742,1/8/22 18:13,Visalia Kia
+Ofelia,Archuleta,491 N Bates Ave,Dinuba,CA,93618,,2017,Kia,Sedona,KNDMC5C18H6264084,V9073,1/8/22 18:13,Visalia Kia
+Guadalupe,De La Cruz,2428 W Princeton Ave,Visalia,CA,93277,julesnlupe@gmail.com,2022,Kia,Sportage,KNDPM3AC3N7020609,V2763,1/10/22 8:00,Visalia Kia
+Julian,Delacruz,2428 W Princeton Ave,Visalia,CA,93277,julesnlupe@gmail.com,,,,,,,Visalia Kia
+Madeline,Baltazar,2824 Lakeridge Ct,Tulare,CA,93274,,,,,,,,Visalia Kia
+Tamera,Todd,22755 Ave 178,Porterville,CA,93257,m.todd09@yahoo.com,2022,Kia,Soul,KNDJ23AU6N7175675,V2771,1/22/22 23:33,Visalia Kia
+Monica,Peterson,2425 SE Cottonwood Cir,Visalia,CA,93277,,,,,,,,Visalia Kia
+Ernesto,Baltazar,2824 Lakeridge Ct,Tulare ,CA,93274,lmb24cali@yahoo.com,2022,Kia,Soul,KNDJ23AU2N7172482,V2762,1/9/22 20:01,Visalia Kia
+Matthew,Todd,2122 N PARK DR,PIXLEY,CA,93256,m.todd09@yahoo.com,,,,,,,Visalia Kia
+Susan,Hamilton,3321 W Connelly Ave,Visalia,CA,93291,rhamilton1953@yahoo.com,,,,,,,Visalia Kia
+Russell,Hamilton,3321 W Connelly Ave,Visalia,CA,93291,,2022,Kia,Sorento,5XYRLDLC9NG094263,V2757,1/12/22 2:49,Visalia Kia
+Miguel,Garcia,217 E Laura Ave,Visalia,CA,93277,dymedyme101@yahoo.com,,,,,,,Visalia Kia
+Jonathan,Vasquez,2632 E Harvard Ave,Visalia,CA,93292,jvasquez.eliteauto@gmail.com,2021,Chevrolet,Tahoe,1GNSCNKD1MR151712,V9172,1/15/22 2:36,Visalia Kia
+Nereyda,Manning,30638 Cottontail St,Visalia,CA,93291,una.nereyda@icloud.com,2022,Kia,Stinger,KNAE35LD2N6115225,V2759,1/15/22 2:36,Visalia Kia
+Taha,Mohamed,115 E Visalia Rd,Farmersville,CA,93223,tahahussein506@gmail.com,,,,,,,Visalia Kia
+Taher,Mohamed,115 E Visalia Rd,Farmersville,CA,93223,,2019,Dodge,Challenger,2C3CDZFJ3KH758987,V9082,1/15/22 2:36,Visalia Kia
+Daniel,Duran,1748 San Antonio Ave,Dinuba,CA,93618,dandur26@gmail.com,2022,Kia,Forte,3KPF54AD9NE441046,V2768,1/15/22 23:07,Visalia Kia
+George,Duran,1748 San Antonio Avenue,Dinuba,CA,93618,DURANSFAMILY05@GMAIL.COM,2022,Kia,Forte,3KPF54AD9NE441046,V2768,1/17/22 8:00,Visalia Kia
+Reina,Perez,1700 S Encina St,Visalia,CA,93277,reinameraz5@icloud.com,2021,Nissan,Rogue,5N1AT3BA8MC676182,V2684A,,Visalia Kia
+Joshua,Russell,808 S GIDDINGS ST,VISALIA,CA,93277,,,,,,,,Visalia Kia
+Elizabeth,Russell,808 S Giddings St,Visalia,CA,93277,josh5646@hotmail.com,2018,Kia,Forte,3KPFK4A73JE271067,V2753A,1/17/22 1:23,Visalia Kia
+Sandra,Arce De Lazcano,319 S F ST,Tulare,CA,93274,sergiolazcano38@yahoo.com,2020,Kia,Sorento,5XYPG4A53LG636826,V9159,1/18/22 2:41,Visalia Kia
+Brandy,Butler-White,881 Legend Dr,Lemoore,CA,93245,,,,,,,,Visalia Kia
+Christopher,Perez,1700 S Encina St,Visalia,CA,93277,chriscutz777@gmail.com,2021,Nissan,Rogue,5N1AT3BA8MC676182,V2684A,1/18/22 2:42,Visalia Kia
+Joshua,White,881 Legend Dr,Lemoore,CA,93245,jwball06@yahoo.com,2022,Kia,Niro EV,KNDCC3LG4N5139377,V2760,1/18/22 2:42,Visalia Kia
+Brian,Evans,1822 Arkansas Ave,Tulare,CA,93274,brian.evans7156@gmail.com,2018,Ford,Edge,2FMPK3J94JBC32460,V9028,1/16/22 1:14,Visalia Kia
+Antoinette,Burk,506 S G St Apt 104,Madera,CA,93637,poepadoe@gmail.com,2013,Nissan,LEAF,1N4AZ0CP6DC417314,V9144A,1/8/22 8:00,Visalia Kia
+Kayla,Frank,1210 N Laspina St,Tulare,CA,93274,kashburn.9513@gmail.com,2022,Kia,Sorento,5XYRH4LF9NG091469,V2755,,Visalia Kia
+Marie,Garcia,14850 Ave 296,VISALIA,CA,93292,luxeterna1010@yahoo.com,,,,,,,Visalia Kia
+Uriel,Valenzuela,12883 Ella Ave,Orosi,CA,93647,uriel95valenz@gmail.com,2022,Kia,K5,5XXG64J23NG118876,V2770,1/20/22 21:37,Visalia Kia
+Jude,Crown,4939 W Fiano Ave,Visalia,CA,93292,judeisdriving@gmail.com,2019,Ford,EcoSport,MAJ3S2GE3KC290973,V9079A,1/11/22 16:57,Visalia Kia
+Rebecca,Duarte,718 N Bridge St Apt A,Visalia,CA,93291,rebeccaduarte14@icloud.com,2016,Honda,Civic,2HGFC2F78GH528670,V2758A,1/20/22 1:15,Visalia Kia
+Gloria,Hernandez,671 E Isham Ave # 2,Porterville,CA,93257,,2017,Honda,Accord,1HGCR2F56HA236449,V9062,1/20/22 21:38,Visalia Kia
+Richard,Cranston,3427 W Newton Ct,Visalia,CA,93291,rdancranston@gmail.com,2020,Kia,Optima,5XXGT4L39LG392434,V9165R,1/22/22 2:18,Visalia Kia
+Amber,Cranston,3427 W Newton Ct,Visalia,CA,93291,amberlynnbob@hotmail.com,,,,,,,Visalia Kia
+Irma,Giron Diaz,460 N E St,Tulare,CA,93274,,2017,Jeep,Renegade,ZACCJBBB2HPF31372,V2704A,1/22/22 2:19,Visalia Kia
+CAYETANO,LOZA DIAZ,460 N E St,Tualare,CA,93274,,,,,,,,Visalia Kia
+Jesus,Calvario Rojas,724 N Bridge St Apt A,Visalia,CA,93291,,2017,Kia,Sportage,KNDPM3AC3H7083813,V9092A,1/22/22 23:27,Visalia Kia
+Nicholas,Rodriguez,1153 N Howland St,Porterville,CA,93257,,,,,,,,Visalia Kia
+Desiree,Ybarra,1153 N Howland St,Porterville,CA,93257,,2016,Chrysler,200,1C3CCCAB5GN170507,V9160,1/23/22 8:00,Visalia Kia
+Taz,Schrader,125 W Oak View Dr,Visalia,CA,93277,tazschrader@gmail.com,2015,Chevrolet,Silverado 1500,1GCRCREC7FZ270756,V1746,1/26/22 2:21,Visalia Kia
+Teffenie,Schrader,125 W Oak View Dr,Visalia,CA,93277,,,,,,,,Visalia Kia
+Norma,Almeraz,2738 Goldridge St,selma,CA,93662,almerna1979@yahoo.com,2022,Kia,Stinger,KNAE35LD9N6115321,V2772,1/27/22 3:06,Visalia Kia
+ALEXA,ALMAREZ,2738 GOLDRIDGE ST,SELMA,CA,93662,,,,,,,,Visalia Kia
+Alma, Gonzalez Pelayo,2504 Patterson Ave,Corcoran,CA,93212,amrjzb15@gmail.com,2022,Kia,Sorento,5XYRG4LC9NG098298,V2777,1/28/22 5:38,Visalia Kia
+Sinead,Johnstone,362 E FRONT ST,FARMERSVILLE,CA,93223,sinea_montoya@yahoo.com,2018,Ford,Fiesta,3FADP4TJ6JM129454,V9118S,1/28/22 18:18,Visalia Kia
+Alexandria,Suniga,1112 E Whitney St Apt 2B,Avenal,CA,93204,rebolledoalexandria@gmail.com,2022,Kia,Rio,3KPA24AD1NE449726,V2779,1/29/22 21:22,Visalia Kia
+Priscilla,Tanguma ,533 S Reservation Rd,Porterville,CA,93257,sillymonster2@yahoo.com,,,,,,,Visalia Kia
+Johnny,Serrano,1144 S 5th St,Fresno,CA,93702,johnny.4767@yahoo.com,2022,Kia,Sorento Hybrid,KNDRG4LG0N5084723,V2785,1/29/22 3:16,Visalia Kia
+Daniel,Sanchez,24595 Ave 90,Terra Bella,CA,93270,dsanchez2624@gmail.com,2019,Kia,Sorento,5XYPG4A37KG574280,V9173,1/29/22 22:50,Visalia Kia
+Genesis,Barron,1422 Clarete Ave,Tulare,CA,93274,,2019,Nissan,Versa,3N1CN7AP6KL871299,V9087R,1/29/22 23:02,Visalia Kia
+Velinda,Garcia,172 S Newman Rd,Tipton,CA,93272,Pabloveli252@icloud.com,2022,Kia,K5,5XXG64J29NG132975,V2787,1/30/22 18:13,Visalia Kia
+Carl,Kincaid,1600 Marion St Apt 103,Kingsburg,CA,93631,carlandkarynkincaid@outlook.com,2016,Ford,Fusion,3FA6P0H70GR124602,V2758B,1/30/22 8:00,Visalia Kia
+Russell,Travis,617 Camelot Way,Porterville,CA,93257,,2018,Hyundai,Tucson,KM8J33A22JU766346,V9169,1/31/22 0:01,Visalia Kia
+Dana,Romero,617 Camelot Way,Porterville,CA,93257,,,,,,,,Visalia Kia
+Jaime,Zarate Higuera,2237 Sequoia St,Selma ,CA,93662,,2017,Ford,F-150,1FTEW1C81HKD95558,V1741R,1/31/22 17:50,Visalia Kia
+Carlos,Aguirre,1792 E Sonora Ave,Tulare,CA,93274,bravo_myka93@yahoo.com,2020,Jeep,Compass,3C4NJCBB6LT257822,V2731A,1/31/22 2:55,Visalia Kia
+Bryant,Cruz,3707 S Canal St,Tulare ,CA,93274,bryant.cruz21@gmail.com,,,,,,,Visalia Kia
+Nancy,Garcia,3707 S Canal St,Tulare ,CA,93274,bryant.cruz21@gmail.com,2022,Kia,Rio,3KPA24AD6NE450595,V2786,2/1/22 3:01,Visalia Kia
+Ricardo,Flores,942 E Tulare Ave,Tulare,CA,93274,rickflores559@yahoo.com,2016,Jeep,Wrangler Unlimited,1C4HJWEG5GL175684,V9078R,2/2/22 19:03,Visalia Kia
+Tabitha,Flores,942 E Tulare Ave,Tulare,CA,93274,,,,,,,,Visalia Kia
+Bethaney,Baca,3140 W Delaware,visalia,CA,93291,bethaneyrosebaca2001@gmail.com,2021,Kia,Forte,3KPF34ADXME361131,V2765A,2/2/22 19:03,Visalia Kia
+Camron,Martin,3140 W Delaware Ct,Visalia,CA,93291,,,,,,,,Visalia Kia
+Alma,Puga,312 Carrollwood Dr,Grants Pass ,OR,97527,alpuga1990@gmail.com,2022,Kia,Carnival,KNDNB4H32N6162464,V2784,2/3/22 0:02,Visalia Kia
+Jazmine,Espinoza,3645 N Dayton St,Visalia,CA,93291,,2022,Kia,Rio,3KPA24AD6NE449270,V2790,2/4/22 1:06,Visalia Kia
+Glenda,Vallejo,861 Gerry Ln,Porterville,CA,93257,,2020,Kia,Forte,3KPF24AD3LE248168,V2777A,2/4/22 0:40,Visalia Kia
+Dustin Miller ,,1233 N Century St,Visalia,CA,93291,,2022,Kia,Soul,KNDJ33AU3N7822465,V2782,2/4/22 0:40,Visalia Kia
+Andrew,Ramos,6505 N Cornelia Ave,FRESNO,CA,93722,carramosx@gmail.com,2022,Kia,K5,5XXG64J20NG129012,K15642,12/24/21 23:12,Selma Kia
+Israel,Gonzalez Contreras,307 S Bollinger St,Visalia,CA,93291,gonzalez.israel90@yahoo.com,2022,Kia,Sorento,5XYRK4LF4NG090036,K15643,12/23/21 0:20,Selma Kia
+Timothy,Huber,2176 Junipero Ave,Clovis,CA,93619,thuber68@yahoo.com,2019,Kia,Soul,KNDJP3A55K7655485,K3549R,12/15/21 3:58,Selma Kia
+Christopher,Moreno,1334 Northview St,SELMA,CA,93662,CHRISCOOLMORENO@GMAIL.COM,2022,Kia,Soul,KNDJ63AU6N7817431,K15609,12/15/21 8:00,Selma Kia
+Teresa,Avalos,755 12th St,Sanger,CA,93657,docjavalos@gmail.com,2022,Kia,Sportage,KNDPM3AC3N7015362,K15611,1/15/22 1:49,Selma Kia
+Jose,Vallejo Manzo,323 N 6th St,Fowler,CA,93625,vallejoscarpentry23@gmail.com,2018,KIA,FORTE,3KPFL4A72JE262986,K12877,,Selma Kia
+Johnny,Salinas,1520 E El Monte Way,Dinuba,CA,93618,natalie.s@swan-court.com,,,,,,,Selma Kia
+Natalie,Salinas,1520 E El Monte Way,Dinuba,CA,93618,n.salinas@holidayinndinuba.com,2021,Kia,K5,5XXG64J25MG073437,K15126,,Selma Kia
+Maria,Martinez,1525 Casuga Ct,Orange Cove,CA,93646,mar.faith123@gmail.com,2022,Kia,Sportage,KNDPM3AC5N7021731,K15665,1/23/22 4:21,Selma Kia
+Noemi,Sandoval,2926 Sterling Ave,Sanger,CA,93657,noemiandeddy@yahoo.com,2021,Kia,Telluride,5XYP34HC3MG145738,K3643,1/12/22 3:40,Selma Kia
+Helen,Hernandez,3737 N Fruit Ave Apt D,Fresno,CA,93705,dhjhernandez156@yahoo.com,2022,Kia,Forte,3KPF54AD9NE431181,K15594,12/15/21 4:02,Selma Kia
+Maribel,Rodriguez,8482 Foothill Ave,PARLIER,CA,93648,estefanie.garcia559@gmail.com,2014,KIA,SORENTO,,K10107,,Selma Kia
+Anthony,Plumb,5431 E Heaton Ave,Fresno,CA,93727,flybigtone@att.net,2022,Kia,Forte,3KPF54AD0NE439430,K15641,12/28/21 5:13,Selma Kia
+Breiona,Gonzalez,1904 Catherine Ave,Sanger,CA,93657,breionagonzalez1@gmail.com,,,,,,,Selma Kia
+Erin,Maysonave Anderson,594 Diana Ct,Hanford,CA,93230,erin.anderson324@gmail.com,2020,Hyundai,Palisade,KM8R54HE8LU078762,K3667I,1/15/22 4:15,Selma Kia
+Raymond,Maturino,9047 21 1/2 Ave,Lemoore,CA,93245,bosnmaturino@gmail.com,2022,Kia,Seltos,KNDERCAA8N7302414,K15680,2/4/22 0:39,Selma Kia
+Maria,Maturino,9047 21 1/2 Ave,Lemoore,CA,93245,,,,,,,,Selma Kia
+RYLEY,COLLINS,18823 VIA BELLAGGIO,Friant,CA,93626,ryleycollins000@gmail.com,2019,Mazda,CX-3,JM1DKDB76K1453744,K15521A,1/11/22 4:06,Selma Kia
+Rita,Hernandez Amaro,2218 W Elkhorn Ave,Caruthers,CA,93609,yari8284@gmail.com,2022,Kia,Forte,3KPF54AD2NE431359,K15596,1/1/22 0:15,Selma Kia
+Christina,Baca,123 S B St,Tulare,CA,93274,iesha27474@outlook.com,2022,Kia,Forte,3KPF24AD4NE433400,K15612,12/7/21 23:30,Selma Kia
+Andromeda,Tanielian,10735 W Herndon Ave,Fresno,CA,93723,anitanielian@gmail.com,2022,Kia,Rio,3KPA24AD2NE448911,K15672,1/29/22 23:15,Selma Kia
+Alazae,Romero,12040 Aceves Ave,Orosi,CA,93647,scarlet20002152@gmail.com,2019,Kia,Forte,3KPF34AD3KE018481,K15600A,1/9/22 2:23,Selma Kia
+MARY,LIPPS,1701 DINUBA AVE SPC 114,Selma,CA,93662,marylipps@yahoo.com,,,,,,,Selma Kia
+Lynda,Roberson,5949 W Cutler Ct,Visalia,CA,932778637,,2022,Kia,Sorento,5YRK4LF7NG101451,kTBA1451,1/21/22 22:51,Selma Kia
+Nicolas,Santiago,17282 Daley Rd,Madera,CA,93638,nicolas31santiago@gmail.com,2022,Kia,K5,5XXG64J28NG124026,K15603,12/12/21 21:00,Selma Kia
+Daisy,Ramirez,4717 E Alta,Fresno,CA,93702,dramirez2230@gmail.com,2022,Kia,K5,5XXG34J27NG124141,K15600,12/13/21 2:33,Selma Kia
+Victor,Ramirez,4717 E ALTA,Fresno,CA,93702,rjunior52@hotmail.com,,,,,,,Selma Kia
+Juan,Cardenas,219 W Alluvial Ave,Pinedale,CA,93650,teck559@gmail.com,2022,Kia,K5,5XXG64J29NG123712,K15602,12/13/21 2:31,Selma Kia
+Ultimate,Restoration,4838 Burr St Unit B,Bakersfield,CA,93308,eli.c@911restoration.com,2022,Kia,Soul,KNDJ63AU7N7817700,K15610,12/13/21 23:18,Selma Kia
+Eliezer,Cabral,9508 Laurelwood Ct,Shafter,CA,93263,eli.c@911restoration.com,,,,,,,Selma Kia
+Jesse,Garcia,1520 Violet Ave,Fowler,CA,93625,jessegarcia59@hotmail.com,2022,Kia,Forte,3KPF54AD9NE426739,K15564,12/15/21 4:02,Selma Kia
+Dorrine,Garcia,1520 Violet Ave,Fowler,CA,93625,garciadorrine@yahoo.com,,,,,,,Selma Kia
+Sarah,Grijalva,16565 Mark Rd,Madera,CA,93636,sarahsushi1991@gmail.com,2021,Kia,K5,5XXG64J25MG037232,K3623,12/15/21 3:56,Selma Kia
+Terry,Mumby,2705 Prescott Ave,Clovis,CA,93619,thaiger50@gmail.com,2022,Kia,Telluride,5XYP5DHC0NG240849,K15632,12/16/21 3:38,Selma Kia
+Taylor,Larsen,210 S. Clovis APT 104,Fresno,CA,93727,taylor_larsen01@yahoo.com,2022,Kia,K5,5XXG64J26NG126132,K15629,12/16/21 3:52,Selma Kia
+Crystal,Ramirez,834 W Palm Ave,Reedley,CA,93654,crystal.vacosta@gmail.com,2022,Kia,K5,5XXG14J22NG128006,K15625,12/16/21 3:32,Selma Kia
+Luis,Orozco guitareo,450 Magnolia St,Tulare,CA,93274,guitareoluis@gmail.com,,,,,,,Selma Kia
+Cory,Brown,461 E Alluvial Ave Unit 101,Fresno,CA,93720,,2018,Ford,Explorer,1FM5K8FH4JGC07541,K3595,12/17/21 18:57,Selma Kia
+Mark,Condie,5126 W Modoc Ave,Visalia,CA,93291,markcondie@gmail.com,2022,Kia,Sorento Plug-In Hybrid,KNDRMDLH6N5076711,K15651,1/6/22 2:09,Selma Kia
+Patricia,Clark,2711 S Sallee Ct,Visalia,CA,93277,pjackson3395@yahoo.com,2022,Kia,K5,5XXG14J27NG128440,K15628,12/17/21 22:34,Selma Kia
+Andrea,De La Cruz,450 S Magnolia St,Tulare,CA,93274,jessiem19922@gmail.com,,,,,,,Selma Kia
+Fabian,Alvarado,802 Milo Pl,Porterville,CA,93257,,,,,,,,Selma Kia
+Lorena,Alvarado,802 S Milo Pl,Porterville,CA,93257,,2016,Toyota,Corolla,5YFBURHE9GP411964,K3567,12/18/21 2:54,Selma Kia
+Julio,Montalvo Rios,1489 N Eaton Ave,Dinuba,CA,93618,juliomontalvorios73@icloud.com,2019,Honda,Civic,SHHFK7H60KU403145,K3568,12/18/21 2:52,Selma Kia
+Delores,Flowers,5795 Payne Ave,Dinuba,CA,93618,djflowers64@aol.com,2022,Kia,Forte,3KPF44AC4NE436007,K15622,12/19/21 1:04,Selma Kia
+Junior,Gonzalez,2187 W Berkshire Ln,Hanford,CA,93230,reaper93204@gmail.com,2022,Kia,Sorento,5XYRK4LF7NG090161,K15630,12/19/21 1:02,Selma Kia
+Deziree,Bustamante,4262 W. Figarden Drive Apt 220,Fresno,CA,93722,dbustamante92@gmail.com,2018,Kia,Optima,5XXGT4L36JG272085,K3588,12/18/21 8:00,Selma Kia
+Leticia,Figueroaramos,1311 Oak St,Selma,CA,93662,letifigueroa15@gmail.com,,,,,,,Selma Kia
+Maria,Cisneros,1311 Oak St,Selma,CA,93662,letifigueroa15@gmail.com,2020,Toyota,Camry,4T1K61AK3LU388041,K15555A,12/19/21 22:55,Selma Kia
+Celia,Carrazco Olivera,1213 J St,Sanger,CA,93657,carrazcocelia66@gmail.com,2022,Kia,Forte,3KPF44AC0NE435503,K15619,12/20/21 1:58,Selma Kia
+Jazmin,Verduzco,2233 W Babcock Ave,Visalia,CA,93291,jazmin_verduzco82@yahoo.com,,,,,,,Selma Kia
+Jorge,Verduzco,2233 W Babcock Ave,Visalia,CA,93291,jazmin_verduzco82@yahoo.com,2022,Kia,K5,5XXG14J22NG128569,K15626,12/20/21 4:00,Selma Kia
+Cristina,Aldaco Perez,23442 Ave 55,Ducor,CA,93218,cristinaaldaco@icloud.com,2017,Buick,Envision,LRBFXBSA6HD200665,K3543A,12/20/21 20:59,Selma Kia
+Destiny,Mariscal,365 St Montelena Ct,Madera,CA,93637,dezigiants@gmail.com,2022,Kia,Forte,3KPF44AC1NE435011,K15617,12/21/21 3:25,Selma Kia
+Ellen,Stout,265 E Hanford Armona Rd Apt 130,Hanford,CA,93245,ellenstout308@gmail.com,2015,Kia,Forte,KNAFX4A89F5334814,K15622A,12/23/21 0:22,Selma Kia
+Gloria,Felix,2048 glacier Ave,Corcoran,CA,93212,felixgloria76@icloud.com,2021,Kia,Seltos,KNDETCA20M7054524,K15589A,12/22/21 0:39,Selma Kia
+Arturo,Hernandez preciado,2048 glacier Ave,Corcoran,CA,93212,hernandeza_93@icloud.com,,,,,,,Selma Kia
+Jesus,Madrigal,1464 Hope Ave,Orange Cove,CA,93646,yasminmadrigal28@gmail.com,2022,Kia,Forte,3KPF54AD8NE437778,K15634,12/23/21 0:19,Selma Kia
+Michael,Pope,6253 W Alluvial Ave,Fresno,CA,93722,michael.pope01@yahoo.com,,,,,,,Selma Kia
+Stephanie,Pope,6253 W Alluvial Ave,Fresno,CA,93722,squeekmoe@yahoo.com,2022,Kia,Forte,3KPF44AC4NE435505,K15635,12/22/21 22:33,Selma Kia
+Gurcharan,Singh,4668 N Barcus Ave,Fresno,CA,93722,gstrucking8@gmail.com,2022,Kia,Forte,3KPF54AD8NE438364,K15638,12/23/21 21:56,Selma Kia
+Estefanie,Garcia Rodriguez,8482 Foothill Ave,Parlier,CA,93648,estefanie.garcia559@gmail.com,2022,Kia,Forte,3KPF44AC4NE435858,K15624,12/23/21 23:28,Selma Kia
+Alberto,Lopez,1719 N Irma St,Visalia,CA,93292,,2022,Kia,Forte,3KPF24ADXNE432543,K15615,12/26/21 20:33,Selma Kia
+Erika,Lopez,1719 N Irma St,Visalia,CA,95694,acosta197515@gmail.com,,,,,,,Selma Kia
+Diego,Vallejo Zamora,323 N 6th St,Fowler,CA,93625,vallejodiego30@gmail.com,2019,Chevrolet,Silverado 1500,1GCUYEED1KZ346592,K3652I,12/29/21 4:26,Selma Kia
+Stephanie,Galvan Munoz,3318 W Tiger Ave,Riverdale,CA,93656,stephaniegalvan95@yahoo.com,2022,Kia,Forte,3KPF54AD8NE439398,K15644,12/27/21 0:28,Selma Kia
+Hector,Cifuentes Morales,8480 16th Ave,Parlier,CA,93648,adyana92as@gmail.com,2017,Ford,Mustang,1FA6P8CF1H5229229,K3650I,12/27/21 0:27,Selma Kia
+Nicholas,Martinez,4448 W Ter,Fresno,CA,93722,nicholasmartinez151@gmail.com,2022,Kia,Forte,3KPF44AC5NE437103,K15637,1/1/22 0:16,Selma Kia
+Jessica,Sanchez de la cruz,13068 S Henderson Rd,Caruthers,CA,93609,sanchez.jessica_95@yahoo.com,,,,,,,Selma Kia
+Maria,De La Cruz De Sanchez,13068 S Henderson Rd,Caruthers,CA,93609,sanchez.jessica_95@yahoo.com,2022,Kia,Rio,3KPA24AD0NE439978,K15620,12/28/21 0:00,Selma Kia
+John,Carroll,1123 Inyo St Apt 1,Bakersfield,CA,93305,,2022,Kia,Rio,3KPA24AD9NE432138,K15595,12/30/21 22:43,Selma Kia
+Jenny,Plumb,5431 E Heaton Ave,Fresno,CA,93727,,,,,,,,Selma Kia
+Pilofio,Calletano,1704 Skelton,Selma,CA,93662,filocayetano@gmail.com,2022,Kia,Sportage,KNDPM3AC7N7015574,K15561,12/29/21 2:33,Selma Kia
+Kathleen,Condie,5126 W Modoc Ave,Visalia,CA,93291,,,,,,,,Selma Kia
+Jesus,Ruiz,761 Kamm Ave,Dinuba,CA,93618,jesusruiz716@hotmail.com,,,,,,,Selma Kia
+Maria,Lopez,761 Kamm Ave,Dinuba,CA,93618,jesusruiz716@hotmail.com,2019,Toyota,Tacoma,3TMCZ5AN4KM286266,K3631,12/29/21 4:23,Selma Kia
+Rocio,Sepeda,4451 E Dinuba Ave,Fresno,CA,93725,gabezepeda@gmail.com,2022,Kia,Forte,3KPF44AC1NE434151,K15633,12/30/21 2:23,Selma Kia
+Nicole,Huerta,2703 S Divisadero St,Visalia,CA,93277,nicolehuerta38@yahoo.com,,,,,,,Selma Kia
+Dolores,Huerta,2703 S Divisadaro St,Visalia,CA,93277,dhuerta2703@gmail.com,2021,Kia,Forte,3KPF24AD9ME407521,K15623,12/30/21 19:49,Selma Kia
+Matthew,Gamble,14317 Peggy Dr,Hanford,CA,93230,mattgamble@comcast.net,,,,,,,Selma Kia
+Olga,Martinez,303 Adame Ct,Planada,CA,95365,martinez_olga76@yahoo.com,,,,,,,Selma Kia
+Luis,Martinez Lopez,PO Box 381,Planada,CA,95365,martinez_olga76@yahoo.com,2022,Kia,Sorento,5XYRL4LC2NG088823,K15631,12/30/21 21:24,Selma Kia
+Angelo,Deloera,9138 Frontier St,Hanford,CA,93230,angelodeloera@gmail.com,2022,Kia,Forte,3KPF44AC9NE435869,K15621,12/31/21 0:40,Selma Kia
+Amy,Gamble,14317 Peggy Dr.,Hanford,CA,93230,gamblea@comcast.net,,,,,,,Selma Kia
+Albert,Shafer,1250 W Dinuba Ave,Fresno,CA,93706,cindyshafer01tmg@gmail.com,2022,Kia,K5,5XXG14J25NG128839,K15627,12/31/21 20:16,Selma Kia
+Cindy,Shafer,1250 W Dinuba Ave,Fresno,CA,93706,cindyshafer01tmg@gmail.com,,,,,,,Selma Kia
+Felicity,Bristol,125 N Erwin St Unit 208 apt 218,Hanford,CA,93230,bristolfelicity@gmail.com,2022,Kia,Rio,3KPA24AD0NE440404,K15618,12/31/21 20:16,Selma Kia
+Jasmine,Romerohines,5610 N Gates Ave # 225,Fresno,CA,93722,jazmin0212@yahoo.com,2022,Kia,Forte,3KPF54AD5NE438483,K15636,12/31/21 19:43,Selma Kia
+Robert,Maldonado,1046 W Magill Ave,Fresno,CA,93711,stonesmommy7777@att.net,2022,Kia,Forte,3KPF54AD1NE438724,K15639,1/1/22 2:51,Selma Kia
+Jaime,Perez,409 Alhambra St,Delano,CA,93215,yesshrndz@gmail.com,2018,GMC,Yukon,1GKS1CKJ6JR217423,K3615,1/1/22 22:07,Selma Kia
+Mary,Barker,808 N B St,Exeter,CA,93221,,2020,Kia,Sorento,5XYPG4A38LG623715,K15205A,1/1/22 2:51,Selma Kia
+Joseph,Barker,3547 E Race Ave,Visalia,CA,93292,,,,,,,,Selma Kia
+Yair,Guexpal campos,2218 W Elkhorn Ave,Caruthers,CA,93609,yairguexpal19841984@gmail.com,,,,,,,Selma Kia
+Lisa,Maldonado,1046 W Magill Ave,Fresno,CA,93711,stonesmommy7777@att.net,,,,,,,Selma Kia
+Marcos,Rodriguez,2828 Casty Ct,Sanger,CA,93657,marcosrco2014@gmail.com,2022,Kia,Forte,3KPF54AD5NE440590,K15645,1/1/22 1:11,Selma Kia
+Yair,Javier Perdomo,1828 N Dearing Ave,Fresno,CA,93703,fcoguzman1@hotmail.com,2022,Kia,Forte,3KPF54AD9NE440592,K15646,1/8/22 23:30,Selma Kia
+Eric,Bracamontes-Chavarin,2469 S Maple Ave,Fresno,CA,93725,ericchavarin001@gmail.com,2022,Kia,Forte,3KPF54AD8NE436677,K15616,1/2/22 2:20,Selma Kia
+Maria,Chavarin Covarrubias,2469 S Maple Ave,Fresno,CA,93725,,,,,,,,Selma Kia
+Daicy,Tapia Martinez,16521 Crystal St,Tulare,CA,93274,daicytm88@gmail.com,2019,Chevrolet,Traverse,1GNERFKW8KJ121914,K15627A,1/6/22 4:05,Selma Kia
+Catarino,Tapia Bravo,16521 Crystal St,Tulare,CA,93274,,,,,,,,Selma Kia
+Julia,Sellers,20679 Auberry Rd.,Clovis,CA,93619,jsellers77@hotmail.com,2022,Kia,Rio,3KPA24AD9NE444550,K15640,1/3/22 3:50,Selma Kia
+Brian,Sellers,20679 Auberry Rd,Clovis,CA,93619,calicwby2000@yahoo.com,,,,,,,Selma Kia
+Cassandra,Tuchten,1309 Kaweah St,Hanford,CA,93230,mysunshinect@aol.com,2021,Chevrolet,Camaro,1G1FB1RX0M0106649,K3653I,1/3/22 3:48,Selma Kia
+Jason,Squires,1461 N Peach Ave # 109,Fresno,CA,93727,jhammer246@hotmail.com,2017,Nissan,Rogue Sport,JN1BJ1CP8HW010694,K3638,1/3/22 21:20,Selma Kia
+Amy,Nehring,184 S Granada Dr Apt 143,Madera,CA,93637,jordan.nehring@yahoo.com,2019,Chevrolet,Suburban,1GNSCHKC7KR171968,K3538A,1/8/22 4:08,Selma Kia
+Dustin,Hofmann,883 E Dartmouth Dr,Fresno,CA,93730,skiboarder18@aol.com,2022,Kia,Carnival,KNDNC5H32N6150818,K15653,1/6/22 4:06,Selma Kia
+Jasmine,Castrejon Anguiano,225 N Lyndsay Way,Dinuba,CA,93618,jasmine.castrejon@yahoo.com,2018,Jeep,Grand Cherokee,1C4RJEAG6JC488920,K3657I,1/5/22 1:28,Selma Kia
+Jesus,Lopez,225 N Lyndsay Way,Dinuba,CA,93618,,,,,,,,Selma Kia
+Debbie,Higginbotham,11584 Francis Dr,Grass Valley,CA,95949,debhigg@yahoo.com,2017,Ford,F-150,1FTEW1EG7HKC05881,K3431,,Selma Kia
+Humberto,Nunez Perez,18828 Rd 25 1/2,Madera,CA,93638,greenpointaxicab@gmail.com,2022,Kia,Carnival,KNDNC5H32N6149068,K15657,1/8/22 0:48,Selma Kia
+Mayra,Robles,13727 E Ann Ave,Parlier,CA,93648,mrobles92@icloud.com,2022,Kia,Sorento,5XYRL4LC8NG089653,K15647,1/6/22 4:02,Selma Kia
+Trisha,Hofmann,883 E Dartmouth Dr,Fresno,CA,93730,,,,,,,,Selma Kia
+Linda,Conway,560 Adams Ave # 231,Orange Cove,CA,93646,,2018,Kia,Forte,3KPFK4A71JE270970,K3626,1/6/22 23:20,Selma Kia
+Donnasue,Haizlip,35247 Pine Dr,Springville,CA,93265,housefullcats@gmail.com,2022,Kia,Sportage,KNDPM3AC0N7020762,K15658,1/9/22 2:25,Selma Kia
+Jeannine,Martinez,1515 Rose Ave,Selma,CA,93662,,2020,Chevrolet,Blazer,3GNKBERS1LS637259,K15515A,1/8/22 0:29,Selma Kia
+Gabrielle,Smith,247 E Kennedy Ave,Tulare,CA,93274,sfgabby94@gmail.com,,,,,,,Selma Kia
+Louis,Smith,247 E Kennedy Ave,Tulare,CA,93274,louis2865@yahoo.com,2022,Kia,Soul,KNDJ23AUXN7172598,K15655,1/8/22 4:09,Selma Kia
+Jordan,Nehring,184 S Granada Dr Apt 143,Madera,CA,93637,jordan.nehring@yahoo.com,,,,,,,Selma Kia
+Alison,Lopez,2682 Blossom St,Dos Palos,CA,93620,alipez95@hotmail.com,2021,Toyota,Corolla,JTDVPMAE9MJ188200,K3651,1/9/22 2:26,Selma Kia
+Linda,Pope,8531 N Rowell Ave,Fresno,CA,93720,lindajpope@sbcglobal.net,,,,,,,Selma Kia
+Cathy,Trujillo,350 Brooks Ct Apt C,Lemoore,CA,93245,cathyjr22@gmail.com,,,,,,,Selma Kia
+Alfonso,Trujillo,350 Brooks Ct Apt C,Lemoore,CA,93245,,2022,Kia,K5,5XXG14J25NG129490,K15649,1/9/22 2:27,Selma Kia
+Gregory,Pope,8531 N Rowell Ave,Fresno,CA,93720,burtdog09@gmail.com,2022,Kia,Telluride,5XYP5DHC2NG245597,K15650,1/9/22 2:24,Selma Kia
+Sofia,Mendoza,403 o St,Sanger,CA,93657,mendoza.sofia0416@gmail.com,,,,,,,Selma Kia
+Antonio,Mendez,403 O St,Sanger ,CA,93657,,,,,,,,Selma Kia
+Joshua,Myer,450 S Argyle Ave Unit 102,Fresno,CA,93704,jmyer96@gmail.com,2022,Kia,Niro EV,KNDCC3LG8N5138720,K15656,1/9/22 22:49,Selma Kia
+Maria,Delacruzdiaz,1799 San Clemente St,Wasco,CA,93280,26.mariadelacruz@gmail.com,2022,Kia,Sportage,KNDPM3AC2N7021783,K15652,1/9/22 22:48,Selma Kia
+Jose,Malanche Gutierrez,1799 San Clamente Ave,Wasco,CA,93280,,,,,,,,Selma Kia
+Gabriela,Anaya,465 Industrial St,Mc Farland,CA,93250,adopt.g87@gmail.com,2022,Kia,Sportage,KNDP63AC2N7027755,K15671,1/22/22 3:11,Selma Kia
+Martin,Gonzalez-Garcia,23425 Excelsior Ave,Riverdale,CA,93656,,2018,Honda,CR-V,7FARW1H81JE005933,K3352,1/10/22 3:20,Selma Kia
+Raul,Herrera,11217 S Fowler,Selma,CA,93662,ecnpoly@yahoo.com,2022,Kia,Stinger,KNAE35LD2N6115869,K15660,1/16/22 3:02,Selma Kia
+Catherine,Myer,2125 N Harrison Ave,Fresno,CA,93704,trouy77@yahoo.com,2022,Kia,Niro EV,KNDCC3LG9N5144526,K15670,1/23/22 4:16,Selma Kia
+Anahi,Martinez,1186 Eric Ave,Parlier,CA,93648,94anahi.martinez@gmai.com,2022,Kia,K5,5XXG14J27NG116188,K3641,1/10/22 3:21,Selma Kia
+Stacy,Wilker,2146 12th St,Reedley,CA,93654,stacy_wilker@yahoo.com,2017,Nissan,Murano,5N1AZ2MH5HN158186,K3582J,1/11/22 0:56,Selma Kia
+LLoyd,Bonds,2146 12th St,Reedley,CA,93654,stacy_wilker@yahoo.com,,,,,,,Selma Kia
+Denise,De La Torre,4581 E Church Ave,Fresno,CA,93725,denise.delatorrez@gmail.com,2017,Hyundai,Tucson,KM8J23A49HU512695,K3685I,1/23/22 0:45,Selma Kia
+Martin,Cobian Medina,301 W Polk St # 53,Coalinga,CA,93210,rogeliocobian2@gmail.com,2016,Hyundai,Elantra,5NPDH4AE1GH673548,K3658I,1/12/22 3:40,Selma Kia
+Eddy,Sandoval,2926 Sterling Ave,Sanger,CA,93657,,,,,,,,Selma Kia
+Mary,Powers,1926 Center Ave,Dos Palos,CA,93620,ahappygolfer@yahoo.com,2022,Kia,Sorento,5XYRL4LC1NG093771,K15648,1/13/22 0:44,Selma Kia
+Ronald,Williams,2051 Walnut Ave,Dos Palos,CA,93620,rwillmes48@gmail.com,,,,,,,Selma Kia
+Aliziah,Mercado,740 Villa Ave Apt 115,Clovis,CA,93612,,,,,,,,Selma Kia
+Daisy,Andrade,526 S Larson St,Porterville,CA,93257,,2020,Honda,Civic Sedan,2HGFC2F83LH586396,K15668A,1/17/22 2:51,Selma Kia
+Andrew,Holguin,740 Villa Ave Apt 115,Clovis,CA,93612,andrew_holgun17@yahoo.com,2020,Kia,Sorento,5XYPG4A59LG697615,K15576A,1/16/22 4:43,Selma Kia
+Roman,Godinez,345 E Herbert Ave,Reedley,CA,93654,romanleon10@yahoo.com,2019,Nissan,Versa,3N1CN7AP8KL810830,K3668I,1/14/22 2:58,Selma Kia
+Analidia,Partida,1104 Kern St,Fresno,CA,93706,partidaana@yahoo.com,,,,,,,Selma Kia
+Yesenia,Hernandez Quiroz,3465 E Montecito Ave,Fresno,CA,93702,yhernandez538@gmail.com,2019,Nissan,Altima,1N4BL4DV0KC123642,K3669I,1/15/22 1:12,Selma Kia
+Eric,Anderson,594 Diana Ct,Hanford,CA,93230,,,,,,,,Selma Kia
+Kayley,Bouska,26688 Towerline Ln,Clovis,CA,93619,kayleybouska122@yahoo.com,2019,Chevrolet,Cruze,1G1BC5SM4K7121775,K3670I,1/15/22 19:25,Selma Kia
+Andres,Garcia,1104 Kern,Fresno,CA,93706,partidaana@yahoo.com,2020,Chevrolet,Silverado 1500,3GCUWDEDXLG158185,K3647,1/16/22 4:48,Selma Kia
+Devri,Hughan Lindstrand,542 S Redwood Dr,Visalia,CA,93277,,,,,,,,Selma Kia
+Patrick,Lindstrand,542 S Redwood Dr,Visalia,CA,93277,p.lind.strand@hotmail.com,2017,Nissan,Rogue,JN8AT2MT0HW138078,K15561A,1/28/22 18:09,Selma Kia
+Armando,Carrillo Elizarrarars,750 Kruger Ave,Hanford,CA,93230,armandocarrillo522@gmail.com,2018,Kia,Sorento,5XYPG4A39JG348756,K15566A,1/16/22 3:05,Selma Kia
+Alfonso,Cuevasmarquez,1570 S Church Ave,Reedley,CA,93654,enrique.cuevass1995@gmail.com,2018,Kia,Stinger,KNAE25LA1J6021873,K3617A,1/16/22 3:03,Selma Kia
+Anna,Rivera,626 E 11th St,Reedley,CA,93654,annacervantez@icloud.com,,,,,,,Selma Kia
+Kristina,Richardson,2476 Apple Gate Ave,Clovis,CA,93611,kristinaric@yahoo.com,2022,Kia,Sportage,KNDPM3AC1N7028059,K15664,1/21/22 3:08,Selma Kia
+David,Rivera,626 E 11th St,Reedley,CA,93654,,2022,Kia,Forte,3KPF54AD9NE440429,K15659,1/16/22 3:03,Selma Kia
+Abigail,Arellano,348 S Howard St,Tulare,CA,93274,abigail.arellano97@gmail.com,2018,Toyota,Tacoma,3TMAZ5CN2JM058723,K15505A,1/16/22 21:09,Selma Kia
+Heriberto,Granados Jauregui,323 N B St,Tulare,CA,93274,,,,,,,,Selma Kia
+Marleene,Fonvergne,2113 N Denton St,Visalia,CA,93291,marleenefonvergne@gmail.com,2017,Honda,Civic,2HGFC2F71HH563097,K3641A,1/17/22 2:48,Selma Kia
+Gustavo,Baca Ceballos,1107 W Roby Ave,Porterville,CA,93257,,,,,,,,Selma Kia
+"Jose Joe""""",Hernandez Aguirre,808 W Walnut St,Exeter,CA,93221,copperjoe22@gmail.com,2022,Kia,Sportage,KNDPR3A67N7021077,K15669,1/17/22 0:13,Selma Kia
+Rosa,Marquez,2303 Almond Ave,Sanger,CA,93657,rosemarq4@yahoo.com,2022,Kia,Seltos,KNDEU2AA2N7295873,K15662,1/17/22 23:36,Selma Kia
+Brissa,Perez,17583 E Manning Ave,Reedley,CA,93654,brissaperez3@gmail.com,2022,Kia,Rio,3KPA24AD3NE449727,K15673,1/29/22 8:00,Selma Kia
+Miguel,Rodriguez,17853 E Manning Ave,Reedley,CA,93654,,,,,,,,Selma Kia
+Brissa,Perez,17853 E Manning Ave,Reedley,CA,93654,brissaperez3@gmail.com,2022,Kia,Rio,3KPA24AD3NE449727,k15673,1/30/22 3:46,Selma Kia
+Jessie,Lipps,1701 Dinuba Ave Spc 114,Selma,CA,93662,marrylipps@yahoo.com,2019,Toyota,Highlander,5TDJZRFH9KS603573,K3618,1/20/22 2:18,Selma Kia
+Julissa,Espinoza,2326 E Victor Ave,Visalia,CA,93292,,,,,,,,Selma Kia
+Mioses,Ramos,3005 Northhill Ave,Selma,CA,93662,19ramosm90@gmail.com,2021,Kia,Forte,3KPF24AD5ME296207,K3664,1/20/22 3:35,Selma Kia
+Isaias,Mena Reynoso,1415 E Cypress Ave,Tulare,CA,93274,sofiamarie4226@gmail.com,2021,Dodge,Charger,2C3CDXCT5MH528333,K3550,,Selma Kia
+Jesus,Franco Mejia,631 Heitz Ct,Merced,CA,95348,jamesjames290@gmail.com,2019,Kia,Stinger,KNAE35LC0K6049843,K3644,1/23/22 1:31,Selma Kia
+Mindy,Figueroa,1700 Dairy Ave # 23,corcoran,CA,93212,,,,,,,,Selma Kia
+Juan,Figueroa,1700 Dairy Ave # 23,Corcoran,CA,93212,,2022,Kia,Sportage,KNDPM3AC9N7015804,K15666,1/22/22 3:23,Selma Kia
+Luis,Adame,2362 Mlk Blvd Apt B,Fresno,CA,93706,adame062698@gmail.com,2015,Honda,CR-V,3CZRM3H38FG701217,K3580J,1/22/22 19:32,Selma Kia
+Elisa,Abundez,4410 Vassar Ave,Merced,CA,95341,eabundez2@gmail.com,2021,Kia,Seltos,KNDEU2AA2M7139301,K15596A,1/23/22 0:47,Selma Kia
+Maria Galvan,Salas,317 Kenny Ct,Madera,CA,93638,mariasalas6098@gmail.com,2022,Kia,Sportage,KNDPM3AC0N7021183,K15663,1/23/22 1:28,Selma Kia
+Inocencio,Garcia Alonso,30384 Richland Dr,Shafter,CA,93263,sagimartinez23@gmail.com,2018,Chevrolet,Colorado,1GCGSCEN8J1225910,K3683I,1/23/22 22:59,Selma Kia
+Victorino,Matias Ramirez,2155 Whitson St,Selma ,CA,93662,,,,,,,,Selma Kia
+Julian,Cisneros,5668 W Escalon Ave,Fresno,CA,93722,djburns133@yahoo.com,2020,GMC,Yukon XL,1GKS2HKJ0LR180317,K3628,1/24/22 1:53,Selma Kia
+Stephanie,Avina-Cisneros,5668 W Escalon Ave,Fresno,CA,93722,stephanieavina_2007@yhaoo.com,,,,,,,Selma Kia
+Alejandra,Andrade Strohm,275 E Minnesota Ave Apt 215,Turlock,CA,95382,aandradestrohm@gmail.com,,,,,,,Selma Kia
+Eric,Andrade-Strohm,275 E Minnesota Ave Apt 215,Turlock,CA,95382,aandradestrohm@gmail.com,2020,Toyota,Camry,4T1C11AK5LU945518,K3629,1/24/22 3:01,Selma Kia
+Heriberto,Vega Rodriguez,3532 N Hughes Ave,Fresno,CA,93705,hribertovega@icloud.com,2021,Toyota,Sienna,5TDDRKEC0MS019737,K3639,1/24/22 23:39,Selma Kia
+William,Hernandez Contreras,1497 E Walnut Ave,Tulare,CA,93274,wh8328@gmail.com,,,,,,,Selma Kia
+Jose,Hernandez,1497 E Walnut Ave,Tulare,CA,93724,rr2915330@gmail.com,2018,Jeep,Wrangler JK Unlimited,1C4BJWDG0JL809479,K3684I,1/26/22 2:54,Selma Kia
+Maricruz,Miranda,760 E Front St,Farmersville,CA,93223,maricruzmirandaa@icloud.com,,,,,,,Selma Kia
+Lorena,Miranda,760 E Front St,Farmerville,CA,93223,lorenamiranda55@icloud.com,2020,Chevrolet,Camaro,1G1FB1RXXL0150107,K3634,1/27/22 1:07,Selma Kia
+Paulina,Orozco,2170 W Kanai Ave,Porterville,CA,93257,paulinaadinaa92@gmail.com,2019,Toyota,Camry,4T1BZ1HK3KU030224,K3656,1/27/22 4:43,Selma Kia
+Jose,Meneses Olivares,4637 N 6th St,Fresno,CA,93726,lostjejemo@yhaoo.com,2018,Toyota,Corolla iM,JTNKARJE2JJ571484,K3640,1/27/22 19:27,Selma Kia
+Soyla,Troncozo,6446 N Sixth St,Fresno,CA,93710,soylatroncozo@yahoo.com,2022,Kia,Stinger,KNAE35LD9N6115318,K15661,1/29/22 0:30,Selma Kia
+Juan,Loza Garcia,109 Inner Dr,Visalia,CA,93292,,,,,,,,Selma Kia
+Lorena,Ceja Guerrero,4439 W Orchard Ave,Visalia,CA,93277,cristian7torres.com@gmail.com,2019,GMC,Sierra 1500,3GTU9FELXKG145817,K3438,1/28/22 22:03,Selma Kia
+Sandra,Gomez Leon,1317 Jepsen Ave,Corcoran,CA,93212,sandragomez1211@icloud.com,2022,Kia,Sportage,KNDPM3ACXN7021577,K15667,1/29/22 3:28,Selma Kia
+Jorge,Manzo Guizar,1317 Jepson Ave,Corcoran ,CA,93212,,,,,,,,Selma Kia
+Amanda,Mendoza,441 S Bridge St Apt A,Visalia,CA,93277,amendoza1081@yahoo.com,,,,,,,Selma Kia
+Valerie,Mendoza,441 S Bridge St Apt A,Visalia ,CA,93277,,2020,Kia,Soul,KNDJ23AU9L7076247,K15611A,1/29/22 0:31,Selma Kia
+Jasmine,Garcia,30625 Rd 66,Visalia,CA,93291,jazzyg_01@icloud.com,2017,Acura,RDX,5J8TB3H50HL017336,K15651A,1/29/22 23:21,Selma Kia
+Nancy,Barriga,870 Evergreen Ave,Lemoore,CA,93245,nbarriga088@gmail.com,2019,Toyota,Camry,4T1B11HK6KU194851,K3610,1/30/22 4:25,Selma Kia
+Laura,Ramos Lopez,24333 Ave 96,Terra Bella,CA,93270,jenny91600@mail.fresnostate.edu,2021,Honda,Accord,1HGCV1F41MA053077,K3654,1/30/22 4:27,Selma Kia
+Valarie,Ragsdale,2328 W Heather Ln,Hanford,CA,93230,valariermz@gmail.com,2020,Kia,Telluride,5XYP54HC1LG010878,K3632,1/30/22 21:45,Selma Kia
+Juan,Fonseca-Gutierrez,1746 W Elowin Ave,Visalia,CA,93291,arturofonseca205@gmail.com,2019,Honda,Civic,JHMFC1F38KX002743,K3612,1/31/22 1:52,Selma Kia
+Lindsey,Clifton,2710 B Phantom Ct Unit B,Lemoore,CA,93245,mrclifton7@gmail.com,,,,,,,Selma Kia
+Rosa,Rivera Benuto,1746 W Elowin Ave,Visalia,CA,93291,rosarivera8290@yahoo.com,,,,,,,Selma Kia
+Darren,Garcia,1366 W Cortner St,Hanford,CA,93230,satrbolt88@gmail.com,2021,Kia,Sportage,KNDP63AC6M7883607,K3661,2/1/22 4:37,Selma Kia
+Nathan,Land,1974 White Chapel Ln,Porterville,CA,93257,nateland42@gmail.com,,,,,,,Selma Kia
+Richard,Land,1974 White Chapel Ln,Porterville,CA,93257,,2022,Kia,Forte,3KPF54AD4NE442167,K15675,2/2/22 2:40,Selma Kia
+Javiel,Clifton,2710 B Phantom Ct Unit B,Lemoore,CA,93245,mrclifton7@gmail.com,2018,Dodge,Durango,1C4RDHDG7JC371609,R55111A,2/3/22 3:02,Selma Kia
+Miguel,Rodriguez,17853 E Manning Ave,Reedley,CA,93654,,,,,,,,Selma Kia
+Veronica,Cruz,1937 N Cedar Ct,Visalia,CA,93292,veronicacruz_veronica@yahoo.com,2019,Dodge,Challenger,2C3CDZAG9KH616123,R1902A,,Selma Kia
+Obdulia,Cruz,33263 Rd 160,Ivanhoe,CA,93235,veronicacruz_veronica@yahoo.com,2019,Dodge,Challenger,2C3CDZAG9KH616123,R1902A,2/3/22 23:03,Selma Kia
+Marisol,Delgadilloagredano,280 Devon Dr,Lemoore,CA,93245,marisoldelgadillo1998@gma.com,2019,Jeep,Cherokee,1C4PJLDX0KD332603,R1939,2/4/22 4:19,Selma Kia
+Daniel,Valdez,2604 Dockery Ave,SELMA,CA,936623114,fabelairma1967@gmail.com,2021,Nissan,Armada,JN8AY2AC3M9148487,N97620,12/22/21 4:30,Nissan
+Carlos,Blanco,2629 Walnut St,Selma,CA,93662,cblancorun@gmail.com,2015,Honda,Accord,1HGCR3F88FA035861,N97794A,12/20/21 8:00,Nissan
+Jefferson,Yepez,2524 N Kayenta Ct,Visalia,CA,93291,jvsnchz34@gmail.com,2018,Nissan,Pathfinder,5N1DR2MM1JC676999,N96019,12/29/18 10:00,Nissan
+Consuelo,Esparza,357 N Gladys Ave,Dinuba,CA,93618,consueloesparza72@gmail.com,2022,Nissan,Frontier,1N6ED1EJ1NN614452,N97837,12/29/21 5:06,Nissan
+Martin,Sandoval Mascareno,800 Garcia St Apt 108,Mendota,CA,93640,agedamendocino@hotmail.com,2021,Nissan,Versa,3N1CN8FV6ML921165,N97762,1/8/22 19:27,Nissan
+Michael,Bone,4850 W Westgate Ave,Visalia,CA,93277,bonemd7@yahoo.com,2021,Nissan,Kicks,3N1CP5CV7ML555942,N97797,1/8/22 19:36,Nissan
+Brenda,Shoals,3330 E Dakota Ave Apt 113,Fresno,CA,93726,bjs57@gmail.com,2021,Nissan,Rogue,5N1AT3BA5MC849267,N97874,1/28/22 2:39,Nissan
+Elizabeth,Hernandez Gomez,140 S O St Apt 15,Dinuba,CA,93618,eh672326@gmail.com,2022,Nissan,Frontier,1N6ED1EJ5NN629830,N97802,12/13/21 19:52,Nissan
+Luisa,Lopez De Salazar,336 E Pismo Ave,Del Rey,CA,93616,0920tere@gmail.com,2022,Nissan,Frontier,1N6ED1CM2NN618426,N97812,12/27/21 2:03,Nissan
+Joel,Chavez Perez,2379 W Front St,Selma,CA,93662,joelchavez198080@gmail.com,2014,Nissan,Frontier,1N6AD0EV6EN739992,N7979,12/22/21 8:00,Nissan
+Raul,Rodriguez Lopez,1436 Castoro Way,Hanford,CA,93230,raulboosted2@gmail.com,2021,Nissan,Sentra,3N1AB8BV1MY326345,N97689,,Nissan
+Cirilo,Aguilera,840 S First St Apt 115,Dinuba,CA,93618,cirilobuendia10@gmail.com,2021,Nissan,Altima,1N4BL4CV0MN407278,N97826,1/1/22 3:25,Nissan
+Alyse,Borland,1045 N Alta Ave,Dinuba,CA,93618,aceborland@hotmail.com,2021,Nissan,Rogue,5N1AT3AA8MC846283,N97864,1/27/22 16:24,Nissan
+Alfredo,Santillan,3729 W Myrtle Ct,Visalia,CA,93277,alfredosantillan93@yahoo.com,2022,Nissan,Altima,1N4BL4BV9NN312270,N97842,1/31/22 4:21,Nissan
+Yer,Vang,6501 N First St,Fresno,CA,93710,xixlix97@gmail.com,2021,Nissan,Rogue Sport,JN1BJ1AV7MW318659,N97754,1/18/22 4:53,Nissan
+Aaron,Gallyer,878 Lingonberry St,Kingsburg,CA,93631,agallyer@quinnlift.com,,,,,,,Nissan
+Jennifer,Gallyer,878 Lingonberry St,Kingsburg,CA,93631,5gallyers@sbcglobal.net,2022,Nissan,Pathfinder,5N1DR3CC7NC225807,TBA5807,1/3/22 3:26,Nissan
+Maria,Lopez De Gallardo,1505 Bengston Ave,Hanford,CA,93230,mgallardo16125@gmail.com,2018,Nissan,Kicks,3N1CP5CU1JL513964,N97774A,1/24/22 1:48,Nissan
+Yazmin,Morales Barrios,2852 A St.,Selma,CA,93662,min.126@hotmail.com,2021,Nissan,Versa,3N1CN8EV9ML923557,N97778,1/17/22 2:33,Nissan
+Elisa,Stewart,2404 N Van Ness Blvd,Fresno,CA,93704,tbanjany@gmail.com,2021,Nissan,Kicks,3N1CP5CV6ML564535,N97860,1/12/22 0:10,Nissan
+Erick,Guadarrama Cid,6749 S Cornelia Ave,Fresno,CA,93706,unite.slash@gmail.com,2022,Nissan,Frontier,1N6ED1EJ3NN631723,N97834,1/31/22 4:24,Nissan
+Marilu,Guillen De Sanchez,318 W River Ave,Porterville,CA,93257,,2018,Honda,Odyssey,5FNRL6H58JB048804,N7897,12/12/21 22:15,Nissan
+RHOMIE,THOMPSON,533 E Rialto Ave,Fresno,CA,93704,rhomiet64@gmail.com,,,,,,,Nissan
+,,,,,,,,,,,,,Nissan
+Jenifer,Vallejo,4121 W Sunnyside Ave,Visalia,CA,93277,vallejojenifer3@gmail.com,2022,Nissan,Pathfinder,5N1DR3BB8NC229986,N97814,12/13/21 19:51,Nissan
+Leslie,Esparza,1328 Sanger Ave Apt 102B,Sanger,CA,93657,chuyitacaldera@gmail.com,2019,Toyota,Camry,4T1B11HK5KU679112,N97744A,12/14/21 8:00,Nissan
+Jackelin,Gonzalez,569 Centennial Dr.,Hanford,CA,93230,xjackiesgx@gmail.com,2022,Nissan,Sentra,3N1AB8CV3NY208930,N97809,12/14/21 8:00,Nissan
+Larry,Teixeira,480 W Sierra Ave Apt 114,Fresno,CA,93704,rossteix@gmail.com,2020,Kia,Soul,KNDJ63AU3L7036864,N7877,12/16/21 3:53,Nissan
+Antonio,Araiza,4156 E ILLINOIS AVE,Fresno,CA,93702,lopez.laura78@yahoo.com,2018,Nissan,Frontier,1N6AD0ER6JN771726,N7865A,12/18/21 8:00,Nissan
+Claudia,Beltran Montenegro,880 CLINTON LN APT 1,PORTIVILLE,CA,93257,,2019,Nissan,Altima,1N4BL4CV3KC152263,N7974I,12/20/21 8:00,Nissan
+Frances,Blanco,2629 Walnut St,Selma,CA,93662,franjassl@msn.com,,,,,,,Nissan
+Benny,Cabral,909 W Bush St # 27,Lemoore,CA,93245,chevychic70@yahoo.com,2021,Nissan,Kicks,3N1CP5BV9ML558892,N97804,12/20/21 8:00,Nissan
+Regina,Jackson,5348 E Heaton,Fresno,CA,93727,regina_jackson@yahoo.com,2016,Honda,Odyssey,5FNRL5H95GB007584,N7973I,12/22/21 4:31,Nissan
+Bailey,McPhetridge,27469 Ave 858,Terra Bella,CA,93270,mcphetridge.bk@hotmail.com,,,,,,,Nissan
+Jose,Cisneros,1949 E Hillcrest Dr,Visalia,CA,93292,joecisneros1@comcast.net,2022,Nissan,Sentra,3N1AB8CV4NY216552,TBA1655,1/5/22 3:59,Nissan
+William,Lopez,1881 BOLTON AVE,TULARE,CA,93274,5wlopez5@gmail.com,2019,Nissan,Altima,1N4BL4CV0KC102159,N7976,12/21/21 17:11,Nissan
+David,Aguilar,1671 E Bullard Ave Apt 151,Fresno,CA,93710,daveed_559@icloud.com,2021,Nissan,Altima,1N4BL4BV0MN420050,N97795,12/22/21 4:30,Nissan
+Jose,De Anda Perez,409 holmes Ave,Mendota,CA,93640,josejesus81@gmail.com,2019,Nissan,Titan,1N6AA1EJ8KN525593,N7905,12/24/21 2:14,Nissan
+Jessica,Gomez,627 SOUTH PINKHAM,VISALIA,CA,93292,addictedtojesss@gmail.com,2014,Nissan,Pathfinder,5N1AR2MM3EC614254,N97745A,12/25/21 0:16,Nissan
+Jose,Medina guevara,2303 E University Ave,Fresno,CA,93703,josepd_6@hotmail.com,2022,Nissan,Frontier,1N6ED1EK6NN629022,N97806,12/27/21 2:07,Nissan
+Hipolito,Pulido,17499 Iona Ave,Lemoore,CA,93245,,,,,,,,Nissan
+Maria,Pulido,17499 Iona Ave,Lemoore,CA,93245,,2021,Nissan,Kicks,3N1CP5DV0ML561466,N97830,12/27/21 2:04,Nissan
+Yadvinder,Sandhu,5803 E Grove Ave,Fresno,CA,93727,burrojatt@gmail.com,2022,RAM,1500,1C6SRFU98NN104523,N7956,12/29/21 5:01,Nissan
+Victor,Becerra,4111 N Blythe Ave # 124,Fresno,CA,93722,,2019,Nissan,Sentra,3N1AB7AP5KY225397,N7941,12/29/21 5:06,Nissan
+Rupinderjit,Nahal,2497 N 10th Ave,Hanford,CA,93230,rup30@yahoo.com,2022,Nissan,Altima,1N4BL4CV2NN308639,N97833,12/30/21 1:37,Nissan
+Ajmer,Nahal,2497 N 10th Ave,Hanford,CA,93230,,,,,,,,Nissan
+Tammie,Meyer,611 Kingfisher Ct,Merced,CA,95340,justbreath4.13@gmail.com,2021,Nissan,Rogue,JN8AT3DD3MW320995,N97838,12/30/21 8:00,Nissan
+Merna,Nobile,5678 Amber Ave,Clovis,CA,93619,jake@nobiletruckonline.com,2021,Nissan,NV Cargo,1N6BF0KM6MN805157,N7938,12/31/21 4:05,Nissan
+Annette,Raven,5976 E Dayton Ave,Fresno,CA,93727,araven@gpusd.org,2021,Nissan,Rogue Sport,JN1BJ1AV0MW321130,N97818,12/31/21 4:04,Nissan
+Amber,Holbrook,3852 E Alamos Ave # 115,Fresno,CA,93726,holbrookamber150@gmail.com,2021,Nissan,Versa,3N1CN8FV2ML921051,N97764,12/31/21 8:00,Nissan
+Cinthia,Ramirez Carrillo,2454 N 6th St,Fresno,CA,93703,cinthia.ramirez05@gmail.com,2022,Nissan,Sentra,3N1AB8DV6NY219032,N97839,1/1/22 3:27,Nissan
+Erik,Lozano,2131 N Rosendo Ave,Fresno,CA,93722,lozano.eric@outlook.com,2022,Nissan,Frontier,1N6ED1EK4NN614275,N97825,1/2/22 3:52,Nissan
+Jose,Camargo,220 W Wayside Dr,Dinuba,CA,93618,solmotty@gmail.com,2021,Nissan,Kicks,3N1CP5CV5ML563358,N97858,1/8/22 19:37,Nissan
+Maribel ,Lozano,2131 N rosendo Ave,Fresno,CA,93722,,,,,,,,Nissan
+Va,Her,5437 E Eugenia Ave,Fresno,CA,93727,vaher5435@gmail.com,2022,Nissan,Sentra,3N1AB8DV2NY217357,N97846,1/7/22 3:34,Nissan
+Journey,Hulsey,864 S Flake St,Dinuba,CA,93618,journeyhulsey@gmail.com,2020,Nissan,Pathfinder,5N1DR2CM5LC591684,N7912R,,Nissan
+Stephanie,Buckridge,1011 E Cambridge Ave,Visalia,CA,93292,steph.1966@yahoo.com,2021,Nissan,Kicks,3N1CP5CV8ML559238,N97803,1/2/22 3:53,Nissan
+Harl,Buckridge,1011 E Cambridge Ave,Visalia,CA,93292,firecap51@yahoo.com,,,,,,,Nissan
+Curtis,Hulsey,864 S Flake St,Dinuba,CA,93618,curtishulsey12@gmail.com,2020,Nissan,Pathfinder,5N1DR2CM5LC591684,N7912R,1/2/22 23:48,Nissan
+Adel,Lopez,14551 W San Joaquin Ave,Kerman,CA,93630,robles.tay11@yahoo.com,2022,Nissan,Altima,1N4BL4CV6NN305646,N97847,1/2/22 23:49,Nissan
+Mike,Hernandez,1900 Geary Ave,Sanger,CA,93657,mahernandez711@yahoo.com,2022,Nissan,Sentra,3N1AB8CV8NY206929,N97836,1/3/22 2:03,Nissan
+Raul,Hernandez,PO BOX 673,Mendota,CA,93640,rh089@mail.fresnostate.edu,2022,Nissan,Frontier,1N6ED1EKXNN623305,N97783,1/11/22 8:00,Nissan
+Aurelia,Rosales,1058 Leslie Ln,Hanford,CA,93230,lia1058ros@hotmail.com,2021,Nissan,Versa,3N1CN8FV1ML923597,N97763,1/4/22 18:15,Nissan
+Isac,Valdovinos,235 S I St,Tulare,CA,93274,isac55924@gmail.com,2022,Nissan,Pathfinder,5N1DR3BA3NC229918,N97823,1/4/22 18:16,Nissan
+Joseph,Chavez,6192 N Gilroy Ave.,Fresno,CA,93722,joseph4432@sbcglobal.net,2022,Nissan,Pathfinder,5N1DR3AA8NC227308,TBA7308,1/5/22 3:59,Nissan
+Manuel,Franco,6192 N Gilroy Ave.,Fresno,CA,93722,joseph4432@sbcglobal.net,,,,,,,Nissan
+Gener,Naguiat,1810 Patterson Ave,Corcoran,CA,93212,gnaguiat@gmail.com,,,,,,,Nissan
+Genshel,Amber,1810 Patterson Ave,Corcoran,CA,93212,,2021,Nissan,Rogue,5N1AT3CA4MC840185,TBA0185,1/5/22 4:00,Nissan
+Maria,Gratti,1132 Tulare St.,Kingsburg,CA,93631,maria1627@hotmail.com,2021,Nissan,Rogue,5N1AT3CA0MC825053,N97843,1/6/22 1:04,Nissan
+Emma,Tellez,338 W Herbert Ave,Reedley,CA,93654,emmyg8462@gmail.com,2022,Nissan,Sentra,3N1AB8CV7NY217842,N97840,1/10/22 0:16,Nissan
+Michael,Britton,833 Mesa Dr,Arroyo Grande,CA,93420,rubrenginr@yahoo.com,2022,Nissan,Pathfinder,5N1DR3CA9NC229498,N97848,1/8/22 19:25,Nissan
+Rebecca,Britton,833 Mesa Dr,Arroyo Grande d,CA,93420,rrrdaisy@hotmail.com,,,,,,,Nissan
+Yvette,Martinez,373 N Bates Ave,Dinuba,CA,93618,yvette.mart.559@gmail.com,2017,Nissan,Rogue Sport,JN1BJ1CR1HW108046,N7923,1/7/22 3:42,Nissan
+David,Guevara Garcia,351 N West St Apt 1414,Tulare,CA,93274,davidguevara2979@gmail.com,2021,Ford,Explorer,1FMSK7DH2MGA96038,N7950,1/7/22 4:13,Nissan
+Charles,Rocha,2656 N Cecelia Ave,Fresno,CA,93711,crjrocha7@gmail.com,2020,Dodge,Charger,2C3CDXHG4LH199473,N7982I,1/8/22 19:38,Nissan
+Maria,Taylor,220 W Wayside Dr,Dinuba,CA,93618,mariataylor186@gmail.com,,,,,,,Nissan
+AGUEDA,SOLANO SILVA,800 GARICIA ST APT 108,MEDOTA,CA,93640,,,,,,,,Nissan
+Jose,Soto,283 Yellowstone St,Tulare,CA,93274,josesoto19771@gmail.com,2021,Nissan,Altima,1N4BL4CV2MN324029,N97733A,1/8/22 19:36,Nissan
+Francisco,Lorenzo Vazquez,16025 S Fowler Ave,Selma,CA,93662,,2018,Honda,Accord,1HGCV1E37JA004213,N7893,1/8/22 19:28,Nissan
+Ma,Villarreal,705 Neville St,Hanford,CA,93230,villareal_maria68@yahoo.com,2021,Nissan,Kicks,3N1CP5BV1ML558420,N97810,1/10/22 0:17,Nissan
+MIGUEL,VILLARREL,705 Neville St,Hanford,CA,93230,,,,,,,,Nissan
+Drelen,Thompson,627 Moore Cir,Exeter,CA,93221,,2016,Ford,Mustang,1FA6P8THXG5336571,N7951,1/11/22 3:55,Nissan
+Lisa,Aguilar,2805 Holiday Way,Madera,CA,93637,aguilar_lisa63@yahoo.com,,,,,,,Nissan
+Antonio,Aguilar,2805 Holiday Way,Madera,CA,93637,aguilar_lisa63@yahoo.com,2021,Nissan,Kicks,3N1CP5CV3ML561740,N97827,1/10/22 3:42,Nissan
+Irene,Catoy,24434 6 1/4 Ave,Corcoran,CA,93212,ibramcatoy@yahoo.com,2018,Nissan,Altima,1N4AL3AP3JC148142,N7895,1/10/22 3:42,Nissan
+Griffin,Capson,6202 Oak Ave,Visalia,CA,93291,griffincapson@gmail.com,2017,Ford,Fusion,3FA6P0H72HR388406,N7984I,1/11/22 8:00,Nissan
+Eliseo,Aguileraarguello,311 West Ave,Sanger,CA,93657,aguileramariaa1955@gmail.com,2021,Nissan,Rogue,5N1AT3CA1MC845151,N97857,1/11/22 8:00,Nissan
+Maria,AguilerA,311 west,Sanger,CA,93657,aguileramatiaa1955@gmail.com,,,,,,,Nissan
+Anthony,Ramirez,2127 Hatch Ave,Tulare,CA,93274,rahmiant92@gmail.com,2017,Nissan,Sentra,3N1AB7AP5HY277279,N97676A,1/21/22 8:00,Nissan
+Alma,Lopez,1094 Lucia Ave,Fowler,CA,93625,almis7@ymail.com,2021,Nissan,Rogue Sport,JN1BJ1AV4MW320966,N97819,1/17/22 2:53,Nissan
+Karen,Encinas,200 W School Ave,Porterville,CA,93257,karenencinas2@icloud.com,2022,Nissan,Altima,1N4BL4CW9NN300854,N97841,1/14/22 5:23,Nissan
+Juan,Borjas Paez,585 W Dovewood Ct,Coalinga,CA,93210,calikingjuan@gmail.com,,,,,,,Nissan
+Efigenia,Valencia Renteria,2536 E Washington Ave,Fresno ,CA,93701,,2021,Nissan,Altima,1N4BL4CW5MN416552,N97779,1/17/22 2:50,Nissan
+Ryan,Poulsen,6035 E Lowe Ave,Fresno,CA,93727,,2020,Chevrolet,Spark,KL8CB6SA9LC413613,N97747A,1/15/22 17:53,Nissan
+Ana,Contreras,585 W Dovewood Ct,Coalinga,CA,93210,,2019,Honda,Accord,1HGCV1F19KA087626,N7987I,1/16/22 1:28,Nissan
+Edy,Amaya Chinchilla,5348 E Geary St,Fresno,CA,93727,tati932@yahoo.com,2022,Nissan,Pathfinder,5N1DR3AA8NC225297,N97862,1/16/22 1:23,Nissan
+Gloria,Amaya Melendez,5348 E Geary St,Fresno,CA,93727,tati932@yahoo.com,,,,,,,Nissan
+Esmeralda,Vences Hernandez,676 W Teddy St,Farmersville,CA,93223,isnerald.h@att.net,2021,Nissan,Rogue,5N1AT3AA2MC846196,N97853,1/16/22 1:25,Nissan
+Pedro,Rodriguez,676 W teddy St,Farmersville,CA,93223,,,,,,,,Nissan
+Francisco,Martinez,2320 Stillman St Apt 215,Selma,CA,93662,gtfrankie@hotmail.com,2022,Nissan,Sentra,3N1AB8CV5NY207732,N97835,1/16/22 1:26,Nissan
+Francisco,Gutierrez,519 s kona,Fresno,CA,93727,paco9307@gmail.com,2021,Nissan,Sentra,3N1AB8DV1MY216182,N97753A,1/16/22 1:27,Nissan
+Lorena,Gutierrez,519 S Kona Ave,Fresno,CA,93727,lorenaguiterrez111@gmail.com,,,,,,,Nissan
+Bradley,Mcphetridge,27469 Ave 88,Terra Bella,CA,93270,,,,,,,,Nissan
+Juan J,Ramirez,1162 Brent Rd,Dinuba,CA,93618,,2022,Nissan,Frontier,1N6ED1EJ8NN628770,N97800,1/17/22 2:43,Nissan
+Jose,Renteria,2536 E Washington Ave,Fresno,CA,93701,grg.da9@gmail.com,,,,,,,Nissan
+Clemente,Gonzalez Granados,955 E Orange Ave,Porterville,CA,93257,clementegonzales614@gmail.com,2021,Nissan,Frontier,1N6ED0EA5MN702526,N7969,1/17/22 2:54,Nissan
+ADILENE,DAMIAN ARELLANO,955 E Orange Ave,Porterville,CA,93257,adilenedamian30@gmail.com,,,,,,,Nissan
+Katrina,Luna,151 Candice Ave.,Parlier,CA,93648,krodz7@icloud.com,2021,Nissan,Altima,1N4BL4BV9MN422122,N97811,1/17/22 2:55,Nissan
+Raymundo,Lopez,1094 Lucia Ave,Fowler,CA,93625,,,,,,,,Nissan
+Joseph,Olivas,1200 GRAND AVE SPC 101,Spring Valley,CA,91977,joeolivas15@gmail.com,2015,Chevrolet,Tahoe,1GNSCCKC1FR143544,N7946,1/17/22 8:00,Nissan
+Firas,Jaber,597 I St,Reedley,CA,93654,alejandras342@gmail.com,2022,Nissan,Altima,1N4BL4EV5NN303206,N97845,1/21/22 3:49,Nissan
+Firas,Jaber,597 I St,Reedley,CA,93654,alejandras342@gmail.com,2017,Ford,Mustang,1FA6P8CF6H5292021,N7820,,Nissan
+SEE,LEE,717 W HAMMOND AVE,FRESNO,CA,93728,xixlix97@gmail.com,,,,,,,Nissan
+Merisa,Clark,3371 E Sierra Madre Ave Apt a,Fresno,CA,93726,clark.merisaj@gamil.com,2021,Nissan,Kicks,3N1CP5DV1ML563498,N97867,1/18/22 8:00,Nissan
+Wayland,Jackson,2203 W. Norwich Avenue,Fresno,CA,93705,waylandbj@gmail.com,,,,,,,Nissan
+Olga,Hodge,2300 W Morton Ave Sp 152,Porterville,CA,93257,hodge0725@icloud.com,2019,Nissan,Sentra,3N1AB7AP8KY233624,N97788A,1/21/22 3:51,Nissan
+Lauren,Butler,1322 Joy Dr,Clovis,CA,93619,,2022,Nissan,LEAF,1N4AZ1CV6NC555621,N97869,1/22/22 22:24,Nissan
+Jessica,Lopez,5120 E Kings Cyn Apt 126,Fresno,CA,93727,miss_jessica21@hotmail.com,2020,Nissan,Altima,1N4BL4BV8LC238218,N7966R,1/22/22 22:23,Nissan
+Kassandra,Blum,812 N White St,Hanford,CA,93230,kassandraketchum@gmail.com,,,,,,,Nissan
+Patricia,ketchum,664 Mayor Ave,Fresno,CA,93706,kassandraketchum@gmail.com,2020,Nissan,Versa,3N1CN8DV4LL811913,N7888,1/25/22 2:50,Nissan
+Kyle,Lowe,1322 Joy Dr,Clovis ,CA,93619,,,,,,,,Nissan
+Steven,Menendez,6708 Hollenbeck St,Los Angeles,CA,90001,Stuseven77@gmail.com,2022,Nissan,Frontier,1N6ED1EK3NN603008,N97677,1/23/22 8:00,Nissan
+Angelita,Rangel,4131 N Blythe Ave Apt 152,Fresno,CA,93722,angelitarangel818@gmail.com,2021,Nissan,Kicks,3N1CP5BV6ML559658,N97816,1/23/22 18:26,Nissan
+Patricia,Stewart,912 Banyan Dr,Lemoore,CA,93245,,2021,Nissan,Rogue Sport,JN1BJ1BV8MW572072,TBA2072,2/3/22 3:42,Nissan
+Cecilia,Cedillo,20516 Malsbary St,Riverdale,CA,93656,100983@rjusd.org,2021,Nissan,Rogue Sport,JN1BJ1BVXMW570890,N97730,1/24/22 1:49,Nissan
+Javier,Garcia,6106 N Barcus Ave,Fresno,CA,93722,javier.garcia711@gmail.com,,,,,,,Nissan
+CARLOS,TAPIA,220 Chase Ave,Porterville,CA,93257,fledesma1975@gmail.com,2022,Nissan,Frontier,1N6ED1CL5NN634157,N97855,1/23/22 8:00,Nissan
+Salvador,Toscano,7416 WATT AVE # 99,N Highlands,CA,95660,salvadortuscano23@gmail.com,2020,Mazda,CX-3,JM1DKDB76L1475017,N97561A,1/23/22 8:00,Nissan
+SARAH ANNE,FROJD,7416 WATT AVE # 99,N HIGHLANDS,CA,95660,,,,,,,,Nissan
+Misty,Almendarez,6106 N Barcus Ave,Fresno,CA,93722,270mbr@gmail.com,2022,Nissan,Altima,1N4BL4CV5NN315407,N97871,1/24/22 1:50,Nissan
+Braulio,Carreno Lara,40814 N Fruit Ave Apt 118,Fresno,CA,93705,brauliolara16@gmail.com,2019,Toyota,Tacoma,5TFAX5GN1KX146061,N7916A,1/24/22 1:50,Nissan
+Austin,Lagrotta,4875 N Backer Ave # 114,Fresno,CA,93726,lagrotta89@hotmail.com,2022,Nissan,Frontier,1N6ED1EJ3NN631723,N97834,1/25/22 2:51,Nissan
+Patricia,Ketchum,664 Mayor Ave,Fresno,CA,93706,,2022,Nissan,Kicks,3N1CP5CV5NL476660,N97875,1/25/22 2:50,Nissan
+Lina,Rivera,2524 N Kayenta Ct,Visalia,CA,93291,linariverap@hotmail.com,2018,Nissan,Pathfinder,5N1DR2MM1JC676999,N7990L,1/25/22 8:00,Nissan
+Mansour,Kalbuneh,2074 klee Ln,clovis ,CA,93611,manmanhaj58@gmail.com,2018,RAM,1500,1C6RR7MT6JS166644,N7991I,1/25/22 8:00,Nissan
+Janet,Mendoza,1207 San Antonio Ave,Dinuba,CA,93618,,2022,Nissan,Sentra,3N1AB8BV3NY227074,N97876,1/27/22 16:20,Nissan
+Melanie,King,1913 Bolton Ave,Tulare,CA,93274,melaniloke@yahoo.com,2022,Nissan,Kicks,3N1CP5BV7NL476211,N97873,1/27/22 16:24,Nissan
+Christyan,Martinez,17178 W Whitesbridge Ave,Kerman,CA,93630,christyan1324@yahoo.com,2020,Nissan,Versa,3N1CN8FV1LL905504,N97729A,1/27/22 20:44,Nissan
+Carlos,Gonzalez,3817 E Turner Ave,Fresno,CA,93702,cg8799608@gmail.com,,,,,,,Nissan
+Teresita,Rivera,2536 E Tyler Ave,Fresno,CA,93701,rteresita228@gmail.com,2016,Nissan,Titan XD,1N6AA1F44GN514168,N7892,1/27/22 23:31,Nissan
+Sabrina,Kellar,739 N Cypress Ave,Woodlake,CA,93286,skellar16@gmail.com,2019,Nissan,Altima,1N4BL4EV1KC164697,N97765A,1/31/22 4:22,Nissan
+Desiray,Benavides,5884 E BYRD AVE,Fresno,CA,93727,desiraybenavides@yahoo.com,2016,Chevrolet,Cruze Limited,1G1PE5SBXG7111094,N97832A,1/30/22 2:21,Nissan
+Carlos,Vasquez Hernandez,483 N Pine St,Woodlake,CA,93286,jiebau.shop@gmail.com,2022,Nissan,Altima,1N4BL4CV4NN324292,N97879,1/30/22 1:41,Nissan
+Dan,Davis,1801 W Vine Ave,Visalia,CA,93277,davis9760@sbcglobal.net,2017,GMC,Sierra 1500,3GTP1NEC8HG250315,N97787A,1/31/22 2:59,Nissan
+Robert,Poole,422 Barcelona Dr,Lemoore,CA,93245,r_poole@yahoo.com,2022,Nissan,Frontier,1N6ED1EJ8NN641244,N97882,2/3/22 21:25,Nissan
+Bryanna,Rodriguez-Espinoza,6128 W Prior Ave,Visalia,CA,93277,barodriguez01@gmail.com,2021,Nissan,Altima,1N4BL4BV2MN417263,N97780,1/31/22 4:21,Nissan
+Brenda,Rodriguez,6128 W Prior Ave,Visalia,CA,93277,,2021,Nissan,Altima,1N4BL4BV2MN417263,N97780,,Nissan
+Flavio,Gomez Contreras,1762 Truman Dr,Madera,CA,93638,gomezflavio.2023@gmail.com,2017,Ford,Mustang,1FA6P8CF6H5292021,N7820,2/3/22 3:43,Nissan
+Alexander ,Gomez Vasquez,1762 Truman Dr,Madera,CA,93638,,,,,,,,Nissan
+Barbara,Bentz,706 Alder Ave,Hanford,CA,93230,mystique182@yahoo.com,,,,,,,Mazda
+Richard,Bentz,706 Alder Ave,Hanford,CA,93230,richard.bentz@att.net,2019,Mazda,Mazda3 Hatchback,JM1BPANM5K1132304,M7159,1/29/22 22:25,Mazda
+Christopher,Cooke,6800 N Maple Ave Apt 155,Fresno,CA,93710,chrisjc559@yahoo.com,2020,Honda,Accord,1HGCV1F30LA029908,M7178I,12/18/21 20:07,Mazda
+Deborah,Jacinto,1302 greenfield Ave,Hanford,CA,93230,debbie.jacinto@ymail.com,2020,Mazda,Mazda6,,,,Mazda
+Esther,Miguel,1834 E Alpine Ave,Tulare,CA,93274,lukraut@hotmail.com,2022,Mazda,CX-9,JM3TCBDYXN0604654,M16399,1/27/22 3:13,Mazda
+Lovepreet,Singh,1552 Oleander Ave,Manteca,CA,95337,,2019,Dodge,Charger,2C3CDXHG8KH513091,M16395A,1/4/22 16:44,Mazda
+Marissa,Scotti,274 E Lingo Ave,Reedley,CA,93654,marissascotti@icould.com,2021,Mazda,Mazda3,3MZBPACL2MM253398,M16391,12/15/21 21:20,Mazda
+Rosa,Fuerte De Palacios,991 Palo Alto St,Tulare,CA,93274,ana.palacios227@gmail.com,2019,Jeep,Cherokee,1C4PJMCX4KD156288,M16358A,12/13/21 3:59,Mazda
+Vanessa,Santana,220 lake Dr,Lemoore,CA,93245,vmsuarezx@gmail.com,2021,Mazda,CX-5,JM3KFBCM6M0485341,M16393,,Mazda
+Nonamegiven,Sawan,3661 W Shields Ave Apt 188,Fresno,CA,93722,,2021,Dodge,Challenger,2C3CDZFJ5MH567641,R55103A,12/13/21 3:58,Mazda
+Easton,Pedersen,2602 W Prospect Ave,Visalia,CA,93291,easton4jesus@gmail.com,2021,Mazda,Mazda3 Sedan,3MZBPABL2MM253726,M16390,,Mazda
+Larry,Jacinto,1302 Greenfield Ave,Hanford,CA,93230,larrytjacinto@yahoo.com,2021,Mazda,CX-5,JM3KFBCM6M0485341,M16393,12/15/21 6:01,Mazda
+Joshua,Pedersen,2602 W Prospect Ave,Visalia,CA,93291,jpedersen2191@gmail.com,2021,Mazda,Mazda3,3MZBPABL2MM253726,M16390,12/15/21 6:00,Mazda
+Makenzie,Coelho,212 Fairbanks Ave,Sanger,CA,93657,makenziemaie19@gmail.com,,,,,,,Mazda
+Yulitzy,Arriola-Robles,617 N 3rd St,Fresno,CA,93702,yulitzyarriola19@gmail.com,,,,,,,Mazda
+Jorge,Arriola Robles,617 N 3rd St,Fresno,CA,93702,arriolajorge10@gmail.com,,,,,,,Mazda
+Alan,Medrano Reyes,3371 E Sierra Madre Ave Apt F,Fresno,CA,93726,reyesximena@icloud.com,,,,,,,Mazda
+Julio,Vasquez Peralta,696 W Santa Ana Ave Apt 110,Clovis,CA,93612,,2021,Mazda,Mazda3,3MZBPACL6MM253372,M16388,12/15/21 18:46,Mazda
+Rubianna,Cuevas,1944 Kamm Ave,Kingsburg,CA,93631,sehmubysea@yahoo.com,2019,Dodge,Challenger,2C3CDZJG1KH508675,M7176I,12/17/21 3:20,Mazda
+Hayley,Goins,6456 N seventh St,fresno,CA,93710,hayley2g@yahoo.com,2021,Mazda,CX-5,JM3KFBCM8M0495255,M16028,12/24/21 0:37,Mazda
+Maria,Sotelo,16153 Rd 192 Mulberry 2,Porterville,CA,93257,,2021,Mazda,Mazda3,3MZBPBCLXMM253168,M16384,12/22/21 16:43,Mazda
+Yesenia,Cruz Reyes,2373 S Chestnut Ave Apt 48,Fresno,CA,93725,cruz.yc@hotmail.com,2018,RAM,1500,1C6RR7NM0JS253253,M7172I,12/22/21 21:57,Mazda
+Christopher,Lauriel,232 Bristol Ln,Hanford,CA,93662,lauriel2311@gmail.com,2022,Mazda,Mazda3,JM1BPBLL2N1501060,M16043,1/1/22 18:04,Mazda
+Sergio,Santana,220 lake Dr,lemoore,CA,93245,vmsuarezx@gmail.com,2021,Mazda,CX-5,JM3KFBDM3M1488058,M16029,12/26/21 21:15,Mazda
+Mary,Coelho,212 Fairbanks Ave,Sanger,CA,93657,coelhomary7@gnail.com,2021,Mazda,CX-5,JM3KFBCM0M0497808,M16033,1/1/22 0:29,Mazda
+Jimmy,Wilson,1889 Lime Ave,Sanger,CA,93657,wilsonjimmy379@yahoo.com,2019,Toyota,Camry,4T1B11HK0KU164289,M7174I,1/18/22 18:18,Mazda
+Marissa,Waterman,21641 Wasatch Mountain Rd,Sonora,CA,95370,mwaterman199@gmail.com,2021,Mazda,CX-5,JM3KFBCM6M0498039,M16026,12/24/21 23:47,Mazda
+Nicholas,Waterman,21641 WasatchMountain Rd,Sonora,CA,95370,nicholas.waterman78@gmail.com,,,,,,,Mazda
+Adam,Gerbrandt,805 Charles St,Dinuba,CA,93618,anegerbrandt@hotmail.com,2017,Chevrolet,Impala,2G1105S36H9141870,M7173I,12/25/21 0:08,Mazda
+Josefa,Acosta,1622 S Regina St,visalia,CA,93292,jmacosta141@gmail.com,2021,Mazda,CX-30,3MVDMBDL8MM306404,M16030,12/27/21 0:19,Mazda
+Landy,Toro,1443 Cooper St,Selma,CA,93662,famdeltoro@gmail.com,2020,Chevrolet,Silverado 1500,3GCNWAEF4LG399759,M7177IR,12/27/21 3:54,Mazda
+Manuel,Ayala,1443 Cooper St,Selma,CA,93662,m.ayalacustomdesigns@gmail.com,,,,,,,Mazda
+Jang,Rangi,4120 N Blythe Ave Apt 220,Fresno,CA,93722,jangrangi1969@gmail.com,2021,Mazda,CX-5,JM3KFBCM8M0495174,M16027,12/28/21 2:59,Mazda
+,,4800 Pan American E Fwy,Albuquerque,NM,87109,,2020,Mazda,CX-5,JM3KFBEY6L0864709,M15975,1/5/22 1:46,Mazda
+Anthony,Rabago,12478 C St,Biola,CA,93606,,2021,Mazda,CX-5,JM3KFBCY3M0494551,M16036,12/29/21 22:30,Mazda
+David,Ojeda Caudillo,671 S Creekside St,Porterville,CA,93257,,2016,Honda,Civic Sedan,19XFC2F52GE247733,M7179I,12/29/21 2:38,Mazda
+Ashley,Davis,671 S Creekside St,Porterville,CA,93257,,,,,,,,Mazda
+Raul,Suastegui,15975 Avenue 327 Apt 9,Ivanhoe,CA,93235,,2018,Jeep,Compass,3C4NJCCB8JT318826,M16345A,12/29/21 2:39,Mazda
+Esmeralda,Rodiguez,1061 N White St Apt A,Handford,CA,93230,chavezesmeralda1993@gmail.com,2019,Ram,1500,1C6SRFLT1KN600434,M7180I,12/29/21 4:27,Mazda
+LUIS,Rodriguez Valdez,1061 N White St Apt A,Hanford,CA,93230,chavezesmeralda1993@gmail.com,,,,,,,Mazda
+Uriel,Guillen Tinoco,45 W 10th St Apt 101,Clovis,CA,93612,ivonnetenosan@gmail.com,2022,Mazda,CX-9,JM3TCBCY0N0601358,M16044,12/31/21 0:28,Mazda
+Francisca,Bautista  Yanez,4726 E Church Ave Apt 148,Fresno,CA,93725,indomable31@hotmail.com,2019,Jeep,Wrangler Unlimited,1C4HJXFG1KW584843,M7191I,12/29/21 22:43,Mazda
+Donald,Best,4800 Pan American E Fwy,Albuquerque,NM,87109,,,,,,,,Mazda
+Evelyn,Tovar,15340 Avenue 383,Visalia,CA,93292,tovare26@yahoo.com,2021,Mazda,CX-5,JM3KFBCM5M0497786,M16034,1/1/22 0:30,Mazda
+Jose,Reyna,830 N E St,Tulare,CA,93274,miriam313@gmail.com,2018,Hyundai,Elantra,5NPD84LF9JH395365,M7192I,1/1/22 4:01,Mazda
+Cristine,Tindugan,2320 W Bristol Ln,Hanford,CA,93230,,,,,,,,Mazda
+Timothy,Costantino,43624 cedar Grove Ct,Coarsegold,CA,93614,timc559@outlook.com,2022,Mazda,CX-5,JM3KFBCM1N0532213,M16397,1/26/22 2:36,Mazda
+Amanda,Garcia,186 S L St # 6,Dinuba,CA,93618,agarcia101776@gmail.com,2022,Mazda,Mazda3,JM1BPAKLXN1501349,M16041,1/5/22 16:36,Mazda
+Gabriela,Fernandez Gutierrez,363 Danielle Way Apt H,Woodlake,CA,93286,alexchavez0715@gmail.com,,,,,,,Mazda
+Eric,Magana,3011 W Loyola Ct,Visalia,CA,93277,emagana42@yahoo.com,2020,Chrysler,Pacifica,2C4RC1BG5LR105772,M7196IR,1/6/22 4:43,Mazda
+Florence,Garcia,428 N J St,Dinuba,CA,93618,,,,,,,,Mazda
+Nonamegiven,Satpal,3661 W Shields Ave Apt 217,Fresno,CA,93722,satpalturan1979@gmail.com,2021,Mazda,CX-5,JM3KFBCM5M1497023,M16035,1/6/22 0:43,Mazda
+Brian,Terrazas Fernandez,363 Danielle Way Apt H,Woodlake,CA,93286,,2020,Subaru,WRX STI,JF1VA2S67L9819206,M7194I,1/7/22 1:34,Mazda
+Maria,Mancilla,2012 Mitchell Ave,Selma,CA,93662,santanalopez917@gmail.com,2019,RAM,ProMaster 1500,3C6TRVNG8KE509258,M7195I,1/7/22 19:31,Mazda
+Mauricio,Ceballos Jimenez,5113 Hollist St,Bakersfield,CA,93308,,2020,Mazda,CX-30,3MVDMBCL8LM140207,M7152,1/8/22 18:31,Mazda
+Sonya,Pena,6840 N Maple Ave Apt 268,Fresno,CA,937100000,sonyampena@gmail.com,2021,Mazda,CX-5,JM3KFBCMXM1494148,M16032,1/9/22 18:24,Mazda
+Timothy,Arthur,14040 Willow Cir,Armona,CA,93202,noemail@gmail.com,2022,Mazda,Mazda3,JM1BPAKL1N1500770,M16042,1/9/22 18:28,Mazda
+Jose,Lopez Vega,26659 S El Dorado Ave,Coalinga,CA,93210,j.lowpez33@gmail.com,2017,Mazda,Mazda3,JM1BN1V76H1141005,M7153,1/9/22 18:29,Mazda
+Simona,Arthur,14040 Willow Cir,Armona,CA,93202,simonaarthur7@gmail.com,,,,,,,Mazda
+Jose,Garcia Martinez,13121 E Young Ave Apt 126,Parlier,CA,93648,jgjose786@gmail.com,2021,Mazda,CX-9,JM3TCBCYXM0542141,M16394,1/9/22 18:30,Mazda
+Maria,Diaz-Leon,13121 E Young Ave Apt 126,Parlier,,93648,diazmonse20@gmail.com,,,,,,,Mazda
+Joshua,Ramirez,6519 E Geary St,Fresno,CA,93727,josh.ramirez1987@icloud.com,2021,Mazda,CX-5,JM3KFBDM7M0497772,M16040,1/13/22 1:25,Mazda
+Mandy,Ramirez,6519 E Geary St,Fresno,CA,93727,,,,,,,,Mazda
+Vanessa,Hernandez,2575 S Willow Ave Spc 92,Fresno,CA,93725,vah9870@yahoo.com,,,,,,,Mazda
+Martha,Zarate,2575 S Willow Ave Apt 92,Fresno,CA,93725,zmartha67@yahoo.com,2021,Mazda,CX-30,3MVDMBDL6MM307034,M16031,1/17/22 0:44,Mazda
+Gregory,Olmos,1143 B St,Reedley,CA,93654,,2018,Honda,Accord,1HGCV1F36JA244884,M7204I,1/17/22 18:32,Mazda
+Esmeralda,Garay,210 E Mountain Vw,Porterville ,CA,93257,esmegara05@yahoo.com,2022,Mazda,CX-5,JM3KFBEMXN0524771,M16048,1/19/22 16:46,Mazda
+Jaden,Giotta,24045 Ave 324 Po Box 44101,Concord,CA,94518,jadengiotta@gmail.com,2017,Volkswagen,Passat,1VWDT7A3XHC084572,M16376A,1/21/22 22:45,Mazda
+J,Centeno Alvarado,795 Mayflower Ave,Dinuba,CA,93618,angelcenteno2196@icloud.com,2021,Mazda,CX-5,JM3KFBCM6M0495139,M16025,1/30/22 1:24,Mazda
+Rogelio,Centeno Pina,795 Mayflower Ave,Dinuba,CA,93618,rogelioceno@hotmail.com,,,,,,,Mazda
+Jose,Valdez,14380 W California Apt 195,Kerman,CA,93630,,2019,Toyota,Corolla,2T1BURHE3KC229668,M16388A,1/23/22 3:00,Mazda
+Maxine,Valdez,3761 W Garland Ave,Fresno,CA,93722,,,,,,,,Mazda
+Guadalupe,Alvarado,1096 Daisy Ct,Dinuba,CA,93618,galvarad11123@gmail.com,,,,,,,Mazda
+Jose Luis,Alvarado,1096 Daisy Ct,Dinuba,CA,93618,,2020,Mazda,CX-5,JM3KFABM1L0721940,M16366A,1/30/22 23:55,Mazda
+Christopher,Miguel,1834 E Alpine Ave,Tulare,CA,93274,,,,,,,,Mazda
+Mikee May,Caseres,2096 W Heather Ln,Hanford,CA,93230,mikeemay243@gmail.com,2018,Mazda,Mazda6,JM1GL1TY4J1309401,M7151,1/27/22 19:16,Mazda
+James,Bay,16705 goat Ranch Rd,springville,CA,93265,,,,,,,,Mazda
+Samuel,Monaco,8305 N victor Ave,fresno,CA,93711,,2021,Ram,1500,1C6RRFFG0MN817585,6706,1/29/22 1:10,Mazda
+Jinky,Caseres,2096 W Heather Ln,Hanford,CA,93230,,,,,,,,Mazda
+Alberto,Castaneda,3603 E Stapp Ave,Visalia,CA,93292,albertocastaneda0@gmail.com,2019,Nissan,Sentra,3N1AB7AP0KY382092,M16033A,1/27/22 19:12,Mazda
+Angela,Pelliccione,589 pepper Dr Apt A,hanford ,CA,93230,arpellic@gmail.com,2022,Mazda,CX-5,JM3KFBDM3N1530004,M16402,1/29/22 3:09,Mazda
+Veronica,Carroz,12313 Ashlyn Dr,Bakersfield,CA,93312,amandasvoisin@gmail.com,2022,Mazda,Mazda3 Hatchback,JM1BPALL3N1508125,M16411,1/30/22 22:20,Mazda
+Elvia,Deluna,1584 Firestone Dr,Tulare,CA,93274,deluna.jonathan@yahoo.com,2022,Mazda,CX-5,JM3KFBDM7N1530099,M16407,1/30/22 1:24,Mazda
+Jonathan,Deluna,1584 Firestone Dr,Tulare,CA,93274,deluna.jonathan@yahoo.com,,,,,,,Mazda
+Eugenia,Prudente Berdejo,16700 Tuolumne St,Madera,CA,93638,,2022,Mazda,CX-9,JM3TCBCY1N0601143,M16045,1/30/22 2:13,Mazda
+Luis,Pena,6445 W PEREZ AVE,VISALIA,CA,93291,mick49er1@yahoo.com,2022,Mazda,CX-5,JM3KFBCM2N0544631,M16415,1/30/22 2:22,Mazda
+Eileen,Pena,6445 W Perez Ave,Visalia,CA,93291,pena1faith@yahoo.com,,,,,,,Mazda
+Loyd,Thomas,1108 Blackwood Ave,Clovis,CA,93619,Loydthomas92@yahoo.com,2017,Ram,2500,3C6UR5CL9HG529066,M7175I,1/30/22 2:11,Mazda
+Macy,Thomas,1108 Blackwood Ave,Clovis,CA,93619,,,,,,,,Mazda
+Rachel,Scott,333 N Indiana St Apt 611A,Porterville,CA,93257,,2014,Toyota,Corolla,5YFBURHEXEP138854,Y6507,1/30/22 23:44,Mazda
+Daniel,Voisin,12313 Ashlyn Dr,Bakersfield,CA,93311,voisind@gmail.com,2022,Mazda,Mazda3,,,,Mazda
+Carla,Nelson,3145 Mission Dr,Hanford,CA,93230,cdiane07@gmail.com,2022,Mazda,CX-5,JM3KFBEM8N1529848,M16404,2/2/22 1:37,Mazda
+Miguel,Rodriguez,2679 Nebraska Ave Apt 211,selma ,CA,93662,mikee.diaz7@gmail.com,2022,Mazda,CX-5,JM3KFBBM7N0541502,M16409,2/4/22 4:19,Mazda
+Jessica,Herrera,2679 Nebraska Ave Apt 211,Selma,CA,93662,jessicaherrera947@gmail.com,2022,Mazda,CX-5,JM3KFBBM7N0541502,M16409,,Mazda
+Olga,Arredondo,1705 W Yale Ave,Fresno,CA,93705,olgaarredondo@att.net,2021,Chevrolet,Colorado,1GCGSCEN6M1293157,C41943,1/9/22 2:29,Chevy
+Jose,Lorenzano,13382 E Young Ave,Parlier,CA,93648,dericksk8@yahoo.com,2020,Chevrolet,Trax,KL7CJKSB8LB038246,C41759A,12/20/21 1:18,Chevy
+Marlyn,Valdez,714 russell Dr,tulare,CA,93274,1206marlyn@gmail.com,,,,,,,Chevy
+Antonio,Gonzalez Pacheco,865 King St,Parlier,CA,93648,noemail@noemail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED4NZ145173,C41964,1/13/22 1:38,Chevy
+Daniel,Cravins,3159 N Sonora Ave,Fresno,CA,93722,dcravins92@msn.com,2018,Chevrolet,Silverado 1500,3GCUKSER5JG430344,C39847,8/4/18 10:00,Chevy
+Brian,Fish,39 N Post Ave,Sanger,CA,93657,bfish300@live.com,2022,Chevrolet,Silverado 1500 LTD,3GCUYHED3NG135447,C41971,1/26/22 3:10,Chevy
+Makayla,Frerichs,4735 W Elkhorn Ave,Visalia,CA,93277,makaylafrerichs@gmail.com,2022,Chevrolet,Camaro,1G1FB3DX7N0104689,C41950,12/27/21 1:47,Chevy
+Jessica,Monroy,1176 Mulberry Ln,Parlier,CA,936482482,florencia_monroy@yahoo.com,2022,Chevrolet,Equinox,2GNAXKEV5N6105221,C41954,1/20/22 2:03,Chevy
+Charles,Johanson,4820 E Powers Ave,Clovis,CA,93619,johansonfam@sbcglobal.net,2022,Chevrolet,Suburban,1GNSKDKD5NR117285,C41901,12/15/21 2:53,Chevy
+Aaron,Galvan,6779 W Alana Dr,Fresno,CA,937223776,AARON_GALVAN21@YAHOO.COM,2020,Chevrolet,Silverado 1500,1GCPYCEF4LZ186261,C12020L,12/20/21 8:00,Chevy
+Julio,Crespo Puentes,2240 S Matus Ave,Fresno,CA,93725,sorianomaria52@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED9NZ126649,C41945,1/5/22 1:29,Chevy
+Antonio,Rivas,5440 W Saginaw Way,Fresno,CA,93722,antonio.rivasjr@yahoo.com,2019,Chevrolet,Malibu,1G1ZD5ST1KF130121,C41847A,12/31/21 23:39,Chevy
+Jennie,Bakerdepue,3159 N Sonora Ave,Fresno,CA,93722,,2022,Chevrolet,Silverado 1500 LTD,1GCUYHED5NZ114003,C41910,12/17/21 2:56,Chevy
+R J Berry Jr,Inc,PO Box 468,Selma,CA,93662,,2022,Chevrolet,Silverado 1500 LTD,1GCPYFELXNZ120291,C41935,1/20/22 22:43,Chevy
+Sandra,Alejandrez,4302 E Church Ave,Fresno,CA,93725,,2019,Dodge,Journey,3C4PDCABXKT747244,C41813C,1/19/22 2:27,Chevy
+Efrain,Calderon Velazquez,16279 S Cornelia Ave,Caruthers,CA,93609,myrnapao92@icloud.com,2018,Chevrolet,Silverado 1500,3GCUKSEC3JG427387,C11940A,12/12/21 23:54,Chevy
+Erika,Guardado,760 N Camelia Ave,Farmersville,CA,93223,morenocristian28@yahoo.com,2020,Toyota,Tacoma,5TFAX5GN6LX177761,C12042I,1/17/22 1:28,Chevy
+Jorge,Guardado Rivera,760 N camelia Ave,farmersville,CA,93223,,,,,,,,Chevy
+Jessie,Gonzalez,222 N Locan,Fresno,CA,93737,gonzojcoltrain@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPYFEL8NZ117910,C41923,,Chevy
+Yuliana,Villalpando Cervantes,6656 ave 192,Tulare,CA,93274,yulig.1927@gmail.com,,,,,,,Chevy
+Julio,Gomez Loza,6656 Ave 192,Tulare,CA,93274,julioloza73.jg@icloud.com,2022,Chevrolet,Equinox,2GNAXKEV5N6105221,C41954,12/20/21 1:24,Chevy
+Matthew,Kantes,5940 16th Ave,Hanford,CA,93230,,,,,,,,Chevy
+Erica,Martinez,5940 16th Ave,Hanford,CA,93230,,2021,Hyundai,Venue,KMHRC8A3XMU099409,C12057I,1/22/22 3:08,Chevy
+Kaytlyn,Grant,1203 W Ashland Ave,Visalia,CA,93277,kaytielg@gmail.com,2018,Dodge,Challenger,2C3CDZFJ5JH219415,C12041I,1/10/22 1:42,Chevy
+Vickie,Perez,5439 E Kaviland Ave,Fresno,CA,93727,vperez1833@gmail.com,2022,Chevrolet,Blazer,3GNKBCR4XNS120857,,11/27/21 1:59,Chevy
+Jose,Gonzalez,2375 Floral Ave Apt 118,Selma,CA,93662,lupitaserrato559@gmail.com,,,,,,,Chevy
+Maria,Serrato Zamora,2375 Floral Ave Apt 118,Selma,CA,93662,lupitaserrato559@gmail.com,2019,Hyundai,Santa Fe,5NMS2CAD6KH014509,C12011I,12/12/21 23:50,Chevy
+Annaliza,Sanchez,4654 N First St Apt 108,Fresno,CA,93726,lisa.stamoules@gmail.com,2018,Chevrolet,Equinox,2GNAXTEX3J6310635,C11798,12/12/21 23:54,Chevy
+Joy,Vidana,3154 E Millbrae Ave,Fresno,CA,93710,joyvidanawoolard@gmail.com,2021,Chevrolet,Colorado,1GCGSCEN1M1291350,C41936,12/14/21 3:13,Chevy
+Hadi,Makhoul,1564 Franquette Dr,Yuba City,CA,95991,certifiedpro@comcast.net,2017,GMC,Sierra 2500HD,1GT12TEY6HF248406,C41829A,12/15/21 2:52,Chevy
+Rigoberto,Ramirez Garcia,882 King St,Parlier,CA,93648,rodram@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK3NG134197,C41925,,Chevy
+Esperanza,Rodriguez Ramirez,882 King St,Parlier,CA,93648,rodram@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK3NG134197,C41925,12/15/21 2:53,Chevy
+Tim,Hiester,909 W Pico Ave,Fresno,CA,93705,tnthiester@gmail.com,2022,Chevrolet,Equinox,3GNAXKEV5NL117333,C41930,12/18/21 2:04,Chevy
+Michael,King,4129 W Princeton Ave,Fresno,CA,93722,,2016,GMC,Terrain,2GKALPEK5G6279434,C41892A,12/17/21 2:48,Chevy
+Luis,Guzman,1424 Lauriel St,San Carlos,CA,94070,cyberguzman@gmail.com,2022,Chevrolet,Corvette,1G1YC3D43N5107099,C41924,12/18/21 20:57,Chevy
+Maria,Mendoza Hernandez,12940 S Mendocino Ave,Selma,CA,93662,conchamendoza454@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK0NG105627,C41915,1/11/22 0:46,Chevy
+Kim,Hellstrom,4742 N Benston Ave,Fresno,CA,93705,leahandkim@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCPYFED9NG106312,C41919,12/17/21 23:44,Chevy
+Nesdira,Zarate Segura,2010 Clyde Fannon Rd # 137,Firebaugh,CA,93622,,2022,Chevrolet,Traverse,1GNERJKW4NJ110612,CTBA612,1/31/22 21:25,Chevy
+Fabian,Velasco,1666 N Pacific Ave,Fresno,CA,93705,fabvanni0407@yahoo.com,2021,Chevrolet,Colorado,1GCGSBEA8M1177451,C41848A,12/18/21 2:14,Chevy
+Erick,Quintero,3138 N 8th St,Fresno,CA,93703,erickquintero9@gmail.com,2020,Chevrolet,Silverado 1500,1GCRWBEH9LZ319686,C41868A,12/19/21 1:27,Chevy
+Jose,Romero,11806 2nd Pl,Hanford,CA,93230,cencalsam@yahoo.com,2018,Honda,Accord,1HGCV1F17JA069317,C11749,12/18/21 3:24,Chevy
+Susana,Magana,2225 W Sonora Ave,Tulare,CA,93274,suziemagana@sbcglobal.net,2021,Chevrolet,Tahoe,1GNSKPKD5MR336005,C41878A,12/30/21 22:11,Chevy
+Reginald,Thompson,244 S Blosser Ave,Fresno ,CA,93706,,2018,Dodge,Charger,2C3CDXHG7JH156260,C41814A,12/18/21 23:59,Chevy
+Jose,Casillas,14588 W SUNSET AVE,KERMAN ,CA,93630,,2022,Chevrolet,Traverse,1GNERGKW5NJ125414,,12/24/21 2:13,Chevy
+Regina,Pico,420 Greenwood,Sanger,CA,93657,regina.a.pico@gmail.com,2016,Jeep,Patriot,1C4NJPFB2GD678904,C41840A,12/19/21 2:11,Chevy
+Agustin,Yepis,13280 E Bulah Ave,Parlier,CA,93648,maricela_garibay91@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK7NG134199,C41926,1/2/22 1:43,Chevy
+Julisa,Carrillo Bautista,13541 S Marks Ave,Caruthers,CA,93609,julizac.angel23@outlook.com,2018,Honda,Accord Sedan,1HGCV1F55JA045231,C11959,12/21/21 22:11,Chevy
+Rolando,Trevino,821 Hoag St,Sanger,CA,93657,,2017,Toyota,RAV4,2T3RFREV5HW592369,C11951,12/20/21 22:34,Chevy
+Sanjuana,Trevino,821 Hoag St,Sanger,CA,93657,,,,,,,,Chevy
+Ernesto,Sandoval Sandoval,9092 S Bethel Ave,Selma,CA,93662,sandovalmaria66@yahoo.com,2015,Chevrolet,Silverado 1500,3GCUKREC5FG298746,C41888A,12/21/21 23:39,Chevy
+Alexis,Valdovinos Pineda,672 N Euclid Ave,Dinuba,CA,93618,a13xiz41@gmail.com,2019,Honda,Pilot,5FNYF5H3XKB028440,C41859A,12/27/21 1:50,Chevy
+Nicolas,Zamarripa,4160 N Valentine Ave Apt 107,Fresno,CA,93722,,2015,Nissan,Frontier,1N6AD0ER9FN712631,C41749A,12/27/21 1:40,Chevy
+Julia,Gomez,42042 Rd 128 Apt 101,Orosi,CA,93647,juliamagana480@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCUYHED3NZ135965,C41942,12/27/21 1:48,Chevy
+Sara,Mireles Santillan,385 S Willow Glenn Dr,Reedley,CA,93654,smireles25@yahoo.com,2019,Chevrolet,Colorado,1GCGSCEA1K1272291,C11983,12/27/21 1:39,Chevy
+Robert,Shaw,4735 W Elkhorn Ave,Visalia,CA,93277,,,,,,,,Chevy
+Pedro,Plascencia Salgado,2932 E Stewart Ave Apt D,Visalia,CA,93292,chivgoes@aol.com,2016,GMC,Acadia,1GKKRRKD8GJ152541,C11989,12/27/21 1:49,Chevy
+Cornelio,Vasquez Sanchez,10861 gensen St,armona,CA,93202,,2017,Chevrolet,Colorado,1GCGSDEN6H1167893,C41831A,12/27/21 3:25,Chevy
+Juan,Ramirez Olivarez,965 E Park Way,Dinuba,CA,93618,ramirezjuan133.jr@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCUYEED7NZ138172,C41953,12/29/21 3:28,Chevy
+Abraham,Gallardo Munoz,220 N Bates Ave,Dinuba,CA,93618,isimarrodriguez03@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCUYEED8NZ106721,C41895,12/28/21 2:27,Chevy
+Isimar,Rodriguez,220 N Bates Ave,Dinuba ,CA,93618,,,,,,,,Chevy
+Jaime,Chavira Garcia,725 N Augusta St,Fresno,CA,93701,jaimechaviragarcia0@gmail.com,2017,Chevrolet,Silverado 1500,3GCPCREC0HG266414,C41938A,1/30/22 1:24,Chevy
+Theresa,Ramirez,7090 N FRUIT AVE # 112,FRESNO,CA,93711,teresarramirez833@gmail.com,2019,Nissan,Altima,1N4BL4DV0KC123642,C41883A,12/30/21 5:26,Chevy
+Maricela,Vazquez Garibay,13280 E Bulah Ave,Parlier,CA,93648,,,,,,,,Chevy
+Marcos,Cisneros,2669 S Tupman Ave,Fresno,CA,93706,mactransport25@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCUYHED3NG135819,C41972,1/22/22 23:38,Chevy
+David,Carranza,2255 W Sonora Ave,Tulare,CA,93274,carranzavanessa75@yahoo.com,2019,Chevrolet,Traverse,1GNERJKX0KJ168303,C12008,12/30/21 5:28,Chevy
+Angela,Pina,5508 N Barcus Ave,FRESNO,CA,93722,angela.mosesian@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED7NZ101734,C41903,12/30/21 5:33,Chevy
+Ruben,Ybarra,1842 W Garland Ave,Fresno,CA,93705,,2019,GMC,Sierra 1500,3GTU9DED0KG267423,C12028I,12/31/21 1:41,Chevy
+Cynthia,Gonzalez,222 N. Locan,Fresno,CA,93737,,2022,Chevrolet,Silverado 1500 LTD,3GCPYFED2NG131214,C41928,12/31/21 4:10,Chevy
+Natalie,Cardona,3832 E Clinton Ave,Fresno,CA,93703,,2017,Jeep,Renegade,ZACCJAAB7HPG05073,C10313W,1/5/22 2:46,Chevy
+Genaro,Martinez Camacho,12486 Whitaker Ave,Orosi,CA,93647,,2022,Chevrolet,Equinox,2GNAXKEV9N6104962,C41955,1/1/22 2:09,Chevy
+GMC TRANSPORT INC,,12486 Whitaker Ave,orosi,CA,93647,,,,,,,,Chevy
+Carlos,Silva Rivas,2557 S rowell Ave,fresno,CA,93725,,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK7NG100487,C41918,1/2/22 2:11,Chevy
+Herlindo,Torres,755 Davis St,Hanford,CA,93230,lindot75@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED7NZ138279,C41940,1/3/22 2:11,Chevy
+Elizabeth,Silva,2557 S Rowell Ave,Fresno,CA,93725,,2014,Chevrolet,Silverado 1500,1GCRCREH5EZ409812,C41785A,1/2/22 2:00,Chevy
+Miguel,Ochoa,1680 Mccomb Ave,Porterville,CA,93257,miguel.angeljr2012@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED7NZ135270,C41939,1/3/22 1:53,Chevy
+Sol,Viveros Sanchez,1680 Mccomb Ave,Porterville,CA,93257,,,,,,,,Chevy
+Edward,Barajas,3812 E Bellaire Way,Fresno,CA,93726,,,,,,,,Chevy
+Francisco,Mendoza-Villalobos,13614 S Van Horn Ave,Selma,CA,93662,franciscom7778@gmail.com,,,,,,,Chevy
+Marilyn,Hernandez,3812 E Bellaire Way,Fresno,CA,93723,,2017,Chevrolet,Camaro,1G1FH1R70H0182036,C11991,1/3/22 1:55,Chevy
+Lili,Garcia Escalera,13614 S Van Horn Ave,Selma,CA,93662,franciscom7778@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCPYFED3NG131383,C41929,1/3/22 2:12,Chevy
+Carmen,Garcia,4330 E Dayton Ave Apt 20,Fresno,CA,93726,,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED0NZ102188,C41902,1/3/22 2:14,Chevy
+Gildardo,Bermudez Garcia,718 E Costner St,Farmersville,CA,93223,gaavazquez80@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPYFEL8NZ117910,C41923,1/3/22 2:12,Chevy
+Victor,Valdez,714 Russell Dr,Tulare,CA,93274,vicvaldez915@icloud.com,2021,Chevrolet,Tahoe,1GNSKPKD5MR336005,C41878A,1/4/22 3:00,Chevy
+Maria,Reynoso Sandoval,506 Forest Ct,Woodlake,CA,93286,mariayanetreynoso@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED1NZ138701,C41962,1/9/22 3:18,Chevy
+Fernando,Montes,4366 W Saginaw Way,Fresno,CA,93722,fmontes080280@gmail.com,2021,Chevrolet,Tahoe,1GNSKNKDXMR493291,C41948,1/9/22 3:18,Chevy
+Presley,Howard,13561 S Marks Ave,Caruthers,CA,93609,presleyhoward1995@yahoo.com,2018,Toyota,RAV4,2T3NFREV7JW513742,C12032I,1/11/22 2:48,Chevy
+Taylor,Bergstrom,4120 N Blythe Ave Apt 131,Fresno,CA,93722,jewboyjesuslover@gmail.com,2017,Ford,Explorer,1FM5K7B87HGC62284,C41911A,1/9/22 2:29,Chevy
+Rose,Baptista,2198 N Bryan Ave,Fresno,CA,93723,,2018,Chevrolet,Impala,2G1105S35J9111622,C11987R,1/9/22 2:32,Chevy
+Jose,Sanchez Gonzalez,9985 Ave 120,Pixley,CA,93256,,2019,Toyota,Camry,4T1B11HK2KU240837,C41770B,1/9/22 2:35,Chevy
+Gustovo,Gutierrez,,,,,,,,,,,,Chevy
+Carmen,Montes,4366 W Saginaw Way,Fresno,CA,93722,,,,,,,,Chevy
+Elaine,Alvarez,1830 Rogers Rd # H,Hanford ,CA,93230,alvarezelaine05@gmail.com,2018,Chrysler,Pacifica,2C4RC1BG6JR227473,C11964IS,1/10/22 0:58,Chevy
+David,Hernandez,4760 E Butler Ave Apt 112,Fresno,CA,93702,rhnov23@gmail.com,2018,Buick,Encore,KL4CJASB5JB582062,C12002,1/10/22 1:42,Chevy
+Micaela,Powell,4760 E Butler Ave Apt 112,Fresno,CA,93702,rhnov23@gmail.com,,,,,,,Chevy
+Otilio,Miranda,5233 E CLAY,FRESNO,CA,93727,,2022,Chevrolet,Traverse,1GNERGKW4NJ129115,,1/10/22 1:42,Chevy
+Eli,Vasquez,6335 W Perez Ave,Visalia,CA,93291,eswatv@gmail.com,2021,Chevrolet,Blazer,3GNKBERS7MS546420,C41958,1/10/22 1:44,Chevy
+Michel,Terrazas Segura,1625 E Park Way,Dinuba,CA,93618,michelanabel2@gmail.com,2021,Ford,Bronco Sport,3FMCR9B60MRB01744,C11973,1/11/22 2:49,Chevy
+Jose,Alcantar Alvarez,1209 E Calwa Ave,Fresno,CA,93706,alcantarmanuel28@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWBEK8NZ108694,C41905,1/11/22 2:52,Chevy
+Ciera,Monoz,2186 Springville Ave,Porterville,CA,93257,ciera.2113@gmail.com,,,,,,,Chevy
+Randell,Escalera,2186 Springville ,Porterville,CA,93257,,2016,Mazda,Mazda6,JM1GJ1V5XG1477531,C12043I,1/12/22 3:05,Chevy
+Rodrigo,Rescalvo,950 N Villa Ave Apt 3,Dinuba,CA,93618,rodrigorescalvo@gmail.com,2018,Honda,Civic,SHHFK7H58JU404291,C12037,1/15/22 2:53,Chevy
+Richard,Ledesma,735 E Dudley Ave,Fresno,CA,93728,,2022,Chevrolet,Malibu,1G1ZG5ST9NF101820,C41959,1/15/22 1:21,Chevy
+Margie,Garza,735 E Dudley Ave,fresno,CA,93728,,,,,,,,Chevy
+Thomas,Vilela,572 Cypress Ave,Sanger,CA,93657,kristenmvilela@gmail.com,2022,Chevrolet,Traverse,1GNERFKW8NJ122307,CTBA307,1/16/22 2:26,Chevy
+Kristen,Vilela,572 Cypress Ave,Sanger,CA,93657,kristenmvilela@gmail.com,,,,,,,Chevy
+Danilo,Rodriguez Palencia,146 East Ave,Parlier,CA,93648,,2018,Honda,Accord,1HGCV1F37JA148794,C11930,1/16/22 2:29,Chevy
+Teofila,Lemus,1474 E Washington Ct,Reedley,CA,93654,christianlemus766@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPYFELXNZ117228,C41947,1/20/22 1:26,Chevy
+Codi,Van Vranken,1126 Millar Ave,Fowler,CA,93625,,2022,Chevrolet,Silverado 1500 LTD,1GCPWDET5NZ128082,C41946,1/17/22 1:27,Chevy
+Dylan,Van Vranken,1126 Millar Ave,Fowler,CA,93625,dylanvanvranken@gmail.com,,,,,,,Chevy
+Jose,Bermudez,592 Poplar,Porterville,CA,93257,josebermudez480@yahoo.com,2022,Chevrolet,Traverse,1GNERFKW3NJ120917,,1/18/22 2:02,Chevy
+Raymond,Robbins,4026 N Fruit Ave Apt 129,Fresno,CA,93705,ray31robbins@gmail.com,2019,Chevrolet,Silverado 1500,1GCUWCED8KZ129180,C41844A,1/18/22 2:16,Chevy
+Raul,S,,,,,,,,,,,,Chevy
+MARISELA,CHAVEZ,4302 E Church Ave,FRESNO,CA,93726,chavezmarisela18@gmail.com,,,,,,,Chevy
+Lucia,Valle Ramirez,4063 E El Monte Way,Fresno,CA,93702,lucyvalle1920@gmail.com,2017,Chevrolet,Tahoe,1GNSCAKC7HR336899,C11919,1/19/22 3:05,Chevy
+Robert,Berry,1550 Kamm Ave # 141,Kingsburg ,CA,93631,,,,,,,,Chevy
+Diego,Sierra Gonzalez,1118 Hall Ave,Corcoran,CA,93212,,2022,Chevrolet,Silverado 1500 LTD,1GCPWDET0NZ125641,C41937,1/23/22 4:57,Chevy
+Roberto,Gonzalez Perez,5082 E White Ave,Fresno,CA,93727,erica_robert21@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,3GCUYHED4NG135716,C41973,1/23/22 4:56,Chevy
+Diego,Martinez Perez,124 S Quince Ave,Exeter,CA,93221,,,,,,,,Chevy
+Jose,Martinez Soria,124 S Quince Ave,Exeter,CA,93221,diegomartie@icloud.com,2022,Chevrolet,Silverado 1500 LTD,1GCUYEEDXNZ137985,C41941,1/23/22 18:30,Chevy
+Bryan,Garzon Mejia,2108 W Dennett Ave,fresno,CA,93728,garzonbry@gmail.com,,,,,,,Chevy
+Alexa,Sanchez,3975 E Dakota Apt 114,Fresno,CA,93726,,2021,Chevrolet,Silverado 1500,1GCPWDEDXMZ269267,C41921,1/23/22 18:28,Chevy
+Adriana,Vargas,45923 Los gatos Creek Rd,Coalinga,CA,93210,av.vargas.adriana@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWBEK5NZ130927,C41960,1/27/22 20:49,Chevy
+Bradley,Melton,7365 W San Jose Ave,Fresno,CA,93723,bradsyzfr6@sbcglobal.net,2022,Chevrolet,Silverado 1500 LTD,1GCPWDED3NZ138330,C41963,1/27/22 23:23,Chevy
+Lidia,Anguiano,2295 Dandelion Ave,Tulare,CA,93274,lidia.anguiano57@gmail.com,2015,Nissan,Rogue,KNMAT2MT1FP510689,C12067I,1/26/22 21:08,Chevy
+Manuel,Torrez Duarte,1421 W HENLEY CREEK RD,REEDLEY,CA,93654,,2022,Chevrolet,Traverse,1GNERGKW0NJ125398,C41984,2/2/22 1:23,Chevy
+LAURA,CRUZ RAMOS,837 W CALIFORNIA CT # 469,FRESNO,CA,93662,l.cruz728@yahoo.com,2022,Chevrolet,Traverse,1GNERFKW3NJ120917,57275,2/3/22 1:02,Chevy
+Arturo,Morillon Villagomez,8560 S Wrico Ave,Parlier,CA,936482230,arturomorillon@yahoo.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWBEK7NG154288,C41968,1/29/22 1:02,Chevy
+Juana,Hernandez,7444 W Davis Ave Spc 8,Riverdale,CA,93656,,2022,Chevrolet,Silverado 1500 LTD,1GCPYFEL5NZ120683,C41922,2/1/22 1:26,Chevy
+Martin,Ayala Barrios,76 N Kessing St,Porterville,CA,93257,,2021,Chevrolet,Camaro,1G1FF1R7XM0130820,C12010,1/30/22 1:52,Chevy
+Medardo,Hernandez,974 2nd St,Mendota,CA,93640,medardohernandez13@gmail.com,2022,Chevrolet,Silverado 1500 LTD,1GCPWDET5NZ131189,C41952,1/30/22 23:42,Chevy
+ALEJANDRO,ANDRADE MEDEL,2415 E Tuolumne Ave,Tulare,CA,93274,alex.andrade6857@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCPWDED7NG162386,C41965,1/30/22 23:31,Chevy
+Jessica,Ramirez,4540 E hammond Ave,fresno,CA,93703,sotochikis636@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCPYBEK4NG154551,C41967,1/31/22 1:24,Chevy
+Maria,Lopez Gutierrez,913 Delbert Way Apt 1,San Jose,CA,95126,marialopez754@gmail.com,2022,Chevrolet,Silverado 1500 LTD,3GCUYEED9NG162182,CTBA182,1/31/22 1:42,Chevy
+Omar,Bracamontes Mercado,913 Delbert Way Apt 1,San Jose,CA,95126,,,,,,,,Chevy
+Ignacio,Pena,4410 W corona Ave,Fresno,CA,93722,marivel.pena81@gmail.com,2016,Chevrolet,Malibu,1G1ZE5ST8GF187713,C10990M,1/31/22 21:13,Chevy
+Brenda,Gonzalezballardo,325 N E St,Porterville,CA,93257,bgonza82@yahoo.com,2016,Hyundai,Veloster,KMHTC6AE9GU285362,C12033,2/1/22 2:27,Chevy
+Marivel,Pena,1513 E Bremer Ave,Fresno,CA,93728,,,,,,,,Chevy
+Jose,Gonzaleztapia,325 N E St,Porterville,CA,93257,,,,,,,,Chevy
+Tatum Management,Group,1781 E Fir Ave,Fresno,CA,93720,,2019,Toyota,Sienna,5TDKZ3DC6KS997963,C11986,2/2/22 1:36,Chevy
+Ignacio,Rivas Carlos,9060 S Colusa St Apt 14,San Joaquin,CA,93660,,2022,Chevrolet,Silverado 1500 LTD,3GCPYCEKXNG151594,C41970,2/2/22 3:19,Chevy
+Alejandro,Rivas Carlos,9060 S Colusa St Apt 14,San Joaquin,CA,93660,alejandrorivas329@yahoo.com,,,,,,,Chevy
+Olga,Flores Herrera,4333 E Richert Ave,Fresno,CA,93726,herreravanessa65@yahoo.com,2022,Chevrolet,Traverse,1GNERFKW7NJ121102,C41983,2/3/22 1:27,Chevy
+Rosamber,Torres Sanchez,382 Diaz Ave,Delano,CA,93215,,2021,Chevrolet,Tahoe,1GNSCRKD1MR455050,CTBA050,2/2/22 3:23,Chevy
