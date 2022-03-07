@@ -105,7 +105,7 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
   const comparedPath = req.body.compareId;
   console.log(`COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath}`);
 
-  const jobData = await match.add({ originalPath, comparedPath });
+  const jobData =  match.add({ originalPath, comparedPath });
   console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
   console.log("COMPLETE", jobData.id);
   res.send(jobData.id);

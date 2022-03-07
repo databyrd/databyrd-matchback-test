@@ -9,8 +9,7 @@ const bodyParser = require("body-parser");
 const timeout = require("connect-timeout");
 require("dotenv").config();
 const app = express();
-
-
+const Queue = require("bull");
 const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
@@ -39,6 +38,13 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
+const match = new Queue("match", {
+  redisClient,
+});
+
+match.process((job, done) => {
+  matchWorker(job, done);
+});
 
 const queues = [
   {
@@ -94,4 +100,4 @@ process.on("SIGINT", function () {
   console.log("redis client quit");
 });
 
-module.exports =  app ;
+module.exports = app;
