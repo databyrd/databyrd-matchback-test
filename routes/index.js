@@ -4,7 +4,7 @@ const fs = require("fs");
 var XLSX = require("xlsx");
 const multer = require("multer");
 const { match } = require("../queues");
-const redisClient = require("../helpers/redis");
+
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
     callBack(null, "files");

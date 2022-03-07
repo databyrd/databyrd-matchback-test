@@ -7,13 +7,14 @@ const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const bodyParser = require("body-parser");
 const timeout = require("connect-timeout");
-const Arena = require("bull-arena");
-const Bull = require("bull");
-const redisClient = "./helpers/redis";
 require("dotenv").config();
-
 const app = express();
 
+const Queue = require("bull");
+const redisClient = "./helpers/redis";
+const Arena = require("bull-arena");
+const Bull = require("bull");
+const { match: matchWorker } = require("./workers/index");
 app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
@@ -38,19 +39,26 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
+const match = new Queue("match", {
+  redisClient,
+});
 
-// --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
-;
+match.process((job, done) => {
+  matchWorker(job, done);
+});
+
+const queues = [
+  {
+    name: "match",
+    hostId: "Match Que Managers",
+    redisClient,
+  },
+];
+
 const arenaConfig = Arena(
   {
     Bull,
-    queues: [
-      {
-        name: "match",
-        hostId: "Match Que Managers",
-        redisClient,
-      },
-    ],
+    queues,
   },
   {
     basePath: "/arena",
@@ -59,6 +67,7 @@ const arenaConfig = Arena(
 );
 
 app.use("/", arenaConfig);
+// --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 // --------END LARGE FILE UPLOAD SECTION ----------- //
@@ -86,6 +95,8 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render("error");
 });
+
+
 
 process.on("SIGINT", function () {
   redis.quit();

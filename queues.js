@@ -1,6 +1,6 @@
 const Queue = require("bull");
-const { match: matchWorker } = require("./workers");
-const redisClient = require("./helpers/redis");
+const { match: matchWorker } = require("./workers/index");
+// const redisClient = require("./helpers/redis");
 if (process.env.REDISTOGO_URL) {
   const match = new Queue("match", {
     redisClient,
