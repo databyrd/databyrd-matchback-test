@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
 
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
-
+console.log(`REDIS CONNECT ~~~ ${redis.isOpen} APP.JS`);
 const arenaConfig = Arena(
   {
     Bull,
@@ -86,9 +86,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-process.on('SIGINT', function() {
+process.on("SIGINT", function () {
   redis.quit();
-  console.log('redis client quit');
+  console.log("redis client quit");
 });
 
 module.exports = app;

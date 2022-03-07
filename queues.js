@@ -5,7 +5,7 @@ if (process.env.REDISTOGO_URL) {
   const match = new Queue("match", {
     redisClient,
   });
-
+  console.log(`REDIS CONNECT ~~~ ${redisClient.isOpen} QUEUES.JS`);
   match.process((job, done) => {
     matchWorker(job, done);
   });
