@@ -19,7 +19,7 @@ app.use(timeout("60s"));
 const cors = require("cors");
 const { redis } = require("./helpers/redis");
 app.use(cors());
-
+redis.connect();
 // --------------------------------
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
