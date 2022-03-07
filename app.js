@@ -9,6 +9,7 @@ const bodyParser = require("body-parser");
 const timeout = require("connect-timeout");
 const Arena = require("bull-arena");
 const Bull = require("bull");
+const redisClient = "./helpers/redis";
 require("dotenv").config();
 
 const app = express();
@@ -17,7 +18,7 @@ app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
 const cors = require("cors");
-const { redis } = require("./helpers/redis");
+// const { redis } = require("./helpers/redis");
 app.use(cors());
 redis.connect();
 // --------------------------------
@@ -47,7 +48,7 @@ const arenaConfig = Arena(
       {
         name: "match",
         hostId: "Match Que Managers",
-        redis,
+        redisClient,
       },
     ],
   },
