@@ -40,7 +40,7 @@ app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
 
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
-console.log(`REDIS CONNECT ~~~ ${redis.isOpen} APP.JS`);
+;
 const arenaConfig = Arena(
   {
     Bull,
