@@ -13,7 +13,7 @@ const Queue = require("bull");
 const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
-
+const { match: matchWorker } = require("./workers/index");
 app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
