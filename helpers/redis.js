@@ -51,22 +51,25 @@
 //   module.exports = { redis };
 // }
 require("dotenv").config();
-const redis = require("redis");
+const redis = require("ioredis");
 
 async function createRedisClient() {
+  console.log("redis connection started");
   const rtg = require("url").parse(process.env.REDISTOGO_URL);
+
   const client = redis.createClient({
     port: rtg.port,
     host: rtg.hostname,
+    no_ready_check: true,
+    password: rtg.auth.split(":")[1],
   });
-  console.log(rtg.auth.split(":")[1])
+  console.log(rtg.auth.split(":")[1]);
   client.auth(rtg.auth.split(":")[1]);
-  
+
   client.on("connect", () => console.log("Connected to REDIS!"));
   client.on("error", (err) => console.log("Error connecting to REDIS: ", err));
 
-  await client.connect();
-
+  // await client.connect();
   return client;
 }
 

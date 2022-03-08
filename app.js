@@ -10,10 +10,11 @@ const timeout = require("connect-timeout");
 require("dotenv").config();
 const app = express();
 const Queue = require("bull");
-const redisClient = "./helpers/redis";
+// const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
-const { match: matchWorker } = require("./workers/index");
+// const { match: matchWorker } = require("./workers/index");
+const { queues } = require("./queues");
 app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
@@ -38,21 +39,21 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
-const match = new Queue("match", {
-  redisClient,
-});
+// const match = new Queue("match", {
+//   redisClient,
+// });
 
-match.process((job, done) => {
-  console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
-  matchWorker(job, done);
-});
-const queues = [
-  {
-    name: "match",
-    hostId: "Match Que Managers",
-    redisClient,
-  },
-];
+// match.process((job, done) => {
+//   console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
+//   matchWorker(job, done);
+// });
+// const queues = [
+//   {
+//     name: "match",
+//     hostId: "Match Que Managers",
+//     redisClient,
+//   },
+// ];
 
 const arenaConfig = Arena(
   {
@@ -64,7 +65,7 @@ const arenaConfig = Arena(
     disableListen: true,
   }
 );
-app.set("match", match);
+
 app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 app.use("/", indexRouter);
@@ -95,9 +96,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-process.on("SIGINT", function () {
-  redis.quit();
-  console.log("redis client quit");
-});
+// process.on("SIGINT", function () {
+//   redis.quit();
+//   console.log("redis client quit");
+// });
 
 module.exports = app;
