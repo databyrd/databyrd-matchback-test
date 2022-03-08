@@ -64,6 +64,7 @@ const arenaConfig = Arena(
     disableListen: true,
   }
 );
+app.set("match", match);
 
 app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
