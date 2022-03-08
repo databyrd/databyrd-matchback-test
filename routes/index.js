@@ -6,6 +6,18 @@ const multer = require("multer");
 const redisClient = "../helpers/redis.js";
 const Queue = require("bull");
 const { match: matchWorker } = require("../workers/index");
+
+const match = new Queue("match", {
+  redisClient,
+});
+
+match.process((job, done) => {
+  console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
+  matchWorker(job, done);
+});
+
+
+
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
     callBack(null, "files");
@@ -104,11 +116,8 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
   const originalPath = req.body.originalId;
   const comparedPath = req.body.compareId;
   console.log(`COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath}`);
-  const match = req.app.get('match')
-  match.process((job, done) => {
-    console.log(" MATCH WORKER - INDEX.JS MATCH.PROCESS");
-    matchWorker(job, done);
-  });
+  // const match = req.app.get("match");
+  
   const jobData = await match.add({ originalPath, comparedPath });
   console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
   console.log("COMPLETE", jobData.id);
@@ -117,11 +126,8 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
 
 router.get("/node-api/job-status/:jobId", async function (req, res, next) {
   const jobId = req.params.jobId;
-  const match = req.app.get('match')
-  match.process((job, done) => {
-    console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
-    matchWorker(job, done);
-  });
+  // const match = req.app.get("match");
+
   try {
     const results = await match.getJob(jobId);
 

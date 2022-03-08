@@ -38,11 +38,6 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
-const match = new Queue("match", {
-  redisClient,
-});
-
-
 
 const queues = [
   {
@@ -62,7 +57,6 @@ const arenaConfig = Arena(
     disableListen: true,
   }
 );
-app.set("match", match);
 
 app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
