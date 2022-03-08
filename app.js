@@ -66,6 +66,8 @@ const arenaConfig = Arena(
   }
 );
 
+// console.log(arenaConfig.locals.Queues)
+
 app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 app.use("/", indexRouter);

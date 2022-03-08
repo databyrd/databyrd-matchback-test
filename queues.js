@@ -11,7 +11,7 @@ const redisClient = require("./helpers/redis");
     matchWorker(job, done);
   });
 
-
+console.log(redisClient)
 
   const queues = [
     {
