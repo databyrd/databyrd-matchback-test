@@ -42,9 +42,7 @@ const match = new Queue("match", {
   redisClient,
 });
 
-match.process((job, done) => {
-  matchWorker(job, done);
-});
+
 
 const queues = [
   {
