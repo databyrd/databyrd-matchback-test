@@ -3,20 +3,6 @@ const router = express.Router();
 const fs = require("fs");
 var XLSX = require("xlsx");
 const multer = require("multer");
-const redisClient = "../helpers/redis.js";
-const Queue = require("bull");
-const { match: matchWorker } = require("../workers/index");
-
-const match = new Queue("match", {
-  redisClient,
-});
-
-match.process((job, done) => {
-  console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
-  matchWorker(job, done);
-});
-
-
 
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
@@ -116,8 +102,8 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
   const originalPath = req.body.originalId;
   const comparedPath = req.body.compareId;
   console.log(`COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath}`);
-  // const match = req.app.get("match");
-  
+  const match = req.app.get("match");
+  console.log(`MATCH FROM APP.JS ~~~ ${match}`);
   const jobData = await match.add({ originalPath, comparedPath });
   console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
   console.log("COMPLETE", jobData.id);
