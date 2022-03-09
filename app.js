@@ -16,7 +16,16 @@ const Bull = require("bull");
 // const { match: matchWorker } = require("./workers/index");
 const { queues } = require("./queues");
 app.use(timeout("60s"));
-
+const arenaConfig = Arena(
+  {
+    Bull,
+    queues,
+  },
+  {
+    basePath: "/arena",
+    disableListen: true,
+  }
+);
 // ---------------- ADD THIS ----------------
 const cors = require("cors");
 // const { redis } = require("./helpers/redis");
@@ -54,17 +63,6 @@ app.use(express.static(path.join(__dirname, "client/build")));
 //     redisClient,
 //   },
 // ];
-
-const arenaConfig = Arena(
-  {
-    Bull,
-    queues,
-  },
-  {
-    basePath: "/arena",
-    disableListen: true,
-  }
-);
 
 // console.log(arenaConfig.locals.Queues)
 
