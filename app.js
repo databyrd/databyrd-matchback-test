@@ -10,24 +10,18 @@ const timeout = require("connect-timeout");
 require("dotenv").config();
 const app = express();
 const Queue = require("bull");
-// const redisClient = "./helpers/redis";
+const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
 // const { match: matchWorker } = require("./workers/index");
-const { queues } = require("./queues");
+// const { queues } = require("./queues");
+// const {  arenaConfig } = require("./helpers/redis");
 app.use(timeout("60s"));
-const arenaConfig = Arena(
-  {
-    Bull,
-    queues,
-  },
-  {
-    basePath: "/arena",
-    disableListen: true,
-  }
-);
+
+
 // ---------------- ADD THIS ----------------
 const cors = require("cors");
+const redis = require("./helpers/redis");
 // const { redis } = require("./helpers/redis");
 app.use(cors());
 
@@ -66,7 +60,7 @@ app.use(express.static(path.join(__dirname, "client/build")));
 
 // console.log(arenaConfig.locals.Queues)
 
-app.use("/", arenaConfig);
+// app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 app.use("/", indexRouter);
 app.use("/users", usersRouter);

@@ -100,7 +100,7 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
   console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
   console.log("COMPLETE", jobData.id);
   res.send(jobData.id);
-  } catch (error) {console.log(err)}
+  } catch (error) {console.log(error)}
   
 });
 
