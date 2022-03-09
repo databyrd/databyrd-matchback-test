@@ -13,9 +13,7 @@ const Queue = require("bull");
 const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
-// const { match: matchWorker } = require("./workers/index");
-const { match, queues } = require("./queues");
-// const {  arenaConfig } = require("./helpers/redis");
+const {  queues } = require("./queues");
 app.use(timeout("60s"));
 
 // ---------------- ADD THIS ----------------
@@ -41,21 +39,6 @@ app.use(cookieParser());
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 // --------------------------------
-// const match = new Queue("match", {
-//   redisClient,
-// });
-
-// match.process((job, done) => {
-//   console.log(" MATCH WORKER - APP.JS MATCH.PROCESS");
-//   matchWorker(job, done);
-// });
-// const queues = [
-//   {
-//     name: "match",
-//     hostId: "Match Que Managers",
-//     redisClient,
-//   },
-// ];
 
 const arenaConfig = Arena(
   {
@@ -97,10 +80,5 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render("error");
 });
-
-// process.on("SIGINT", function () {
-//   redis.quit();
-//   console.log("redis client quit");
-// });
 
 module.exports = app;
