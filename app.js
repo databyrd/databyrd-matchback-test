@@ -14,10 +14,9 @@ const redisClient = "./helpers/redis";
 const Arena = require("bull-arena");
 const Bull = require("bull");
 // const { match: matchWorker } = require("./workers/index");
-// const { queues } = require("./queues");
+const { match, queues } = require("./queues");
 // const {  arenaConfig } = require("./helpers/redis");
 app.use(timeout("60s"));
-
 
 // ---------------- ADD THIS ----------------
 const cors = require("cors");
@@ -58,9 +57,18 @@ app.use(express.static(path.join(__dirname, "client/build")));
 //   },
 // ];
 
-// console.log(arenaConfig.locals.Queues)
+const arenaConfig = Arena(
+  {
+    Bull,
+    queues,
+},
+  {
+  basePath: "/arena",
+disableListen: true,
+  }
+);
 
-// app.use("/", arenaConfig);
+app.use("/", arenaConfig);
 // --------THIS ENTIRE SECTION IS FOR LARGE FILE UPLOADS ----------- //
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
