@@ -72,26 +72,28 @@ async function createRedisClient() {
 
   client.on("ready", () => {
     console.log("Redis Ping!");
-    const match = new Queue("match", {
-      client,
-    });
-
-    match.process((job, done) => {
-      matchWorker(job, done);
-    });
-
-    const queues = [
-      {
-        name: "match",
-        hostId: "Match Que Managers",
-        client,
-      },
-    ];
     
-    module.exports = { match, queues };
     ping();
     async function ping() {
       let response = await client.ping();
+     
+      const match = new Queue("match", {
+        client,
+      });
+  
+      match.process((job, done) => {
+        matchWorker(job, done);
+      });
+  
+      const queues = [
+        {
+          name: "match",
+          hostId: "Match Que Managers",
+          client,
+        },
+      ];
+      
+      module.exports = { match, queues };
       console.log(response);
     }
 
