@@ -3,8 +3,9 @@ const router = express.Router();
 const fs = require("fs");
 var XLSX = require("xlsx");
 const multer = require("multer");
-const { match } = require("../queues");
-
+// const { match } = require("../queues");
+const {match} = require("../helpers/redis")
+const Queue = require("bull");
 const storage = multer.diskStorage({
   destination: (req, file, callBack) => {
     callBack(null, "files");
@@ -91,17 +92,19 @@ router.post("/node-api/compare-small-files", async function (req, res, next) {
   res.json({ originalData, comparedData });
 });
 
+
 router.post("/node-api/compare-large-files", async function (req, res, next) {
   const originalPath = req.body.originalId;
   const comparedPath = req.body.compareId;
   console.log(`COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath}`);
   try {
     const jobData = await match.add({ originalPath, comparedPath });
-  console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
-  console.log("COMPLETE", jobData.id);
-  res.send(jobData.id);
-  } catch (error) {console.log(error)}
-  
+    console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
+    console.log("COMPLETE", jobData.id);
+    res.send(jobData.id);
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 router.get("/node-api/job-status/:jobId", async function (req, res, next) {
