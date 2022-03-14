@@ -91,16 +91,31 @@ router.post("/node-api/compare-small-files", async function (req, res, next) {
   res.json({ originalData, comparedData });
 });
 
+const jobOptions = {
+  removeOnComplete: true,
+  attempts: 3,
+};
+
 router.post("/node-api/compare-large-files", async function (req, res, next) {
   const originalPath = req.body.originalId;
   const comparedPath = req.body.compareId;
+  const originalHeader = req.body.originalHeader;
+  const comparedHeader = req.body.comparedHeader;
   console.log(
-    `COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath} ~~~ ${match}`
+    `COMPARE LARGE FILES ~~~ ${originalPath} ~~~ ${comparedPath} ~~~ ${originalHeader} ~~~ ${comparedHeader}`
   );
- 
+
   try {
-    const jobData = await match.add({ originalPath, comparedPath });
-    console.log(`JOB DATA ID NUMBER ~~~ ${jobData}`);
+    const jobData = await match.add(
+      {
+        originalPath,
+        comparedPath,
+        originalHeader,
+        comparedHeader,
+      },
+      jobOptions
+    );
+    console.log(`JOB DATA ID NUMBER ~~~ ${jobData.status}`);
     console.log("COMPLETE", jobData.id);
     res.send(jobData.id);
   } catch (error) {
@@ -110,8 +125,6 @@ router.post("/node-api/compare-large-files", async function (req, res, next) {
 
 router.get("/node-api/job-status/:jobId", async function (req, res, next) {
   const jobId = req.params.jobId;
-  // const match = req.app.get("match");
-
   try {
     const results = await match.getJob(jobId);
 

@@ -77,12 +77,17 @@ const compareSmallFiles = (originalId, compareId) => {
     .catch(helpers.onGlobalError);
 };
 
-const compareLargeFiles = (originalId, compareId) => {
+const compareLargeFiles = (
+  originalId,
+  compareId,
+  originalHeader,
+  comparedHeader
+) => {
   const config = {
     method: "POST",
     url: `/node-api/compare-large-files`,
     crossdomain: true,
-    data: { originalId, compareId },
+    data: { originalId, compareId, originalHeader, comparedHeader },
     headers: { "Content-Type": "application/json" },
   };
 
@@ -111,7 +116,7 @@ const checkQueue = (id) => {
     method: "GET",
     url: `/node-api/job-status/${id}`,
     crossdomain: true,
-headers: {
+    headers: {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
     },
@@ -130,5 +135,5 @@ export {
   compareSmallFiles,
   deleteBothFiles,
   compareLargeFiles,
-  checkQueue
+  checkQueue,
 };
