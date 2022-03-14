@@ -92,7 +92,6 @@ router.post("/node-api/compare-small-files", async function (req, res, next) {
 });
 
 const jobOptions = {
-  removeOnComplete: true,
   attempts: 3,
 };
 
