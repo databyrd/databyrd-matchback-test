@@ -13,7 +13,7 @@ process.on("message", async (message) => {
   process.exit();
 });
 
-async function compareFiles(fPath1, fPath2) {
+async function compareFiles(fPath1, fPath2, header1, header2) {
   const originalWorkbook = XLSX.readFile(fPath1);
   const sheet_name_list_1 = originalWorkbook.SheetNames;
   const listData = XLSX.utils.sheet_to_json(
@@ -44,7 +44,7 @@ async function compareFiles(fPath1, fPath2) {
       (segment) =>
         new Promise((resolve, reject) => {
           const worker = new Worker("./childWorker.js", {
-            workerData: { segment, listData },
+            workerData: { segment, listData, header1, header2 },
           });
           worker.on("message", resolve);
           worker.on("error", reject);

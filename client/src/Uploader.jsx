@@ -18,6 +18,7 @@ import uploadFilled from "./images/databyrd_Upload_Rollover-01.png";
 import uploadLayover from "./images/databyrd_Upload-01.png";
 import lastStepImage1 from "./images/databyrd_RunReport-01.png";
 import lastStepImage2 from "./images/databyrd_RunReport_Rollover-01.png";
+import Select from "react-dropdown-select";
 import "./buttonCss.css";
 
 const QontoStepIconRoot = styled("div")(({ theme, ownerState }) => ({
@@ -177,6 +178,12 @@ function ColorlibStepIcon(props) {
 
 const steps = ["Upload Sold List", "Upload Targeted List", "Run Matchback"];
 
+const fontStyle = {
+  fontFamily: "Roboto, sans-serif",
+  letterSpacing: "-0.008333333em",
+  fontWeight: 300,
+};
+
 class Uploader extends React.Component {
   constructor(props) {
     super(props);
@@ -198,6 +205,10 @@ class Uploader extends React.Component {
       postalListFile: null,
       largeFileDetected: false,
       matchQueue: false,
+      originalDataHeaders: [],
+      comparedDataHeaders: [],
+      originalDataHeaderSelected: "",
+      comparedDataHeaderSelected: "",
     };
     this.uploadListRef = React.createRef(null);
     this.uploadCompareRef = React.createRef(null);
@@ -227,10 +238,38 @@ class Uploader extends React.Component {
     this.uploadCompareRef.current.click();
   };
 
+  mapHeaders = (header) => {
+    return (
+      <label style={fontStyle}>
+        <input type='checkbox' />
+        {header}
+      </label>
+    );
+  };
+
   handleFileListUpload = (e) => {
     this.setState({ uploadingFile: !this.state.uploadingFile });
     const files = e.target.files;
     this.setState({ soldListFile: files[0] });
+    const reader = new FileReader();
+    const processCSV = (str, delim = ",") => {
+      const headers = str.slice(0, str.indexOf("\n")).split(delim);
+
+      const headerArray = [];
+
+      for (let i = 0; i < headers.length; i++) {
+        headerArray.push({ id: i, label: headers[i] });
+      }
+
+      this.setState({ originalDataHeaders: headerArray });
+    };
+    reader.onload = function (e) {
+      const text = e.target.result;
+
+      processCSV(text);
+    };
+
+    reader.readAsText(files[0]);
     const formData = new FormData();
     formData.append("file", files[0]);
     node.originalData(formData).then((res) => {
@@ -250,7 +289,27 @@ class Uploader extends React.Component {
   handleCompareFile = (e) => {
     this.setState({ uploadingFile: !this.state.uploadingFile });
     const files = e.target.files;
+
     this.setState({ postalListFile: files[0] });
+    const reader = new FileReader();
+    const processCSV = (str, delim = ",") => {
+      const headers = str.slice(0, str.indexOf("\n")).split(delim);
+
+      const headerArray = [];
+
+      for (let i = 0; i < headers.length; i++) {
+        headerArray.push({ id: i, label: headers[i] });
+      }
+
+      this.setState({ comparedDataHeaders: headerArray });
+    };
+    reader.onload = function (e) {
+      const text = e.target.result;
+
+      processCSV(text);
+    };
+
+    reader.readAsText(files[0]);
     const formData = new FormData();
     formData.append("file", files[0]);
     node.compareData(formData).then((res) => {
@@ -260,6 +319,7 @@ class Uploader extends React.Component {
         compareDetails: files[0].name,
         activeStep: 2,
       });
+
       Swal.fire({
         icon: "success",
         title: `${files[0].name} has been uploaded`,
@@ -277,9 +337,14 @@ class Uploader extends React.Component {
 
   createMatchbackList = () => {
     this.setState({ uploadingFile: true });
+    console.log(
+      `${parseInt(this.state.postalListFile.size)}`,
+      `${parseInt(100000)}`
+    );
+
     if (
-      this.state.soldListFile.size > 850000 ||
-      this.state.postalListFile.size > 850000
+      parseInt(this.state.soldListFile.size) > parseInt(100000) ||
+      parseInt(this.state.postalListFile.size) > parseInt(100000)
     ) {
       this.setState({ uploadingFile: false });
       Swal.fire({
@@ -296,7 +361,9 @@ class Uploader extends React.Component {
           node
             .compareLargeFiles(
               this.state.originalFilePath,
-              this.state.comparedFilePath
+              this.state.comparedFilePath,
+              this.state.originalDataHeaderSelected,
+              this.state.comparedDataHeaderSelected
             )
             .then((res) => {
               window.localStorage.setItem("matchQueId", res);
@@ -323,13 +390,18 @@ class Uploader extends React.Component {
         )
         .then((res) => {
           const matchedArray = this.sortData(res);
-
-          Swal.fire({ icon: "success", title: "Match-Back Template complete" });
-
-          this.setState({
-            matchData: matchedArray,
-            matchComplete: true,
-          });
+          if (matchedArray.length === 0) {
+            Swal.fire({ icon: "info", title: "No matches found." });
+          } else {
+            Swal.fire({
+              icon: "success",
+              title: "Match-Back Template complete",
+            });
+            this.setState({
+              matchData: matchedArray,
+              matchComplete: true,
+            });
+          }
         })
 
         .catch((err) => this.errorHandler(err));
@@ -340,7 +412,6 @@ class Uploader extends React.Component {
     const matchBackData = data.comparedData;
     let listData = data.originalData;
     let matchBackArray = [];
-    let matchesFound = 0;
 
     matchBackData.forEach((matchBackRow) => {
       for (let i = 0; i < listData.length; i++) {
@@ -349,46 +420,56 @@ class Uploader extends React.Component {
             const date = new Date(listData[i].SoldDateUTC);
             listData[i].SoldDateUTC = date.toString();
           }
-          if (listData[i]["Address 1: Street 1"] && matchBackRow.Address) {
-            let matchBackLower = matchBackRow.Address.toLowerCase();
-            let listDataLower =
-              listData[i]["Address 1: Street 1"].toLowerCase();
-
-            if (matchBackLower === listDataLower) {
-              matchBackArray.push(listData[i]);
-            }
-          } else if (listData[i].address) {
-            let matchLower = matchBackRow.Address.toLowerCase();
-            let listLower = listData[i].address.toLowerCase();
-            if (matchLower === listLower) {
-              matchBackArray.push(listData[i]);
-            }
-          } else if (
-            listData[i].Address &&
-            listData[i].Address.toLowerCase() ===
-              matchBackRow.Address.toLowerCase()
+          if (
+            `${
+              listData[i][this.state.originalDataHeaderSelected]
+            }`.toLowerCase() ===
+            `${
+              matchBackRow[this.state.comparedDataHeaderSelected]
+            }`.toLowerCase()
           ) {
-            matchesFound += 1;
-            this.setState({ matchesFound });
             matchBackArray.push(listData[i]);
-          } else if (listData[i]["Address 1"] && matchBackRow.Address) {
-            let matchLower = matchBackRow.Address.toLowerCase();
-            let listLower = listData[i]["Address 1"].toLowerCase();
-
-            if (matchLower === listLower) {
-              matchBackArray.push(listData[i]);
-            }
-          } else if (listData[i]["Street 1 (Regarding) (Lead)"]) {
-            let matchLower = matchBackRow.Address.toLowerCase();
-            let listLower =
-              listData[i]["Street 1 (Regarding) (Lead)"].toLowerCase();
-
-            if (matchLower === listLower) {
-              matchBackArray.push(listData[i]);
-            }
-          } else {
-            continue;
           }
+          // if (listData[i]["Address 1: Street 1"] && matchBackRow.Address) {
+          //   let matchBackLower = matchBackRow.Address.toLowerCase();
+          //   let listDataLower =
+          //     listData[i]["Address 1: Street 1"].toLowerCase();
+
+          //   if (matchBackLower === listDataLower) {
+          //     matchBackArray.push(listData[i]);
+          //   }
+          // } else if (listData[i].address) {
+          //   let matchLower = matchBackRow.Address.toLowerCase();
+          //   let listLower = listData[i].address.toLowerCase();
+          //   if (matchLower === listLower) {
+          //     matchBackArray.push(listData[i]);
+          //   }
+          // } else if (
+          //   listData[i].Address &&
+          //   listData[i].Address.toLowerCase() ===
+          //     matchBackRow.Address.toLowerCase()
+          // ) {
+          //   matchesFound += 1;
+          //   this.setState({ matchesFound });
+          //   matchBackArray.push(listData[i]);
+          // } else if (listData[i]["Address 1"] && matchBackRow.Address) {
+          //   let matchLower = matchBackRow.Address.toLowerCase();
+          //   let listLower = listData[i]["Address 1"].toLowerCase();
+
+          //   if (matchLower === listLower) {
+          //     matchBackArray.push(listData[i]);
+          //   }
+          // } else if (listData[i]["Street 1 (Regarding) (Lead)"]) {
+          //   let matchLower = matchBackRow.Address.toLowerCase();
+          //   let listLower =
+          //     listData[i]["Street 1 (Regarding) (Lead)"].toLowerCase();
+
+          //   if (matchLower === listLower) {
+          //     matchBackArray.push(listData[i]);
+          //   }
+          // } else {
+          //   continue;
+          // }
         } catch (error) {
           console.log(error);
         }
@@ -396,8 +477,8 @@ class Uploader extends React.Component {
     });
 
     this.setState({
-      matchData: matchBackArray,
-      matchComplete: true,
+      // matchData: matchBackArray,
+      // matchComplete: true,
       uploadingFile: !this.state.uploadingFile,
     });
 
@@ -419,9 +500,9 @@ class Uploader extends React.Component {
           originalFilePath: "",
           comparedFilePath: "",
           matchData: [],
-          matchComplete: false,
+
           largeFileDetected: false,
-          matchQueue:false
+          matchQueue: false,
         });
       });
   };
@@ -450,9 +531,18 @@ class Uploader extends React.Component {
             }
           }
           console.log(finalResult);
-          this.setState({ matchData: finalResult, matchComplete: true });
+          if (finalResult.length === 0) {
+            Swal.fire({
+              icon: "info",
+              title: "File complete, but no matches were found",
+            });
+            
+          } else {
+            this.setState({ matchData: finalResult, matchComplete: true });
+          }
+          
           this.removeFilesFromDB();
-          window.localStorage.clear()
+          window.localStorage.clear();
         } else {
           Swal.fire({
             icon: "info",
@@ -466,6 +556,25 @@ class Uploader extends React.Component {
           title: "File not found, please start over",
         });
       });
+  };
+  originalDataHeaderSelected = (values) => {
+    if (
+      values[0].label.indexOf("'") >= 0 ||
+      values[0].label.indexOf('"') >= 0
+    ) {
+      values[0].label = values[0].label.replace(/^"|"$/g, "");
+    }
+
+    this.setState({ originalDataHeaderSelected: values[0].label });
+  };
+  comparedDataHeaderSelected = (values) => {
+    if (
+      values[0].label.indexOf("'") >= 0 ||
+      values[0].label.indexOf('"') >= 0
+    ) {
+      values[0].label = values[0].label.replace(/^"|"$/g, "");
+    }
+    this.setState({ comparedDataHeaderSelected: values[0].label });
   };
   render() {
     return (
@@ -502,13 +611,7 @@ class Uploader extends React.Component {
           <Card>
             <div className='text-center pt-5'>
               {" "}
-              <h6
-                style={{
-                  fontFamily: "Roboto, sans-serif",
-                  letterSpacing: "-0.008333333em",
-                  fontWeight: 300,
-                }}
-              >
+              <h6 style={fontStyle}>
                 ** Please disable popup blockers in order to download the new
                 file **
               </h6>
@@ -532,12 +635,13 @@ class Uploader extends React.Component {
               </Stack>
 
               <div className='col-12  text-center'>
-                <div>
+                <div className='row'>
                   {this.state.uploadDetails ? (
                     <div
+                      className='col-6'
                       style={{
-                        border: "1px solid black",
-                        height: "100px",
+                        // border: "1px solid black",
+                        height: "175px",
                         padding: "10px",
                         justifyItems: "center",
                       }}
@@ -557,15 +661,26 @@ class Uploader extends React.Component {
                           Delete
                         </Button>
                       </h3>
+                      <span style={fontStyle}>
+                        Please select which column you would like to compare
+                      </span>
+                      <Select
+                        multi={false}
+                        options={this.state.originalDataHeaders}
+                        onChange={(values) =>
+                          this.originalDataHeaderSelected(values)
+                        }
+                      />
                     </div>
                   ) : null}
 
                   <br />
                   {this.state.compareDetails ? (
                     <div
+                      className='col-6'
                       style={{
-                        border: "1px solid black",
-                        height: "100px",
+                        // border: "1px solid black",
+                        height: "175px",
                         padding: "10px",
                         justifyItems: "center",
                       }}
@@ -586,6 +701,15 @@ class Uploader extends React.Component {
                           </Button>
                         ) : null}
                       </h3>
+                      <span style={fontStyle}>
+                        Please select which column you would like to compare
+                      </span>
+                      <Select
+                        options={this.state.comparedDataHeaders}
+                        onChange={(values) =>
+                          this.comparedDataHeaderSelected(values)
+                        }
+                      />
                     </div>
                   ) : null}
                 </div>
@@ -596,12 +720,6 @@ class Uploader extends React.Component {
                       onClick={this.handleListRefClick}
                       className='col-2 mt-5'
                       id='uploadButton'
-                      // style={{
-                      //   backgroundColor: "#f9ac2f",
-                      //   fontFamily: "Roboto, sans-serif",
-                      //   fontWeight: 300,
-                      //   letterSpacing: "-0.008333333em",
-                      // }}
                     >
                       Upload List
                     </Button>
@@ -610,19 +728,10 @@ class Uploader extends React.Component {
 
                 {this.state.activeStep === 1 ? (
                   <div>
-                    {/* <h6 style={{ color: "red" }}>
-                    ** Upload your postal list or list to compare to. **
-                  </h6> */}
                     <Button
                       onClick={this.handleCompareRefClick}
                       className='col-2 mt-5'
                       id='uploadButton'
-                      // style={{
-                      //   fontFamily: "Roboto, sans-serif",
-                      //   letterSpacing: "-0.008333333em",
-                      //   fontWeight: 300,
-                      //   backgroundColor: "#f9ac2f",
-                      // }}
                     >
                       Upload Targeted List
                     </Button>
@@ -630,39 +739,36 @@ class Uploader extends React.Component {
                 ) : null}
 
                 {this.state.activeStep === 2 ? (
-                  <div>
-                    <Button
-                      onClick={() => this.createMatchbackList()}
-                      className='col-2 mt-5'
-                      id='uploadButton'
-                      // style={{
-                      //   fontFamily: "Roboto, sans-serif",
-                      //   letterSpacing: "-0.008333333em",
-                      //   fontWeight: 300,
-                      //   backgroundColor: "#f9ac2f",
-                      // }}
-                    >
-                      Create Matchback List
-                    </Button>
-                    {this.state.matchComplete ? (
-                      <CSVDownload
-                        filename={"MatchBack-Results.csv"}
-                        data={this.state.matchData}
-                      />
-                    ) : null}
-                  </div>
+                  <React.Fragment>
+                    <span style={fontStyle}>
+                      Please select 2 columns to compare in order to continue
+                    </span>
+                    <div>
+                      <Button
+                        onClick={() => this.createMatchbackList()}
+                        className='col-2 mt-5'
+                        id='uploadButton'
+                        disabled={
+                          this.state.comparedDataHeaderSelected === "" ||
+                          this.state.originalDataHeaderSelected === ""
+                        }
+                      >
+                        Create Matchback List
+                      </Button>
+                      {this.state.matchComplete ? (
+                        <CSVDownload
+                          filename={"MatchBack-Results.csv"}
+                          data={this.state.matchData}
+                        />
+                      ) : null}
+                    </div>
+                  </React.Fragment>
                 ) : null}
                 {this.state.matchQueue === true ? (
                   <Button
                     onClick={this.checkQueue}
                     className='col-2 mt-5'
                     id='uploadButton'
-                    // style={{
-                    //   backgroundColor: "#f9ac2f",
-                    //   fontFamily: "Roboto, sans-serif",
-                    //   fontWeight: 300,
-                    //   letterSpacing: "-0.008333333em",
-                    // }}
                   >
                     Check Queue
                   </Button>
@@ -674,7 +780,6 @@ class Uploader extends React.Component {
             {this.state.activeStep === 0 ? (
               <input
                 style={{ display: "none" }}
-                // accept=".zip,.rar"
                 ref={this.uploadListRef}
                 onChange={this.handleFileListUpload}
                 type='file'
@@ -684,7 +789,6 @@ class Uploader extends React.Component {
             {this.state.activeStep === 1 ? (
               <input
                 style={{ display: "none" }}
-                // accept=".zip,.rar"
                 ref={this.uploadCompareRef}
                 onChange={this.handleCompareFile}
                 type='file'
